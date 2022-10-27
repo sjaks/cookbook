@@ -2,6 +2,7 @@
 A collection of decent recipes
 
 ## Recipes from external sources
+- https://www.lidl-reseptit.fi/reseptit/haerkis-munakoisoveneet
 - https://vegaanihaaste.fi/reseptit/sitruunaiset-linssit-ja-perunamuusi
 - https://chocochili.net/2021/02/vegaaninen-yhden-pannun-lasagne/
 - https://yhteishyva.fi/reseptit/vegaaninen-makkarakeitto/6wU4GP78lZwhCrlDNWZaAG
@@ -27,6 +28,8 @@ A collection of decent recipes
 - https://www.valio.fi/reseptit/vegaaninen-melanzane/
 - https://www.valio.fi/reseptit/lampimat-voileivat-2/
 - https://www.valio.fi/reseptit/kasvistortillapaistos/
+- https://www.valio.fi/reseptit/peruna-kukkakaali-tikka-masala/
+- https://www.valio.fi/reseptit/mausteinen-kasvispata/
 - https://www.k-ruoka.fi/reseptit/beanit-nuudelit
 - https://www.k-ruoka.fi/reseptit/vihrea-pinaatti-tofukastike
 - https://www.k-ruoka.fi/reseptit/chili-sin-carne
