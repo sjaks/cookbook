@@ -30,9 +30,11 @@ A collection of decent recipes
 - https://www.valio.fi/reseptit/kasvistortillapaistos/
 - https://www.valio.fi/reseptit/peruna-kukkakaali-tikka-masala/
 - https://www.valio.fi/reseptit/mausteinen-kasvispata/
+- https://www.valio.fi/reseptit/vegaaninen-valimeren-rulla/
 - https://www.k-ruoka.fi/reseptit/beanit-nuudelit
 - https://www.k-ruoka.fi/reseptit/vihrea-pinaatti-tofukastike
 - https://www.k-ruoka.fi/reseptit/chili-sin-carne
 - https://www.k-ruoka.fi/reseptit/nachopelti
+- https://www.k-ruoka.fi/reseptit/hummuspasta
 
 Many of these recipes are not vegan or even vegetarian. These should be customized and saved in this repo.
