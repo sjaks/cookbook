@@ -3,6 +3,7 @@ A collection of decent recipes
 
 ## Recipes from external sources
 - https://www.lidl-reseptit.fi/reseptit/haerkis-munakoisoveneet
+- https://www.lidl-reseptit.fi/reseptit/kebabkiusaus
 - https://vegaanihaaste.fi/reseptit/sitruunaiset-linssit-ja-perunamuusi
 - https://chocochili.net/2021/02/vegaaninen-yhden-pannun-lasagne/
 - https://chocochili.net/2010/12/maa-artisokkakeitto/
