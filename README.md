@@ -7,6 +7,7 @@ A collection of decent recipes
 - https://vegaanihaaste.fi/reseptit/sitruunaiset-linssit-ja-perunamuusi
 - https://chocochili.net/2021/02/vegaaninen-yhden-pannun-lasagne/
 - https://chocochili.net/2010/12/maa-artisokkakeitto/
+- https://chocochili.net/2022/03/helpot-maapahkinanuudelit/
 - https://yhteishyva.fi/reseptit/vegaaninen-makkarakeitto/6wU4GP78lZwhCrlDNWZaAG
 - https://yhteishyva.fi/reseptit/lehtikaali-papukeitto/recipe-5377
 - https://yhteishyva.fi/reseptit/halloumi-pinaattiuunimunakas/4cd1F8Y1rnCJdngxi0KEY0
