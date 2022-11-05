@@ -1,4 +1,3 @@
-# Cookbook
 A collection of decent recipes (in Finnish). Most recipes are vegan - but all are at least vegetarian.
 
 ## Contents
