@@ -2,17 +2,31 @@
 A collection of decent recipes (in Finnish). Most recipes are vegan - but all are at least vegetarian.
 
 ## Contents
+- [Artisokkakeitto](/cookbook/keitot/artisokkakeitto)
+- [Falafelit](/cookbook/keitot/falafelit)
+- [Kanaton keitto](/cookbook/keitot/kanaton_keitto)
+- [Makkarakeitto](/cookbook/keitot/makkarakeitto)
+- [Papukeitto](/cookbook/keitot/papukeitto)
+- [Perunasoselaatikko](/cookbook/keitot/perunasoselaatikko)
+- [Pinaattiuunimunakas](/cookbook/keitot/pinaattiuunimunakas)
+- [Soijamakaronilaatikko](/cookbook/keitot/soijamakaronilaatikko)
+- [Vihapullauunimunakas](/cookbook/keitot/vihapullauunimunakas)
+- [Avokadopasta](/cookbook/pannulla/avokadopasta)
+- [Carbonara](/cookbook/pannulla/carbonara)
+- [Chili sin carne](/cookbook/pannulla/chilisincarne)
+- [Hummuspasta](/cookbook/pannulla/hummuspasta)
+- [Maapähkinänuudelit](/cookbook/pannulla/maapahkinanuudelit)
+- [Munakoisoveneet](/cookbook/pannulla/munakoisoveneet)
+- [Nuudelit](/cookbook/pannulla/nuudelit)
+- [Pinaattitofukastike](/cookbook/pannulla/pinaattitofukastike)
+- [Sitruunalinssit](/cookbook/pannulla/sitruunalinssit)
+- [Viilokki](/cookbook/pannulla/viilokki)
+- [Lehtikaalilasagne](/cookbook/uunissa/lehtikaalilasagne)
+- [Nachopelti](/cookbook/uunissa/nachopelti)
 - [Tortillavuoka](/cookbook/uunissa/tortillavuoka)
+- [Vebabkiusaus](/cookbook/uunissa/vebabkiusaus)
 
-## Recipes from external sources (to be re-written in this repo)
-- https://yhteishyva.fi/reseptit/vegaaninen-makkarakeitto/6wU4GP78lZwhCrlDNWZaAG
-- https://yhteishyva.fi/reseptit/lehtikaali-papukeitto/recipe-5377
-- https://yhteishyva.fi/reseptit/halloumi-pinaattiuunimunakas/4cd1F8Y1rnCJdngxi0KEY0
-- https://yhteishyva.fi/reseptit/falafelit-masala-kastikkeessa/2OCDIhqGGoGCXDVXc02VFI
-- https://yhteishyva.fi/reseptit/nopea-lihapullauunimunakas/1Ou8UdKURiD5l6qr27eqGW
-- https://yhteishyva.fi/reseptit/soijamakaronilaatikko/recipe-2738
-- https://yhteishyva.fi/reseptit/linssi-papukastike/recipe-21666
-- https://yhteishyva.fi/reseptit/vegaaninen-harkis-perunasoselaatikko/1TNpyRBGLsmqlPdhPhc0g5
+## Recipes from external sources (to be tested and re-written in this repo)
 - https://www.valio.fi/reseptit/helppo-juustoinen-chilispagetti/
 - https://www.valio.fi/reseptit/avokado-sitruunapasta/
 - https://www.valio.fi/reseptit/texmex-uunisalaatti/
