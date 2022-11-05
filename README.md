@@ -5,13 +5,9 @@ A collection of decent recipes (in Finnish). Most recipes are vegan - but all ar
 - [Tortillavuoka](/cookbook/uunissa/tortillavuoka)
 
 ## Recipes from external sources (to be re-written in this repo)
-- https://chocochili.net/2021/02/vegaaninen-yhden-pannun-lasagne/
-- https://chocochili.net/2010/12/maa-artisokkakeitto/
-- https://chocochili.net/2022/03/helpot-maapahkinanuudelit/
 - https://yhteishyva.fi/reseptit/vegaaninen-makkarakeitto/6wU4GP78lZwhCrlDNWZaAG
 - https://yhteishyva.fi/reseptit/lehtikaali-papukeitto/recipe-5377
 - https://yhteishyva.fi/reseptit/halloumi-pinaattiuunimunakas/4cd1F8Y1rnCJdngxi0KEY0
-- https://yhteishyva.fi/reseptit/vegaaninen-carbonara/5nUuXZ4iSNOG8cxG40vdRR
 - https://yhteishyva.fi/reseptit/falafelit-masala-kastikkeessa/2OCDIhqGGoGCXDVXc02VFI
 - https://yhteishyva.fi/reseptit/nopea-lihapullauunimunakas/1Ou8UdKURiD5l6qr27eqGW
 - https://yhteishyva.fi/reseptit/soijamakaronilaatikko/recipe-2738
@@ -31,11 +27,5 @@ A collection of decent recipes (in Finnish). Most recipes are vegan - but all ar
 - https://www.valio.fi/reseptit/vegaaninen-melanzane/
 - https://www.valio.fi/reseptit/lampimat-voileivat-2/
 - https://www.valio.fi/reseptit/kasvistortillapaistos/
-- https://www.valio.fi/reseptit/peruna-kukkakaali-tikka-masala/
 - https://www.valio.fi/reseptit/mausteinen-kasvispata/
 - https://www.valio.fi/reseptit/vegaaninen-valimeren-rulla/
-- https://www.k-ruoka.fi/reseptit/beanit-nuudelit
-- https://www.k-ruoka.fi/reseptit/vihrea-pinaatti-tofukastike
-- https://www.k-ruoka.fi/reseptit/chili-sin-carne
-- https://www.k-ruoka.fi/reseptit/nachopelti
-- https://www.k-ruoka.fi/reseptit/hummuspasta
