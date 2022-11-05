@@ -1,10 +1,7 @@
-# cookbook
-A collection of decent recipes
+# Cookbook
+A collection of decent recipes (in Finnish). Most recipes are vegan - but all are at least vegetarian.
 
-## Recipes from external sources
-- https://www.lidl-reseptit.fi/reseptit/haerkis-munakoisoveneet
-- https://www.lidl-reseptit.fi/reseptit/kebabkiusaus
-- https://vegaanihaaste.fi/reseptit/sitruunaiset-linssit-ja-perunamuusi
+## Recipes from external sources (to be re-written in this repo)
 - https://chocochili.net/2021/02/vegaaninen-yhden-pannun-lasagne/
 - https://chocochili.net/2010/12/maa-artisokkakeitto/
 - https://chocochili.net/2022/03/helpot-maapahkinanuudelit/
@@ -39,5 +36,3 @@ A collection of decent recipes
 - https://www.k-ruoka.fi/reseptit/chili-sin-carne
 - https://www.k-ruoka.fi/reseptit/nachopelti
 - https://www.k-ruoka.fi/reseptit/hummuspasta
-
-Many of these recipes are not vegan or even vegetarian. These should be customized and saved in this repo.
