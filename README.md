@@ -1,6 +1,9 @@
 # Cookbook
 A collection of decent recipes (in Finnish). Most recipes are vegan - but all are at least vegetarian.
 
+## Contents
+- [Tortillavuoka](/uunissa/tortillavuoka)
+
 ## Recipes from external sources (to be re-written in this repo)
 - https://chocochili.net/2021/02/vegaaninen-yhden-pannun-lasagne/
 - https://chocochili.net/2010/12/maa-artisokkakeitto/
