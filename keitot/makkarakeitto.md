@@ -1,7 +1,9 @@
 # Makkarakeitto
 4 annosta - 30 min - alle 3,00 €/annos
 
-![Ruokakuva](/.pic/makkarakeitto.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 500 g perunoita

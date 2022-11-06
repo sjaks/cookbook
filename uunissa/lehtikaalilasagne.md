@@ -1,7 +1,9 @@
 # Lehtikaalilasagne
 4 annosta - 60 min - 3,00 €/annos
 
-![Ruokakuva](/.pic/lehtikaalilasagne.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - lasagnelevyjä

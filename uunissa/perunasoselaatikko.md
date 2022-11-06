@@ -1,7 +1,9 @@
 # Perunasoselaatikko
 4 annosta - 60 min - alle 3,00 €/annos
 
-![Ruokakuva](/.pic/perunasoselaatikko.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 350 g pakasteperunamuusia

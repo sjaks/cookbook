@@ -1,7 +1,9 @@
 # Maapahkinanuudelit
 4 annosta - 15 min - 3,00 €/annos
 
-![Ruokakuva](/.pic/maapahkinanuudelit.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 pkt savutofua

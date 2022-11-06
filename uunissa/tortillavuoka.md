@@ -1,7 +1,7 @@
 # Tortillavuoka
 6 annosta - 45 min - 1,40 €/annos
 
-![Ruokakuva](/.pic/tortillavuoka.png)
+![Ruokakuva](https://raw.githubusercontent.com/sjaks/cookbook/master/.pic/tortillavuoka.png)
 
 ## Ainekset
 - 300g Quorn Mince   

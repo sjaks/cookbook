@@ -1,7 +1,9 @@
 # Carbonara
 4 annosta - 20 min - 2,00 €/annos
 
-![Ruokakuva](/.pic/carbonara.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 300g spaghettia

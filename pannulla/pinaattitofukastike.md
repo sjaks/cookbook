@@ -1,7 +1,9 @@
 # Pinaatti-tofukastike
 4 annosta - 30 min - noin 2,00 €/annos
 
-![Ruokakuva](/.pic/pinaattitofukastike.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 sipuli

@@ -1,7 +1,9 @@
 # Kanaton keitto
 6 annosta - 30 min - 2,00 €/annos
 
-![Ruokakuva](/.pic/kanaton_keitto.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 100g soijasuikaleita

@@ -1,7 +1,9 @@
 # Vebabkiusaus
 4 annosta - 50 min - 1,20 €/annos
 
-![Ruokakuva](/.pic/vebabkiusaus.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 kg peruna-sipulisekoitus

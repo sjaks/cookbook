@@ -1,7 +1,9 @@
 # Munakoisoveneet
 4 annosta - 30 min - 1,80 €/annos
 
-![Ruokakuva](/.pic/munakoisoveneet.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 2 munakoisoa

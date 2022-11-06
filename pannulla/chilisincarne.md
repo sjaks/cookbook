@@ -1,7 +1,9 @@
 # Chili sin carne
 4 annosta - 30 min - alle 2,00 €/annos
 
-![Ruokakuva](/.pic/chilisincarne.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 sipuli

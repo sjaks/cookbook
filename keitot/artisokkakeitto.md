@@ -1,7 +1,9 @@
 # Maa-artisokkakeitto
 4 annosta - 60 min - alle 1,00 €/annos
 
-![Ruokakuva](/.pic/artisokkakeitto.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 500 g maa-artisokkaa

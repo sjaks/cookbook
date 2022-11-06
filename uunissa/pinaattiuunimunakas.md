@@ -1,7 +1,9 @@
 # Pinaattiuunimunakas
 4 annosta - 30 min - 3,70 €/annos
 
-![Ruokakuva](/.pic/pinaattiuunimunakas.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 pkt halloumia

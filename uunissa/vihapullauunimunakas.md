@@ -1,7 +1,9 @@
 # Vihapullauunimunakas
 4 annosta - 30 min - 3,00 €/annos
 
-![Ruokakuva](/.pic/vihapullauunimunakas.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 paprika

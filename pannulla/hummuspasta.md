@@ -1,7 +1,9 @@
 # Hummuspasta
 3 annosta - 15 min - 4,10 €/annos
 
-![Ruokakuva](/.pic/hummuspasta.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 0,5 prk hummusta

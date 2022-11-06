@@ -1,7 +1,9 @@
 # Papukeitto
 4 annosta - 30 min - alle 2,00 €/annos
 
-![Ruokakuva](/.pic/papukeitto.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - lehtikaalia

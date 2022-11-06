@@ -1,7 +1,9 @@
 # Nachopelti
 4 annosta - 20 min - alle 4,00 €/annos
 
-![Ruokakuva](/.pic/nachopelti.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - Texmex Härkistä

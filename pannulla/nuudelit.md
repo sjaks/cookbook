@@ -1,7 +1,7 @@
 # Nuudelit
 3 annosta - 30 min - 2,30 €/annos
 
-![Ruokakuva](/.pic/nuudelit.png)
+![Ruokakuva](https://raw.githubusercontent.com/sjaks/cookbook/31fce8e7d1b06f5074dad4e75e77691e7e761323/.pic/nuudelit.png)
 
 ## Ainekset
 - 250g Beanit-härkäpapumurua

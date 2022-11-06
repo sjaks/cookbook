@@ -1,7 +1,7 @@
 # Viilokki
 4 annosta - 30 min - 2,00 €/annos
 
-![Ruokakuva](/.pic/viilokki.png)
+![Ruokakuva](https://raw.githubusercontent.com/sjaks/cookbook/master/.pic/viilokki.png)
 
 ## Ainekset
 - 320 g Hälsans Kök -fileesuikaleita

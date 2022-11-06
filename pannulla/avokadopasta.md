@@ -1,7 +1,9 @@
 # Avokadopasta
 4 annosta - 15 min - 4,10 €/annos
 
-![Ruokakuva](/.pic/avokadopasta.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 250g tagliatellea

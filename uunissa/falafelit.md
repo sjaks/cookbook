@@ -1,7 +1,9 @@
 # Falafelit masala-kastikkeessa
 3 annosta - 30 min - 3,00 €/annos
 
-![Ruokakuva](/.pic/falafelit.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 pkt valmiita falafelpyöryköitä (tai Boltseja)

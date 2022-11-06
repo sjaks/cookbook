@@ -1,7 +1,9 @@
 # Soijamakaronilaatikko
 4 annosta - 60 min - alle 2,00 €/annos
 
-![Ruokakuva](/.pic/soijamakaronilaatikko.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1,25 dl tummaa soijarouhetta

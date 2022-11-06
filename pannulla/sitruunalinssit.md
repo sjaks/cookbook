@@ -1,7 +1,9 @@
 # Sitruunaiset linssit ja perunasose
 4 annosta - 60 min - 1,50 €/annos
 
-![Ruokakuva](/.pic/sitruunalinssit.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 2 dl vihreitä linssejä
