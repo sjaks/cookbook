@@ -23,22 +23,18 @@ A collection of decent recipes (in Finnish). Most recipes are vegan - but all ar
 - [Lehtikaalilasagne](/cookbook/uunissa/lehtikaalilasagne)
 - [Nachopelti](/cookbook/uunissa/nachopelti)
 - [Tortillavuoka](/cookbook/uunissa/tortillavuoka)
+- [Auragnocchit](/cookbook/pannulla/auragnocchit)
+- [Chilispagetti](/cookbook/pannulla/chilispagetti)
+- [Sienipasta](/cookbook/pannulla/sienipasta)
+- [Sitruunapasta](/cookbook/pannulla/sitruunapasta)
+- [Makkaragnocchit](/cookbook/uunissa/makkaragnocchit)
+- [Pastagratiini](/cookbook/uunissa/pastagratiini)
+- [Uunisalaatti](/cookbook/uunissa/uunisalaatti)
 - [Vebabkiusaus](/cookbook/uunissa/vebabkiusaus)
 
 ## Recipes from external sources (to be tested and re-written in this repo)
-- https://www.valio.fi/reseptit/helppo-juustoinen-chilispagetti/
-- https://www.valio.fi/reseptit/avokado-sitruunapasta/
-- https://www.valio.fi/reseptit/texmex-uunisalaatti/
-- https://www.valio.fi/reseptit/aura-sienipasta/
-- https://www.valio.fi/reseptit/aura-pastagratiini/
-- https://www.valio.fi/reseptit/aura-gnocchipannu/
-- https://www.valio.fi/reseptit/gnocchi-tuoremakkaravuoka/
-- https://www.valio.fi/reseptit/nopea-gnocchi-kaaligratiini/
 - https://www.valio.fi/reseptit/pinaattilettupelti/
-- https://www.valio.fi/reseptit/shahi-paneer-eli-kotijuustoa-cashew-tomaattikastikkeessa/
 - https://www.valio.fi/reseptit/kasvisflatbread/
-- https://www.valio.fi/reseptit/vegaaninen-melanzane/
-- https://www.valio.fi/reseptit/lampimat-voileivat-2/
 - https://www.valio.fi/reseptit/kasvistortillapaistos/
 - https://www.valio.fi/reseptit/mausteinen-kasvispata/
 - https://www.valio.fi/reseptit/vegaaninen-valimeren-rulla/
