@@ -1,4 +1,4 @@
-A collection of decent recipes (in Finnish). Most recipes are vegan - but all are at least vegetarian.
+A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but all are at least vegetarian 🥦.
 
 ## Contents
 - [Artisokkakeitto](/cookbook/keitot/artisokkakeitto)
@@ -36,5 +36,4 @@ A collection of decent recipes (in Finnish). Most recipes are vegan - but all ar
 - [Kasvispata](/cookbook/pannulla/kasvispata)
 - [Rullat](/cookbook/muut/rulla)
 
-## Recipes from external sources (to be tested and re-written in this repo)
-- https://www.valio.fi/reseptit/kasvistortillapaistos/
+Written by https://sjaks.iki.fi/.
