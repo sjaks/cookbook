@@ -31,10 +31,10 @@ A collection of decent recipes (in Finnish). Most recipes are vegan - but all ar
 - [Pastagratiini](/cookbook/uunissa/pastagratiini)
 - [Uunisalaatti](/cookbook/uunissa/uunisalaatti)
 - [Vebabkiusaus](/cookbook/uunissa/vebabkiusaus)
+- [Pinaattilettupelti](/cookbook/uunissa/pinaattilettupelti)
+- [Lasvisflatbread](/cookbook/uunissa/kasvisflatbread)
+- [Kasvispata](/cookbook/pannulla/kasvispata)
+- [Rullat](/cookbook/muut/rulla)
 
 ## Recipes from external sources (to be tested and re-written in this repo)
-- https://www.valio.fi/reseptit/pinaattilettupelti/
-- https://www.valio.fi/reseptit/kasvisflatbread/
 - https://www.valio.fi/reseptit/kasvistortillapaistos/
-- https://www.valio.fi/reseptit/mausteinen-kasvispata/
-- https://www.valio.fi/reseptit/vegaaninen-valimeren-rulla/
