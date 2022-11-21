@@ -1,7 +1,9 @@
 # Tortillavuoka
 3 annosta - 45 min - yli 3,00 €/annos
 
-![Ruokakuva](https://raw.githubusercontent.com/sjaks/cookbook/master/.pic/placeholder.png)
+<!--
+![Ruokakuva](/.pic/placeholder.png)
+-->
 
 ## Ainekset
 - 1 ps Muu-jauhista
@@ -22,10 +24,11 @@
 ## Valmistus
 1. Pilko porkkana ohuiksi tangoiksi, paprika siivuiksi, sipuli kaariksi ja tomaatti viipaleiksi.
 2. Ruskista Jauhis ja porkkanat öljyssä pannulla. Lisää paprika ja sipuli ja paista vielä hetki.
-3. Voitele uunivuoka ja vuoraa se kuudella tortillaleivällä niin, että puolet leivistä jäävät vuoan yli pystyyn. Leikkaa ylijääviin osiin nurkkiin viillot.
-4. Laita vuokaan puolet salsasta, puolet Jauhiksesta, nokaroi puolet ranskankermasta ja laita päälle juustoraastetta.
-5. Revi 1-2 tortillaleipää päälle lasagnemaiseksi kerrokseksi. Kassa päälle toinen kerros täytettä.
-6. Aseta päälle tomaattiviipaleet, ripottele päälle suolaa ja pippuria sekä leikkaa päälle ruohosipulia.
-7. Voitele pystyssä olevat tortillaleivät sulalla margariinilla kummaltakin puolelta ja taittele ne täytteiden päälle.
-8. Käytä tarvittaessa cocktailtikkuja rakenteen turvaamiseen.
-9. Paista uunissa 175 asteessa 20 minuuttia. Anna jäähty hetki ennen tarjoilua.
+3. Mausta tacomausteella, sekoita.
+4. Voitele uunivuoka ja vuoraa se kuudella tortillaleivällä niin, että puolet leivistä jäävät vuoan yli pystyyn. Leikkaa ylijääviin osiin nurkkiin viillot.
+5. Laita vuokaan puolet salsasta, puolet Jauhiksesta, nokaroi puolet ranskankermasta ja laita päälle juustoraastetta.
+6. Revi 1-2 tortillaleipää päälle lasagnemaiseksi kerrokseksi. Kassa päälle toinen kerros täytettä.
+7. Aseta päälle tomaattiviipaleet, ripottele päälle suolaa ja pippuria sekä leikkaa päälle ruohosipulia.
+8. Voitele pystyssä olevat tortillaleivät sulalla margariinilla kummaltakin puolelta ja taittele ne täytteiden päälle.
+9. Käytä tarvittaessa cocktailtikkuja rakenteen turvaamiseen.
+10. Paista uunissa 175 asteessa 20 minuuttia. Anna jäähty hetki ennen tarjoilua.

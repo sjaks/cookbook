@@ -34,6 +34,6 @@ A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but a
 - [Pinaattilettupelti](/cookbook/uunissa/pinaattilettupelti) ⭐
 - [Lasvisflatbread](/cookbook/uunissa/kasvisflatbread)
 - [Kasvispata](/cookbook/pannulla/kasvispata) 👍
-- [Rullat](/cookbook/muut/rulla) ⭐
+- [Rullat](/cookbook/muut/rullat) ⭐
 
-Written by https://sjaks.iki.fi/.
+Written by [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

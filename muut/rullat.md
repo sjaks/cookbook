@@ -15,7 +15,7 @@
 
 ## Valmistus
 1. Levitä hummus rieskojen pintaan.
-2. Levitä aurinkokuivatut tomaatit riestojen päälle.
+2. Levitä aurinkokuivatut tomaatit rieskojen päälle.
 3. Asettele rieskojen päälle muutama juustoviipale.
 4. Lisää vielä salaattisekoitusta.
 5. Rullaa rullat ja kääri folioon. Anna tekeytyä jääkaapissa noin 15 minuuttia.

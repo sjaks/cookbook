@@ -12,6 +12,7 @@
 - 3 porkkanaa
 - 100 g selleriä
 - 2 rkl öljyä
+- 1,5 l vettä
 - 2 kasvisliemikuutiota
 - 1 laakerinlehti
 - maustepippuria
