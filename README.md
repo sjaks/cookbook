@@ -2,38 +2,38 @@ A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but a
 
 ## Contents
 - [Artisokkakeitto](/cookbook/keitot/artisokkakeitto) ⭐
-- [Falafelit](/cookbook/uunissa/falafelit)
+- [Avokadopasta](/cookbook/pannulla/avokadopasta) ⭐
+- [Nuudelit](/cookbook/pannulla/nuudelit) ⭐
+- [Lehtikaalilasagne](/cookbook/uunissa/lehtikaalilasagne) ⭐
+- [Tortillavuoka](/cookbook/uunissa/tortillavuoka) ⭐
+- [Uunisalaatti](/cookbook/uunissa/uunisalaatti) ⭐
+- [Pinaattilettupelti](/cookbook/uunissa/pinaattilettupelti) ⭐
+- [Rullat](/cookbook/muut/rullat) ⭐
+- [Carbonara](/cookbook/pannulla/carbonara) 💲👍
+- [Vebabkiusaus](/cookbook/uunissa/vebabkiusaus) 💲👍
+- [Viilokki](/cookbook/pannulla/viilokki) 💲👍
+- [Chilispagetti](/cookbook/pannulla/chilispagetti) 💲👍
 - [Kanaton keitto](/cookbook/keitot/kanaton_keitto) 👍
 - [Makkarakeitto](/cookbook/keitot/makkarakeitto) 👍
-- [Papukeitto](/cookbook/keitot/papukeitto)
-- [Perunasoselaatikko](/cookbook/uunissa/perunasoselaatikko) 💲
-- [Pinaattiuunimunakas](/cookbook/uunissa/pinaattiuunimunakas)
-- [Soijamakaronilaatikko](/cookbook/uunissa/soijamakaronilaatikko) 💲
-- [Vihapullauunimunakas](/cookbook/uunissa/vihapullauunimunakas)
-- [Avokadopasta](/cookbook/pannulla/avokadopasta) ⭐
-- [Carbonara](/cookbook/pannulla/carbonara) 💲👍
-- [Chili sin carne](/cookbook/pannulla/chilisincarne) 💲
-- [Hummuspasta](/cookbook/pannulla/hummuspasta)
 - [Maapähkinänuudelit](/cookbook/pannulla/maapahkinanuudelit) 👍
 - [Munakoisoveneet](/cookbook/pannulla/munakoisoveneet) 👍
-- [Nuudelit](/cookbook/pannulla/nuudelit) ⭐
+- [Nachopelti](/cookbook/uunissa/nachopelti) 👍
+- [Auragnocchit](/cookbook/pannulla/auragnocchit) 👍
+- [Pastagratiini](/cookbook/uunissa/pastagratiini) 👍
+- [Kasvispata](/cookbook/pannulla/kasvispata) 👍
+- [Perunasoselaatikko](/cookbook/uunissa/perunasoselaatikko) 💲
+- [Soijamakaronilaatikko](/cookbook/uunissa/soijamakaronilaatikko) 💲
+- [Chili sin carne](/cookbook/pannulla/chilisincarne) 💲
+- [Falafelit](/cookbook/uunissa/falafelit)
+- [Papukeitto](/cookbook/keitot/papukeitto)
+- [Pinaattiuunimunakas](/cookbook/uunissa/pinaattiuunimunakas)
+- [Vihapullauunimunakas](/cookbook/uunissa/vihapullauunimunakas)
+- [Hummuspasta](/cookbook/pannulla/hummuspasta)
 - [Pinaattitofukastike](/cookbook/pannulla/pinaattitofukastike)
 - [Sitruunalinssit](/cookbook/pannulla/sitruunalinssit)
-- [Viilokki](/cookbook/pannulla/viilokki) 💲👍
-- [Lehtikaalilasagne](/cookbook/uunissa/lehtikaalilasagne) ⭐
-- [Nachopelti](/cookbook/uunissa/nachopelti) 👍
-- [Tortillavuoka](/cookbook/uunissa/tortillavuoka) ⭐
-- [Auragnocchit](/cookbook/pannulla/auragnocchit) 👍
-- [Chilispagetti](/cookbook/pannulla/chilispagetti) 💲
 - [Sienipasta](/cookbook/pannulla/sienipasta)
 - [Sitruunapasta](/cookbook/pannulla/sitruunapasta)
 - [Makkaragnocchit](/cookbook/uunissa/makkaragnocchit)
-- [Pastagratiini](/cookbook/uunissa/pastagratiini) 👍
-- [Uunisalaatti](/cookbook/uunissa/uunisalaatti) ⭐
-- [Vebabkiusaus](/cookbook/uunissa/vebabkiusaus) 💲👍
-- [Pinaattilettupelti](/cookbook/uunissa/pinaattilettupelti) ⭐
-- [Lasvisflatbread](/cookbook/uunissa/kasvisflatbread)
-- [Kasvispata](/cookbook/pannulla/kasvispata) 👍
-- [Rullat](/cookbook/muut/rullat) ⭐
+- [Kasvisflatbread](/cookbook/uunissa/kasvisflatbread)
 
 Written by [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
