@@ -7,13 +7,13 @@ A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but a
 - [Lehtikaalilasagne](/cookbook/uunissa/lehtikaalilasagne) ⭐
 - [Tortillavuoka](/cookbook/uunissa/tortillavuoka) ⭐
 - [Uunisalaatti](/cookbook/uunissa/uunisalaatti) ⭐
-- [Pinaattilettupelti](/cookbook/uunissa/pinaattilettupelti) ⭐
+- [Pinaattipannari](/cookbook/uunissa/pinaattipannari) ⭐
 - [Rullat](/cookbook/muut/rullat) ⭐
 - [Carbonara](/cookbook/pannulla/carbonara) 💲👍
 - [Vebabkiusaus](/cookbook/uunissa/vebabkiusaus) 💲👍
 - [Viilokki](/cookbook/pannulla/viilokki) 💲👍
 - [Chilispagetti](/cookbook/pannulla/chilispagetti) 💲👍
-- [Kanaton keitto](/cookbook/keitot/kanaton_keitto) 👍
+- [Kanaton keitto](/cookbook/keitot/kanatonkeitto) 👍
 - [Makkarakeitto](/cookbook/keitot/makkarakeitto) 👍
 - [Maapähkinänuudelit](/cookbook/pannulla/maapahkinanuudelit) 👍
 - [Munakoisoveneet](/cookbook/pannulla/munakoisoveneet) 👍
