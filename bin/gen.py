@@ -5,7 +5,7 @@ HEADLINE = "A collection of decent recipes 🥘 (in Finnish). Most recipes are v
 FOOTER = "Written by [https://sjaks.iki.fi/](https://sjaks.iki.fi/)."
 FILE_SRC = "recipe/"
 INDEX = "README.md"
-URL_PRE = "https://sjaks.fi/cookbook/"
+URL_PRE = "https://sjaks.iki.fi/cookbook/"
 
 recipes = [f for f in listdir(FILE_SRC) if isfile(join(FILE_SRC, f))]
 print("Found", len(recipes), "recipes.")
