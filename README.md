@@ -1,39 +1,37 @@
 A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but all are at least vegetarian 🥦.
 
-## Contents
-- [Artisokkakeitto](/cookbook/keitot/artisokkakeitto) ⭐
-- [Avokadopasta](/cookbook/pannulla/avokadopasta) ⭐
-- [Nuudelit](/cookbook/pannulla/nuudelit) ⭐ (🥚)
-- [Lehtikaalilasagne](/cookbook/uunissa/lehtikaalilasagne) ⭐
-- [Tortillavuoka](/cookbook/uunissa/tortillavuoka) ⭐ (🥛)
-- [Uunisalaatti](/cookbook/uunissa/uunisalaatti) ⭐ (🥛)
-- [Pinaattipannari](/cookbook/uunissa/pinaattipannari) ⭐ (🥚)
-- [Rullat](/cookbook/muut/rullat) ⭐
-- [Carbonara](/cookbook/pannulla/carbonara) 💲👍
-- [Vebabkiusaus](/cookbook/uunissa/vebabkiusaus) 💲👍
-- [Viilokki](/cookbook/pannulla/viilokki) 💲👍
-- [Chilispagetti](/cookbook/pannulla/chilispagetti) 💲👍 (🥛)
-- [Kanaton keitto](/cookbook/keitot/kanatonkeitto) 👍
-- [Makkarakeitto](/cookbook/keitot/makkarakeitto) 👍
-- [Maapähkinänuudelit](/cookbook/pannulla/maapahkinanuudelit) 👍
-- [Munakoisoveneet](/cookbook/pannulla/munakoisoveneet) 👍
-- [Nachopelti](/cookbook/uunissa/nachopelti) 👍 (🥛)
-- [Auragnocchit](/cookbook/pannulla/auragnocchit) 👍 (🥛)
-- [Pastagratiini](/cookbook/uunissa/pastagratiini) 👍 (🥛)
-- [Kasvispata](/cookbook/pannulla/kasvispata) 👍
-- [Perunasoselaatikko](/cookbook/uunissa/perunasoselaatikko) 💲
-- [Soijamakaronilaatikko](/cookbook/uunissa/soijamakaronilaatikko) 💲 (🥚)
-- [Chili sin carne](/cookbook/pannulla/chilisincarne) 💲
-- [Falafelit](/cookbook/uunissa/falafelit)
-- [Papukeitto](/cookbook/keitot/papukeitto)
-- [Pinaattiuunimunakas](/cookbook/uunissa/pinaattiuunimunakas) (🥚)
-- [Vihapullauunimunakas](/cookbook/uunissa/vihapullauunimunakas) (🥚)
-- [Hummuspasta](/cookbook/pannulla/hummuspasta)
-- [Pinaattitofukastike](/cookbook/pannulla/pinaattitofukastike)
-- [Sitruunalinssit](/cookbook/pannulla/sitruunalinssit)
-- [Sienipasta](/cookbook/pannulla/sienipasta) (🥛)
-- [Sitruunapasta](/cookbook/pannulla/sitruunapasta) (🥛)
-- [Makkaragnocchit](/cookbook/uunissa/makkaragnocchit) (🥛)
-- [Kasvisflatbread](/cookbook/uunissa/kasvisflatbread) (🥛)
+- [Aura-gnocchit](https://sjaks.fi/cookbook/recipe/auragnocchit) (🥛)
+- [Avokadopasta ⭐](https://sjaks.fi/cookbook/recipe/avokadopasta)
+- [Carbonara 💲](https://sjaks.fi/cookbook/recipe/carbonara)
+- [Chili sin carne 💲](https://sjaks.fi/cookbook/recipe/chilisincarne)
+- [Chilispagetti 💲](https://sjaks.fi/cookbook/recipe/chilispagetti) (🥛)
+- [Falafelit masala-kastikkeessa](https://sjaks.fi/cookbook/recipe/falafelit)
+- [Hummuspasta](https://sjaks.fi/cookbook/recipe/hummuspasta)
+- [Kanaton keitto](https://sjaks.fi/cookbook/recipe/kanatonkeitto)
+- [Kasvisflatbread](https://sjaks.fi/cookbook/recipe/kasvisflatbread) (🥛)
+- [Kasvispata](https://sjaks.fi/cookbook/recipe/kasvispata)
+- [Lehtikaalilasagne ⭐](https://sjaks.fi/cookbook/recipe/lehtikaalilasagne)
+- [Maa-artisokkakeitto ⭐](https://sjaks.fi/cookbook/recipe/artisokkakeitto)
+- [Maapahkinanuudelit](https://sjaks.fi/cookbook/recipe/maapahkinanuudelit)
+- [Makkaragnocchit](https://sjaks.fi/cookbook/recipe/makkaragnocchit) (🥛)
+- [Makkarakeitto](https://sjaks.fi/cookbook/recipe/makkarakeitto)
+- [Munakoisoveneet](https://sjaks.fi/cookbook/recipe/munakoisoveneet)
+- [Nachopelti](https://sjaks.fi/cookbook/recipe/nachopelti) (🥛)
+- [Nuudelit ⭐](https://sjaks.fi/cookbook/recipe/nuudelit) (🥚)
+- [Pastagratiini](https://sjaks.fi/cookbook/recipe/pastagratiini) (🥛)
+- [Perunasoselaatikko 💲](https://sjaks.fi/cookbook/recipe/perunasoselaatikko)
+- [Pinaatti-tofukastike](https://sjaks.fi/cookbook/recipe/pinaattitofukastike)
+- [Pinaattipannari ⭐](https://sjaks.fi/cookbook/recipe/pinaattipannari) (🥚)
+- [Pinaattiuunimunakas](https://sjaks.fi/cookbook/recipe/pinaattiuunimunakas) (🥚)
+- [Rullat ⭐](https://sjaks.fi/cookbook/recipe/rullat)
+- [Sienipasta](https://sjaks.fi/cookbook/recipe/sienipasta) (🥛)
+- [Sitruunaiset linssit ja perunasose 💲](https://sjaks.fi/cookbook/recipe/sitruunalinssit)
+- [Sitruunapasta avokadolla](https://sjaks.fi/cookbook/recipe/sitruunapasta) (🥛)
+- [Soijamakaronilaatikko 💲](https://sjaks.fi/cookbook/recipe/soijamakaronilaatikko) (🥚)
+- [Tortillavuoka ⭐](https://sjaks.fi/cookbook/recipe/tortillavuoka) (🥛)
+- [Uunisalaatti ⭐](https://sjaks.fi/cookbook/recipe/uunisalaatti) (🥛)
+- [Vebabkiusaus 💲](https://sjaks.fi/cookbook/recipe/vebabkiusaus)
+- [Vihapullauunimunakas](https://sjaks.fi/cookbook/recipe/vihapullauunimunakas) (🥚)
+- [Viilokki 💲](https://sjaks.fi/cookbook/recipe/viilokki)
 
 Written by [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
