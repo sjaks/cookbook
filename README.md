@@ -1,9 +1,9 @@
 A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but all are at least vegetarian 🥦.
 
 - [Aura-gnocchit](https://sjaks.iki.fi/cookbook/recipe/auragnocchit) (🥛)
+- [Aura-pasta](https://sjaks.iki.fi/cookbook/recipe/aurapasta) (🥛)
 - [Avokadopasta ⭐](https://sjaks.iki.fi/cookbook/recipe/avokadopasta)
 - [Carbonara 💲](https://sjaks.iki.fi/cookbook/recipe/carbonara)
-- [Chili sin carne 💲](https://sjaks.iki.fi/cookbook/recipe/chilisincarne)
 - [Chilispagetti 💲](https://sjaks.iki.fi/cookbook/recipe/chilispagetti) (🥛)
 - [Falafelit masala-kastikkeessa](https://sjaks.iki.fi/cookbook/recipe/falafelit)
 - [Hummuspasta](https://sjaks.iki.fi/cookbook/recipe/hummuspasta)
@@ -19,11 +19,9 @@ A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but a
 - [Nachopelti](https://sjaks.iki.fi/cookbook/recipe/nachopelti) (🥛)
 - [Nuudelit ⭐](https://sjaks.iki.fi/cookbook/recipe/nuudelit) (🥚)
 - [Pastagratiini](https://sjaks.iki.fi/cookbook/recipe/pastagratiini) (🥛)
-- [Perunasoselaatikko 💲](https://sjaks.iki.fi/cookbook/recipe/perunasoselaatikko)
 - [Pinaatti-tofukastike](https://sjaks.iki.fi/cookbook/recipe/pinaattitofukastike)
 - [Pinaattipannari ⭐](https://sjaks.iki.fi/cookbook/recipe/pinaattipannari) (🥚)
-- [Pinaattiuunimunakas](https://sjaks.iki.fi/cookbook/recipe/pinaattiuunimunakas) (🥚)
-- [Rullat ⭐](https://sjaks.iki.fi/cookbook/recipe/rullat)
+- [Pinaattipiirakka ⭐](https://sjaks.iki.fi/cookbook/recipe/pinaattipiirakka)
 - [Sienipasta](https://sjaks.iki.fi/cookbook/recipe/sienipasta) (🥛)
 - [Sitruunaiset linssit ja perunasose 💲](https://sjaks.iki.fi/cookbook/recipe/sitruunalinssit)
 - [Sitruunapasta avokadolla](https://sjaks.iki.fi/cookbook/recipe/sitruunapasta) (🥛)
@@ -31,7 +29,7 @@ A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but a
 - [Tortillavuoka ⭐](https://sjaks.iki.fi/cookbook/recipe/tortillavuoka) (🥛)
 - [Uunisalaatti ⭐](https://sjaks.iki.fi/cookbook/recipe/uunisalaatti) (🥛)
 - [Vebabkiusaus 💲](https://sjaks.iki.fi/cookbook/recipe/vebabkiusaus)
-- [Vihapullauunimunakas](https://sjaks.iki.fi/cookbook/recipe/vihapullauunimunakas) (🥚)
 - [Viilokki 💲](https://sjaks.iki.fi/cookbook/recipe/viilokki)
+- [Välimeren rullat ⭐](https://sjaks.iki.fi/cookbook/recipe/rullat)
 
 Written by [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

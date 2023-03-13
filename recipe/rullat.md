@@ -1,4 +1,4 @@
-# Rullat ⭐
+# Välimeren rullat ⭐
 2 annosta - 15 min
 
 ## Ainekset
