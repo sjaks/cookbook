@@ -1,8 +1,8 @@
 from os import listdir
 from os.path import isfile, join
 
-HEADLINE = "A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but all are at least vegetarian 🥦."
-FOOTER = "Written by [https://sjaks.iki.fi/](https://sjaks.iki.fi/)."
+HEADLINE = "Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lakto-ovo 🥦."
+FOOTER = "Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/)."
 FILE_SRC = "recipe/"
 INDEX = "README.md"
 URL_PRE = "https://sjaks.iki.fi/cookbook/"
