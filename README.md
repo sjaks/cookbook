@@ -1,4 +1,4 @@
-A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but all are at least vegetarian 🥦.
+Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lakto-ovo 🥦.
 
 - [Aura-gnocchit](https://sjaks.iki.fi/cookbook/recipe/auragnocchit) (🥛)
 - [Aura-pasta](https://sjaks.iki.fi/cookbook/recipe/aurapasta) (🥛)
@@ -32,4 +32,4 @@ A collection of decent recipes 🥘 (in Finnish). Most recipes are vegan - but a
 - [Viilokki 💲](https://sjaks.iki.fi/cookbook/recipe/viilokki)
 - [Välimeren rullat ⭐](https://sjaks.iki.fi/cookbook/recipe/rullat)
 
-Written by [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
