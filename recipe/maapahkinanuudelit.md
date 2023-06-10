@@ -1,4 +1,4 @@
-# Maapahkinanuudelit
+# Maapähkinänuudelit
 4 annosta - 15 min
 
 ## Ainekset
