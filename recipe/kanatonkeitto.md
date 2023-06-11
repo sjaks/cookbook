@@ -27,3 +27,6 @@
 8. Lisää maissit ja soijasuikale-kermaseos perunoiden sekaan.
 9. Anna porista noin 15 minuuttia.
 10. Lisää suolaa ja persiljaa.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/kanatonkeitto.md)

@@ -25,3 +25,6 @@
 7. Paista 200 asteessa noin 40 minuuttia.
 
 🥚
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/soijamakaronilaatikko.md)

@@ -32,3 +32,6 @@
 6. Latoa lasagnelevyistä ja kastikkeesta lasagne uunivuokaan.
 7. Ripottele päälle juustoraaste ja kaada päälle sipulikaurakerma.
 8. Paista uunin keskitasolla noin 30 minuuttia.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/lehtikaalilasagne.md)

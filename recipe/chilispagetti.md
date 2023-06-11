@@ -17,3 +17,6 @@
 4. Lisää spagetti, juusto ja hieman keitinvettä pannulle kasvisten päälle. Sekoita
 
 🥛
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/chilispagetti.md)

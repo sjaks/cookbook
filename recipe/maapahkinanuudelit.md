@@ -23,3 +23,6 @@
 6. Keitä nuudelit.
 7. Lisää pannulle inkivääri sekä valkosipuli ja sekoittele hetken aikaa. Lisää kiinankaali ja paista muutama minuutti.
 8. Lisää nuudelit, sipuli ja kastike. Sekoita.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/maapahkinanuudelit.md)

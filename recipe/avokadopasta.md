@@ -20,3 +20,6 @@
 5. Sekoita avokado, siemenet, basilika, öljy sekä mausteet parmesanin joukkoon. Lisää keitinvettä ja sekoita massaksi.
 6. Lisää massa valutetun pastan joukkoon kattilaan.
 7. Lisää vielä suolaa tarvittaessa.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/avokadopasta.md)

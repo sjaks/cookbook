@@ -19,3 +19,6 @@
 3. Keitä kunnes kasvikset ovat kypsiä, noin 15 minuuttia.
 4. Paloittele makkarat ja ruskista pannulla öljyssä.
 5. Lisää makkarat valmiiseen keittoon.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/makkarakeitto.md)

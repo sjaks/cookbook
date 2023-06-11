@@ -20,3 +20,6 @@
 3. Kaada kattilaan vesi, murennettu kasvisliemikuutio sekä valkoviini ja keitä, kunnes kasvikset ovat pehmeitä.
 4. Soseuta keitto. Lisää kaurakerma ja mausta suolalla sekä pippurilla.
 5. Koristele annokset ruohosipulisilpulla ja mustapippurilla.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/artisokkakeitto.md)

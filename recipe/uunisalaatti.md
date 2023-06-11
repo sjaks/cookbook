@@ -22,3 +22,6 @@
 7. Lisää valmiiseen salaattiin juustodippiä ja lusikoi pinnalle avokadoa.
 
 🥛
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/uunisalaatti.md)

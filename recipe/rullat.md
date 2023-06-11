@@ -15,3 +15,6 @@
 3. Asettele rieskojen päälle muutama juustoviipale.
 4. Lisää vielä salaattisekoitusta.
 5. Rullaa rullat ja kääri folioon. Anna tekeytyä jääkaapissa noin 15 minuuttia.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/rullat.md)

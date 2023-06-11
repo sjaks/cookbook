@@ -21,3 +21,6 @@
 4. Kaada kasariin kookoskerma ja kuumenna kastike.
 5. Mausta mustapippurilla.
 6. Tarjoa kastike couscousin kanssa.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/pinaattitofukastike.md)

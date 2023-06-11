@@ -21,3 +21,6 @@
 4. Ota piirakkapohja pois uunista ja levitä tahna päälle.
 5. Puolita tomaatit ja painele piirakan joukkoon.
 6. Paista uunissa 200 asteessa 40 minuuttia.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/pinaattipiirakka.md)

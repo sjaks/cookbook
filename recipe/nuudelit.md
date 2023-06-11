@@ -17,3 +17,6 @@
 4. Lisää nuudelit ja nesteseos pannulle. Pyörittele hetki ja lisää kevätsipulia.
 
 🥚
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/nuudelit.md)

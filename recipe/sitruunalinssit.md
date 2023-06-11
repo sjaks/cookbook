@@ -19,3 +19,6 @@
 2. Lisää linssit pannulle, mausta mausteilla. Purista joukkoon sitruunamehu.
 3. Kuori ja keitä perunat. Sekoita perunoiden joukkoon margariini. Soseuta seos ja lisää kerma. Mausta suolalla.
 4. Lisää lautasella muusia ja päälle linssejä.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/sitruunalinssit.md)

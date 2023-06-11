@@ -23,3 +23,6 @@
 4. Kuumenna tahna pannulla ja paista muutama minuutti. Sekoita koko ajan.
 5. Lisää tomaattimurska ja kookoskerma. Kiehauta ja lisää pyörykät. Hauduta noin 15 minuuttia.
 6. Tarjoa riisin kanssa.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/falafelit.md)

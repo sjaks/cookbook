@@ -23,3 +23,6 @@
 5. Lisää muutaman minuutin hauduttamisen jälkeen Härkis ja kuumenna. Siirrä valmiste sivuun.
 6. Lisää pannulle öljyä ja paista munakoisoja noin 10 minuuttia. Käännä ja paista kuoripuolelta vielä hetki.
 7. Nosta munakoisot lautaselle ja laita päälle kastiketta.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/munakoisoveneet.md)

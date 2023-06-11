@@ -19,3 +19,6 @@
 6. Murenna Aura-juustopala päälle ja sekoita hieman niin, että osa juustosta sulaa pastan joukkoon.
 
 🥛
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/aurapasta.md)

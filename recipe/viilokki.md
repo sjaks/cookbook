@@ -22,3 +22,6 @@
 5. Lisää jauhettu kasvisliemikuutio ja anna kastikkeen hautua noin 5 minuuttia.
 6. Kaada joukkoon kerma ja fileesuikaleet.
 7. Mausta sitruunamehulla ja valkopippurilla. Lisää suolaa tarvittaessa.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/viilokki.md)

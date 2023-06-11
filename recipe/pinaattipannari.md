@@ -16,3 +16,6 @@
 4. Tarjoile puolukkahillon ja raejuuston kanssa.
 
 🥚
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/pinaattipannari.md)

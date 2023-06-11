@@ -23,3 +23,6 @@
 8. Paista uunissa 15 minuuttia 225 asteessa.
 
 🥛
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/papuburritot.md)

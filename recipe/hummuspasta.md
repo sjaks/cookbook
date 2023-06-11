@@ -12,3 +12,6 @@
 1. Keitä spagetti.
 2. Valuta spagetti ja sekoita siihen kattilassa hummus, keitinvesi ja suola.
 3. Mausta vielä mustapippurilla ja tarjoite.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/hummuspasta.md)

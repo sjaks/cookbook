@@ -26,3 +26,6 @@
 5. Lisää pannulle tomaattimurska, vesi, huuhdellut kikherneet ja kasvikset.
 6. Anna hautua n. 15 min.
 7. Tarjoile ranskankerman kanssa.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/kasvispata.md)

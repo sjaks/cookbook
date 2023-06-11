@@ -15,3 +15,6 @@
 2. Mausta suolalla, pippurilla ja oreganolla.
 3. Kaada päälle kaurakerma ja lisää halutessasi juustoraastetta.
 4. Paista 200-asteisessa uunissa noin 45 minuuttia.
+
+
+[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/vebabkiusaus.md)
