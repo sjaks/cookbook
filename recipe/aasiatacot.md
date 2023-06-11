@@ -16,3 +16,5 @@
 2. Lämmitä vegeproteiini ohjeen mukaan pannulla (tai mikrossa).
 3. Lämmitä tortillaleivät.
 4. Levitä ranskankermaa tortillaleivälle ja kokoa muita täytteitä päälle.
+
+🥛🥚

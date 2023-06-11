@@ -1,6 +1,6 @@
 Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lakto-ovo 🥦.
 
-- [Aasialaistyyliset tacot](https://sjaks.iki.fi/cookbook/recipe/aasiatacot)
+- [Aasialaistyyliset tacot](https://sjaks.iki.fi/cookbook/recipe/aasiatacot) (🥛🥚)
 - [Aura-gnocchit](https://sjaks.iki.fi/cookbook/recipe/auragnocchit) (🥛)
 - [Aura-pasta](https://sjaks.iki.fi/cookbook/recipe/aurapasta) (🥛)
 - [Avokadopasta ⭐](https://sjaks.iki.fi/cookbook/recipe/avokadopasta)
@@ -19,7 +19,7 @@ Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lak
 - [Munakoisoveneet](https://sjaks.iki.fi/cookbook/recipe/munakoisoveneet)
 - [Nachopelti](https://sjaks.iki.fi/cookbook/recipe/nachopelti) (🥛)
 - [Nuudelit ⭐](https://sjaks.iki.fi/cookbook/recipe/nuudelit) (🥚)
-- [Papuburritot](https://sjaks.iki.fi/cookbook/recipe/papuburritot)
+- [Papuburritot](https://sjaks.iki.fi/cookbook/recipe/papuburritot) (🥛)
 - [Papudillat](https://sjaks.iki.fi/cookbook/recipe/papudillat) (🥛)
 - [Pastagratiini](https://sjaks.iki.fi/cookbook/recipe/pastagratiini) (🥛)
 - [Pinaatti-tofukastike](https://sjaks.iki.fi/cookbook/recipe/pinaattitofukastike)

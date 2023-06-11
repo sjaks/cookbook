@@ -21,3 +21,5 @@
 6. Nosta tortillarullat vuokaan vierekkäin 1-2 kerrokseen.
 7. Ripottele päälle juustoraastetta.
 8. Paista uunissa 15 minuuttia 225 asteessa.
+
+🥛
