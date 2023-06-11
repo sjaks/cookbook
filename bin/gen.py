@@ -2,6 +2,7 @@ from os import listdir
 from os.path import isfile, join
 
 HEADLINE = "Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lakto-ovo 🥦."
+ALLRGEN_INFO = "🥚 sisältää kananmunaa 🥛 sisältää maitoa 💲 halpa ⭐ suosikki"
 FOOTER = "Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/)."
 FILE_SRC = "recipe/"
 INDEX = "README.md"
@@ -29,6 +30,7 @@ for recipe in recipes:
         recipe_table.append(md_link)
 
 index_contents += "\n".join(sorted(recipe_table))
+index_contents += "\n\n" + ALLRGEN_INFO
 index_contents += "\n\n" + FOOTER
 
 with open(INDEX, 'w') as f:

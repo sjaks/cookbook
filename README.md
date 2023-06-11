@@ -35,4 +35,6 @@ Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lak
 - [Viilokki 💲](https://sjaks.iki.fi/cookbook/recipe/viilokki)
 - [Välimeren rullat ⭐](https://sjaks.iki.fi/cookbook/recipe/rullat)
 
+🥚 sisältää kananmunaa 🥛 sisältää maitoa 💲 halpa ⭐ suosikki
+
 Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
