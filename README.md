@@ -20,6 +20,7 @@ Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lak
 - [Nachopelti](https://sjaks.iki.fi/cookbook/recipe/nachopelti) (🥛)
 - [Nuudelit ⭐](https://sjaks.iki.fi/cookbook/recipe/nuudelit) (🥚)
 - [Papuburritot](https://sjaks.iki.fi/cookbook/recipe/papuburritot)
+- [Papudillat](https://sjaks.iki.fi/cookbook/recipe/papudillat) (🥛)
 - [Pastagratiini](https://sjaks.iki.fi/cookbook/recipe/pastagratiini) (🥛)
 - [Pinaatti-tofukastike](https://sjaks.iki.fi/cookbook/recipe/pinaattitofukastike)
 - [Pinaattipannari ⭐](https://sjaks.iki.fi/cookbook/recipe/pinaattipannari) (🥚)
