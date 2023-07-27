@@ -1,6 +1,7 @@
 # Pastagratiini
 4 annosta - 30 min
 
+
 ## Ainekset
 - 250 g gnocchipastaa
 - 1 pieni kukkakaali
@@ -20,5 +21,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/pastagratiini.md)
+[Miten Pastagratiini voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/pastagratiini.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

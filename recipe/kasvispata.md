@@ -1,6 +1,7 @@
 # Kasvispata
 4 annosta - 60 min
 
+
 ## Ainekset
 - 1 munakoiso
 - 3 rkl	öljyä
@@ -18,6 +19,7 @@
 - kikherneitä
 - ranskankermaa (kaura)
 
+
 ## Valmistus
 1. Paloittele munakoiso, paista pannulla öljyssä kypsäksi.
 2. Hienonna inkivääri, chili ja valkosipulit.
@@ -28,4 +30,6 @@
 7. Tarjoile ranskankerman kanssa.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/kasvispata.md)
+
+[Miten Kasvispata voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/kasvispata.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

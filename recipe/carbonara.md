@@ -1,6 +1,7 @@
 # Carbonara 💲
 4 annosta - 20 min
 
+
 ## Ainekset
 - 300g spaghettia
 - 2 rkl öljyä
@@ -13,6 +14,7 @@
 - mustapippuria
 - suolaa
 
+
 ## Valmistus
 1. Keitä pasta suolalla maustetussa vedessä.
 2. Hienonna valkosipulinkynnet ja valuta kikherneet.
@@ -23,4 +25,6 @@
 7. Koristele annos parmesaanilla ja mustapippurilla.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/carbonara.md)
+
+[Miten Carbonara 💲 voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/carbonara.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

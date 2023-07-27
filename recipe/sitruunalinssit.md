@@ -1,6 +1,7 @@
 # Sitruunaiset linssit ja perunasose 💲
 4 annosta - 60 min
 
+
 ## Ainekset
 - 2 dl vihreitä linssejä
 - 1 sipuli
@@ -14,6 +15,7 @@
 - 2 dl kaurakermaa
 - margariinia
 
+
 ## Valmistus
 1. Huuhtele linssit. Silppua ja kuullota sipuli öljyssä pannulla.
 2. Lisää linssit pannulle, mausta mausteilla. Purista joukkoon sitruunamehu.
@@ -21,4 +23,6 @@
 4. Lisää lautasella muusia ja päälle linssejä.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/sitruunalinssit.md)
+
+[Miten Sitruunaiset linssit ja perunasose 💲 voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/sitruunalinssit.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

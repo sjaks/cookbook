@@ -1,6 +1,7 @@
 # Makkarakeitto
 4 annosta - 30 min
 
+
 ## Ainekset
 - 500 g perunoita
 - 1 ps lehtikaalia
@@ -13,6 +14,7 @@
 - mustapippuria myllystä
 - 1 pkt Muu-kasvismakkaraa
 
+
 ## Valmistus
 1. Pese ja paloittele perunat. Huuhtele ja revi lehtikaali.
 2. Kuullota juurekset öljyssä kattilassa. Lisää kattilaan perunat, lehtikaali, vesi, tomaattipyre, kasvisliemikuutiot murskattuna ja mausteet.
@@ -21,4 +23,6 @@
 5. Lisää makkarat valmiiseen keittoon.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/makkarakeitto.md)
+
+[Miten Makkarakeitto voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/makkarakeitto.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

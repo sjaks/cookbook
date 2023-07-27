@@ -1,6 +1,7 @@
 # Maa-artisokkakeitto ⭐
 4 annosta - 60 min
 
+
 ## Ainekset
 - 500 g maa-artisokkaa
 - 2 perunaa
@@ -14,6 +15,7 @@
 - ruohosipulia
 - paahdettuja cashewpähkinöitä
 
+
 ## Valmistus
 1. Kuori ja paloittele maa-artisokat ja perunat.
 2. Hienonna sipulit ja kuullota niitä öljyssä. Lisää sipulit, maa-artisokat ja perunat kattilaan.
@@ -22,4 +24,6 @@
 5. Koristele annokset ruohosipulisilpulla ja mustapippurilla.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/artisokkakeitto.md)
+
+[Miten Maa-artisokkakeitto ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/artisokkakeitto.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

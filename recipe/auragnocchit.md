@@ -1,6 +1,7 @@
 # Aura-gnocchit
 4 annosta - 30 min
 
+
 ## Ainekset
 - 1 pkt vegaanista pekonia
 - 1 sipuli
@@ -21,5 +22,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/auragnocchit.md)
+[Miten Aura-gnocchit voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/auragnocchit.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

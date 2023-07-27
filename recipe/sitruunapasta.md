@@ -1,6 +1,7 @@
 # Sitruunapasta avokadolla
 2 annosta - 20 min
 
+
 ## Ainekset
 - 300 g maccheroni al pettine -pastaa
 - 3 valkosipulin kynttä
@@ -11,6 +12,7 @@
 - 0,5 pussia mustaleimaraastetta
 - mustapippuria myllystä
 
+
 ## Valmistus
 1. Keitä pasta pakkauksen ohjeen mukaan.
 2. Hienonna valkosipuli.
@@ -20,5 +22,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/sitruunapasta.md)
+[Miten Sitruunapasta avokadolla voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/sitruunapasta.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

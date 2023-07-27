@@ -1,11 +1,13 @@
 # Papudillat
 4 annosta - 30 min
 
+
 ## Ainekset
 - 1-2 tlk mustapapuja
 - n. 100 g juustoraastetta
 - 8 vehnätortillaa
 - 1 prk salsaa
+
 
 ## Valmistus
 1. Valuta ja huuhtele pavut ja sekoita salsan joukkoon.
@@ -16,5 +18,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/papudillat.md)
+[Miten Papudillat voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/papudillat.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

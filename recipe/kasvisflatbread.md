@@ -1,6 +1,7 @@
 # Kasvisflatbread
 2-3 annosta - 60 min
 
+
 ## Ainekset
 - 4,5 dl vettä
 - 1 pussi kuivahiivaa
@@ -16,6 +17,7 @@
 - 1 punasipuli
 - oreganoa
 
+
 ## Valmistus
 1. Sekoita lämpimään veteen hiiva ja anna tekeytyä pari minuuttia.
 2. Sekoita öljy, sokeri ja suola.
@@ -29,5 +31,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/kasvisflatbread.md)
+[Miten Kasvisflatbread voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/kasvisflatbread.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

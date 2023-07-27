@@ -1,6 +1,7 @@
 # Kanaton keitto
 6 annosta - 30 min
 
+
 ## Ainekset
 - 100g soijasuikaleita
 - 2 kasvisliemikuutiota
@@ -16,6 +17,7 @@
 - currya
 - suolaa
 
+
 ## Valmistus
 1. Keitä soijasuikaleita kasvisliemikuutiolla maustetussa vedessä nonin 5 minuuttia.
 2. Valuta soijasuikaleet.
@@ -29,4 +31,6 @@
 10. Lisää suolaa ja persiljaa.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/kanatonkeitto.md)
+
+[Miten Kanaton keitto voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/kanatonkeitto.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

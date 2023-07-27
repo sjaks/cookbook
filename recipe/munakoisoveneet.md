@@ -1,6 +1,7 @@
 # Munakoisoveneet
 4 annosta - 30 min
 
+
 ## Ainekset
 - 2 munakoisoa
 - 1 sipuli
@@ -15,6 +16,7 @@
 - pippuria
 - persiljaa
 
+
 ## Valmistus
 1. Halkaise munakoisot ja viillä puolikkaiden pintoihin ristikkokuviot.
 2. Mausta puolikkaiden leikkauspinnat merisuolalla ja pippurilla.
@@ -25,4 +27,6 @@
 7. Nosta munakoisot lautaselle ja laita päälle kastiketta.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/munakoisoveneet.md)
+
+[Miten Munakoisoveneet voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/munakoisoveneet.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

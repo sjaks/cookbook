@@ -1,6 +1,7 @@
 # Pinaatti-tofukastike
 4 annosta - 30 min
 
+
 ## Ainekset
 - 1 sipuli
 - valkosipulinkynsiä
@@ -14,6 +15,7 @@
 - mustapippuria
 - couscousia
 
+
 ## Valmistus
 1. Valmista couscous ja sulata pinaatti.
 2. Hienonna sipuli ja valkosipuli. Kuutioi tofu. Kuullota sipuleita öljyssä. Lisää tofu ja ruskista kullanruskeaksi. Mausta suolalla ja juustokuminalla.
@@ -23,4 +25,6 @@
 6. Tarjoa kastike couscousin kanssa.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/pinaattitofukastike.md)
+
+[Miten Pinaatti-tofukastike voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/pinaattitofukastike.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

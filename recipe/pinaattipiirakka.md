@@ -1,6 +1,7 @@
 # Pinaattipiirakka
 6 annosta
 
+
 ## Ainekset
 - 1 punasipuli
 - 70 g babypinaattia
@@ -23,4 +24,6 @@
 6. Paista uunissa 200 asteessa 40 minuuttia.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/pinaattipiirakka.md)
+
+[Miten Pinaattipiirakka voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/pinaattipiirakka.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

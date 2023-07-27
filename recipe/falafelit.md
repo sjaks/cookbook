@@ -1,6 +1,7 @@
 # Falafelit masala-kastikkeessa
 3 annosta - 30 min
 
+
 ## Ainekset
 - 1 pkt valmiita falafelpyöryköitä (tai Boltseja)
 - 1 sipuli
@@ -25,4 +26,6 @@
 6. Tarjoa riisin kanssa.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/falafelit.md)
+
+[Miten Falafelit masala-kastikkeessa voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/falafelit.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

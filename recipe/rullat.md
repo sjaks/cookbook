@@ -1,6 +1,7 @@
 # Välimeren rullat ⭐
 2 annosta - 15 min
 
+
 ## Ainekset
 - 4 kpl	Vaasan Street Food rieskoja
 - 200 g	hummusta
@@ -17,4 +18,6 @@
 5. Rullaa rullat ja kääri folioon. Anna tekeytyä jääkaapissa noin 15 minuuttia.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/rullat.md)
+
+[Miten Välimeren rullat ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/rullat.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

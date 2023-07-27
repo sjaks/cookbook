@@ -1,6 +1,7 @@
 # Tortillavuoka ⭐
 3 annosta - 45 min
 
+
 ## Ainekset
 - 1 ps Muu-jauhista
 - 1 iso porkkana
@@ -17,6 +18,7 @@
 - 0,5 ruukku ruohosipulia
 - 1 rlk margariinia
 
+
 ## Valmistus
 1. Pilko porkkana ohuiksi tangoiksi, paprika siivuiksi, sipuli kaariksi ja tomaatti viipaleiksi.
 2. Ruskista Jauhis ja porkkanat öljyssä pannulla. Lisää paprika ja sipuli ja paista vielä hetki.
@@ -31,5 +33,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/tortillavuoka.md)
+[Miten Tortillavuoka ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/tortillavuoka.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

@@ -1,6 +1,7 @@
 # Uunisalaatti ⭐
 3 annosta - 30 min
 
+
 ## Ainekset
 - kolmen paprikan mix
 - 2 punasipulia
@@ -23,5 +24,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/uunisalaatti.md)
+[Miten Uunisalaatti ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/uunisalaatti.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

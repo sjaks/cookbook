@@ -1,6 +1,7 @@
 # Maapähkinänuudelit
 4 annosta - 15 min
 
+
 ## Ainekset
 - 1 pkt savutofua
 - 1 rkl raastettua inkivääriä
@@ -14,6 +15,7 @@
 - 1 tl srirachaa
 - sitruunamehua
 
+
 ## Valmistus
 1. Kuivaa tofu talouspaperiin.
 2. Valmista kastike. Sekoita yhteen maapähkinävoi, seesamiöljy ja soijakastike. Lisää sitten sitruunamehu, sriracha ja vesi.
@@ -25,4 +27,6 @@
 8. Lisää nuudelit, sipuli ja kastike. Sekoita.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/maapahkinanuudelit.md)
+
+[Miten Maapähkinänuudelit voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/maapahkinanuudelit.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

@@ -1,6 +1,7 @@
 # Viilokki 💲
 4 annosta - 30 min
 
+
 ## Ainekset
 - 320 g Hälsans Kök -fileesuikaleita
 - 2 rkl öljyä
@@ -14,6 +15,7 @@
 - valkopippuria
 - suolaa
 
+
 ## Valmistus
 1. Paista fileesuikaleita tilkassa öljyä. Ota suikaleet sivuun.
 2. Lisää pannulle margariini, sulata se ja mausta curryllä.
@@ -24,4 +26,6 @@
 7. Mausta sitruunamehulla ja valkopippurilla. Lisää suolaa tarvittaessa.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/viilokki.md)
+
+[Miten Viilokki 💲 voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/viilokki.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

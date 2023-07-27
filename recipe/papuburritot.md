@@ -1,6 +1,7 @@
 # Papuburritot
 4 annosta - 30 min
 
+
 ## Ainekset
 - 1 iso keltainen paprika
 - 1 tlk mustapapuja (tai papusekoitusta)
@@ -11,6 +12,7 @@
 - n. 100 g juustoraastetta
 - pippuria myllystä
 - 8 vehnätortillaa
+
 
 ## Valmistus
 1. Pilko paprika
@@ -24,5 +26,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/papuburritot.md)
+[Miten Papuburritot voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/papuburritot.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

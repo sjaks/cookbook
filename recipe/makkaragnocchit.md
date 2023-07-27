@@ -1,6 +1,7 @@
 # Makkaragnocchit
 4 annosta - 30 min
 
+
 ## Ainekset
 - 400 g yrttitomaattimurskaa
 - 500 g perunagnoccheja
@@ -26,5 +27,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/makkaragnocchit.md)
+[Miten Makkaragnocchit voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/makkaragnocchit.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

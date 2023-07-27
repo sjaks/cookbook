@@ -1,6 +1,7 @@
 # Nachopelti
 4 annosta - 20 min
 
+
 ## Ainekset
 - 1 prk mustapapuja
 - 1 punasipuli
@@ -10,6 +11,7 @@
 - 1 prk vegaanista ranskankermaa
 - Koskenlaskija Ruoka & Dippi cheddar
 - salsaa
+
 
 ## Valmistus
 1. Laita uuni kuumenemaan 225 asteeseen ja paista Härkis.
@@ -22,5 +24,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/nachopelti.md)
+[Miten Nachopelti voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/nachopelti.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

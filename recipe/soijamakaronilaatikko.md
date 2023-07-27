@@ -1,6 +1,7 @@
 # Soijamakaronilaatikko 💲
 4 annosta - 60 min
 
+
 ## Ainekset
 - 1,25 dl tummaa soijarouhetta
 - 1,5 dl vettä
@@ -15,6 +16,7 @@
 - 1 tl suolaa
 - mustapippuria myllystä
 
+
 ## Valmistus
 1. Sekoita kulhossa soijarouhe ja vesi. Anna imeytyä noin 10 minuuttia.
 2. Keitä makaronit suolalla maustetussa vedessä al denteksi.
@@ -26,5 +28,5 @@
 
 🥚
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/soijamakaronilaatikko.md)
+[Miten Soijamakaronilaatikko 💲 voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/soijamakaronilaatikko.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

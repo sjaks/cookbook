@@ -1,6 +1,7 @@
 # Lehtikaalilasagne ⭐
 4 annosta - 60 min
 
+
 ## Ainekset
 - lasagnelevyjä
 - 1 Härkistä
@@ -23,6 +24,7 @@
 - mustapippuria
 - Oddlygood Mozzarellaraastetta
 
+
 ## Valmistus
 1. Laita uuni kuumenemaan 200 asteeseen.
 2. Silppua sipuli ja valkosipulinkynnet. Kuutioi paprika sekä silppua lehtikaali. Puolita oliivit.
@@ -34,4 +36,6 @@
 8. Paista uunin keskitasolla noin 30 minuuttia.
 
 
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/lehtikaalilasagne.md)
+
+[Miten Lehtikaalilasagne ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/lehtikaalilasagne.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

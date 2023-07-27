@@ -1,6 +1,7 @@
 # Pinaattipannari ⭐
 4 annosta - 30 min
 
+
 ## Ainekset
 - 400 g pakastepinaattia
 - 4 kananmunaa
@@ -8,6 +9,7 @@
 - 4 dl vehnäjauhoa
 - 1 dl juoksevaa margariinia
 - 1 tl suolaa
+
 
 ## Valmistus
 1. Sulata pinaatti ja lisää joukkoon muut ainekset. Vatkaa.
@@ -17,5 +19,5 @@
 
 🥚
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/pinaattipannari.md)
+[Miten Pinaattipannari ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/pinaattipannari.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

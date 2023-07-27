@@ -1,6 +1,7 @@
 # Sienipasta
 3 annosta - 30 min
 
+
 ## Ainekset
 - 400 g spagettia
 - 250 g herkkusieniä
@@ -20,5 +21,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/sienipasta.md)
+[Miten Sienipasta voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/sienipasta.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).

@@ -1,6 +1,7 @@
 # Aura-pasta
 4 annosta - 30 min
 
+
 ## Ainekset
 - 375 g tagliatellea tai spagettia
 - 1 rkl juoksevaa margariinia
@@ -20,5 +21,5 @@
 
 🥛
 
-
-[Contribute to this recipe](https://github.com/sjaks/cookbook/edit/master/recipe/recipe/aurapasta.md)
+[Miten Aura-pasta voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/aurapasta.md)  
+Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
