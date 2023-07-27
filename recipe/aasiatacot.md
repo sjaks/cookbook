@@ -1,4 +1,4 @@
-# Aasialaistyyliset tacot
+# Aasialaistyyliset tacot ⭐
 4 annosta - 15 min
 
 
@@ -21,5 +21,5 @@
 
 🥛🥚
 
-[Miten Aasialaistyyliset tacot voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/aasiatacot.md)  
+[Miten Aasialaistyyliset tacot ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/aasiatacot.md)  
 Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
