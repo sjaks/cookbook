@@ -5,19 +5,19 @@
 ## Ainekset
 - 1 prk mustapapuja
 - 1 punasipuli
-- 2 paprikaa
 - 1 avokado
 - 1 ps maissilastuja
 - 1 prk vegaanista ranskankermaa
+- 0.5 ps tacomausteseos
 - Koskenlaskija Ruoka & Dippi cheddar
 - salsaa
 
 
 ## Valmistus
-1. Laita uuni kuumenemaan 225 asteeseen ja paista Härkis.
-2. Silppua punasipuli ja paprikat. Viipaloi avokado.
-3. Paista mustapapuja hetki pannulla ja lisää joukkoon paprikat ja salsa.
-4. Aseta uunipellille maissilastuja, seos pannusta ja sipuli.
+1. Laita uuni kuumenemaan 225 asteeseen.
+2. Silppua punasipuli. Viipaloi avokado.
+3. Sekoita salsa, sipulit, mustapavut ja mausteseos keskenään.
+4. Aseta uunipellille maissilastuja ja levitä päälle salsa-papuseos.
 4. Paista uunissa noin 8 minuuttia.
 5. Levitä päälle Koskenlaskija ja avokadopalat.
 6. Tarjoile ranskankerman kanssa.

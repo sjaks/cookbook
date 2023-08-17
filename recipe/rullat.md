@@ -3,10 +3,10 @@
 
 
 ## Ainekset
-- 4 kpl	Vaasan Street Food rieskoja
+- 4 kpl	Vaasan Street Food -rieskoja
 - 200 g	hummusta
 - pieni purkki aurinkokuivattuja tomaatteja
-- 1 pkt	Oddlygood Veggie Gouda viipaleita
+- 1 pkt	Oddlygood Veggie Gouda -viipaleita
 - 50 g salaattisekoitusta
 
 
