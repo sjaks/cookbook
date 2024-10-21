@@ -1,0 +1,20 @@
+{
+    "name": "Aasialaiset tacot",
+    "allergies": ["egg", "milk"],
+    "ingredients": [
+        "8 kpl pieniä vehnä-maissitortillaleipiä",
+        "1 prk vihreää coleslaw-salaattia",
+        "0.5 dl hoisinkastiketta",
+        "1 rkl seesamiöljyä",
+        "1 rkl seesaminsiemeniä",
+        "1 prk chilimaustettua kauraranskankermaa",
+        "1 pkt inkiväärinyhtökauraa tai jauhista",
+        "sitruunamehua"
+    ],
+    "steps": [
+        "Sekoita hoisinkastikkeesta, seesamiöljystä, seesaminsiemenistä ja sitruunamehusta kastike.",
+        "Lämmitä vegeproteiini ohjeen mukaan pannulla (tai mikrossa).",
+        "Lämmitä tortillaleivät.",
+        "Levitä ranskankermaa tortillaleivälle ja kokoa muita täytteitä päälle."
+    ]
+}

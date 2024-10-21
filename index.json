@@ -1,0 +1,10 @@
+{
+    "recipes": [
+        {
+            "name": "Aasialaiset tacot",
+            "allergies": ["egg", "milk"],
+            "star": true,
+            "url": "https://sjaks.iki.fi/cookbook/json/aasialaisettacot.json"
+        }
+    ]
+}
