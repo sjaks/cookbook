@@ -1,6 +1,9 @@
 {
     "name": "Aasialaiset tacot",
-    "allergies": ["egg", "milk"],
+    "allergies": [
+        "egg",
+        "milk"
+    ],
     "ingredients": [
         "8 kpl pieniä vehnä-maissitortillaleipiä",
         "1 prk vihreää coleslaw-salaattia",
