@@ -2,6 +2,7 @@
     "recipes": [
         {
             "name": "Aasialaiset tacot",
+            "nameLoc": "Asian Tacos",
             "allergies": ["egg", "milk"],
             "star": true,
             "url": "https://sjaks.iki.fi/cookbook/json/aasialaisettacot.json",
