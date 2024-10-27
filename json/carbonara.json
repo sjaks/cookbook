@@ -1,0 +1,28 @@
+{
+    "name": "Carbonara",
+    "allergies": [
+        "soy"
+    ],
+    "ingredients": [
+        "300g spaghettia",
+        "2 rkl öljyä",
+        "1 prk kaurakermaa",
+        "3 valkosipulinkynttä",
+        "1 tölkki kikherneitä",
+        "2 rkl soijakastiketta",
+        "1/2 tl savuaromia",
+        "1 kasvisliemikuutio",
+        "1 dl vegaanista parmesaaniraastetta",
+        "mustapippuria",
+        "suolaa"
+    ],
+    "steps": [
+        "Keitä pasta suolalla maustetussa vedessä.",
+        "Hienonna valkosipulinkynnet ja valuta kikherneet.",
+        "Paista kikherneet pannulla ja mausta ne soijakastikkeella ja savuaromilla.",
+        "Lisää pannulle valkosipuli, jauhettu kasvisliemikuutio, parmesaani, kaurakerma sekä mustapippuria ja paista vielä hetki.",
+        "Valuta pasta ja lisää kastikkeen joukkoon.",
+        "Lisää suolaa tarvittaessa.",
+        "Koristele annos parmesaanilla ja mustapippurilla."
+    ]
+}

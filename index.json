@@ -7,6 +7,26 @@
             "star": true,
             "url": "https://sjaks.iki.fi/cookbook/json/aasialaisettacot.json",
             "urlLoc": "https://sjaks.iki.fi/cookbook/json/aasialaisettacot-en.json"
+        },
+        {
+            "name": "Papudillat",
+            "nameLoc": "Bean Quesadillas",
+            "allergies": [
+                "milk"
+            ],
+            "star": true,
+            "url": "https://sjaks.iki.fi/cookbook/json/papudillat.json",
+            "urlLoc": "https://sjaks.iki.fi/cookbook/json/papudillat-en.json"
+        },
+        {
+            "name": "Carbonara",
+            "nameLoc": "Carbonara",
+            "allergies": [
+                "soy"
+            ],
+            "star": true,
+            "url": "https://sjaks.iki.fi/cookbook/json/carbonara.json",
+            "urlLoc": "https://sjaks.iki.fi/cookbook/json/carbonara-en.json"
         }
     ]
 }
