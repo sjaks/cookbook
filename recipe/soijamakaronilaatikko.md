@@ -28,7 +28,5 @@
 7. Ripottele vielä pinnalle korppujauhot.
 8. Paista 200 asteessa noin 40 minuuttia.
 
-🥚
-
-[Miten Soijamakaronilaatikko 💲 voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/soijamakaronilaatikko.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/soijamakaronilaatikko.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

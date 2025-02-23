@@ -9,6 +9,8 @@
 - 4 dl vehnäjauhoa
 - 1 dl juoksevaa margariinia
 - 1 tl suolaa
+- puolukkahilloa
+- raejuustoa
 
 
 ## Valmistus
@@ -17,7 +19,5 @@
 3. Paista uunissa 225 asteessa noin 25 minuuttia. Taikina riittää noin kahteen pellilliseen.
 4. Tarjoile puolukkahillon ja raejuuston kanssa.
 
-🥚
-
-[Miten Pinaattipannari ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/pinaattipannari.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/pinaattipannari.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

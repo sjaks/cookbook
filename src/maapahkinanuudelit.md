@@ -25,5 +25,3 @@
 6. Keitä nuudelit.
 7. Lisää pannulle inkivääri sekä valkosipuli ja sekoittele hetken aikaa. Lisää kiinankaali ja paista muutama minuutti.
 8. Lisää nuudelit, sipuli ja kastike. Sekoita.
-
-Allergeenit:

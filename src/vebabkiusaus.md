@@ -4,7 +4,7 @@
 
 ## Ainekset
 - 1 kg peruna-sipulisekoitus
-- 1 ps Muu-vebablastu
+- 1 ps Muu-vebablastuja
 - 2,5 dl kaurakermaa
 - 1 paprika
 - oreganoa
@@ -17,5 +17,3 @@
 2. Mausta suolalla, pippurilla ja oreganolla.
 3. Kaada päälle kaurakerma.
 4. Paista 200-asteisessa uunissa noin 45 minuuttia.
-
-Allergeenit:

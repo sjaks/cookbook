@@ -22,7 +22,7 @@
 - 2 dl sipulikaurakermaa
 - 1 tl suolaa
 - mustapippuria
-- Oddlygood Mozzarellaraastetta
+- Oddlygood-mozzarellaraastetta
 
 
 ## Valmistus
@@ -34,5 +34,3 @@
 6. Latoa lasagnelevyistä ja kastikkeesta lasagne uunivuokaan.
 7. Ripottele päälle juustoraaste ja kaada päälle sipulikaurakerma.
 8. Paista uunin keskitasolla noin 30 minuuttia.
-
-Allergeenit:

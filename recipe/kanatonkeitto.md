@@ -30,7 +30,5 @@
 9. Anna porista noin 15 minuuttia.
 10. Lisää suolaa ja persiljaa.
 
-
-
-[Miten Kanaton keitto voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/kanatonkeitto.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/kanatonkeitto.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

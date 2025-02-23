@@ -23,7 +23,5 @@
 6. Kun pasta on saanut marinoitua öljyssä hetken, sekoita pasta salaatin joukkoon.
 7. Murenna Aura-juusto salaattiin.
 
-🥛
-
-[Miten Paras salaatti ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/salaatti.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/salaatti.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

@@ -3,7 +3,7 @@
 
 
 ## Ainekset
-- 375 g tagliatellea tai spagettia
+- 375 g tagliatellea
 - 1 rkl juoksevaa margariinia
 - 1 iso punasipuli
 - suolaa
@@ -18,5 +18,3 @@
 4. Valuta pasta ja lisää pannulle. Pasta saa olla märkää.
 5. Mausta suolalla ja pippurilla. Sekoita pasta ja sipuli hyvin keskenään.
 6. Murenna Aura-juustopala päälle ja sekoita hieman niin, että osa juustosta sulaa pastan joukkoon.
-
-Allergeenit:🥛

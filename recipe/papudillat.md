@@ -20,7 +20,5 @@
 5. Paista pannulla öljyssä kunnes tortilla alkaa saada väriä.
 6. Tarjoite kypsennettyjen maissien sekä fraichen kera.
 
-🥛
-
-[Miten Papudillat voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/papudillat.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/papudillat.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

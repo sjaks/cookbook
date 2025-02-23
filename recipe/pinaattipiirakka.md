@@ -24,6 +24,5 @@
 6. Paista uunissa 200 asteessa 40 minuuttia.
 
 
-
-[Miten Pinaattipiirakka voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/pinaattipiirakka.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/pinaattipiirakka.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

@@ -18,5 +18,3 @@
 3. Lisää sipulit ja kuullota.
 4. Lisää pannulle vielä pippuri, kerma ja Aura. Kuumenna.
 5. Valuta pasta ja sekoita pannulle.
-
-Allergeenit:🥛

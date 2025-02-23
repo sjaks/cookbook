@@ -21,5 +21,3 @@
 4. Paista uunissa noin 8 minuuttia.
 5. Levitä päälle Koskenlaskija ja avokadopalat.
 6. Tarjoile ranskankerman kanssa.
-
-Allergeenit:🥛

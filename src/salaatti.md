@@ -22,5 +22,3 @@
 5. Valuta, huuhdo ja jäähdytä pasta. Sekoita sekaan öljykastike.
 6. Kun pasta on saanut marinoitua öljyssä hetken, sekoita pasta salaatin joukkoon.
 7. Murenna Aura-juusto salaattiin.
-
-Allergeenit:🥛

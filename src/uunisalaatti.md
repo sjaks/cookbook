@@ -16,10 +16,8 @@
 ## Valmistus
 1. Laita uuni kuumenemaan 225 asteeseen.
 2. Pilko paprikat ja punasipulit pellille.
-3. Leikkaa maissintähkien pinnasta sektoreita.
+3. Leikkaa maissintähkien pinnasta ympyräsegmenttejä.
 4. Huuhtele kikherneet. Sekoita fajita-mausteseos joukkoon. Lisää vuokaan.
 5. Valuta pinnalle margariinia.
 6. Paista uunin ylätasolla n. 20 min.
 7. Lisää valmiiseen salaattiin juustodippiä ja lusikoi pinnalle avokadoa.
-
-Allergeenit:🥛

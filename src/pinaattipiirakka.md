@@ -23,4 +23,3 @@
 5. Puolita tomaatit ja painele piirakan joukkoon.
 6. Paista uunissa 200 asteessa 40 minuuttia.
 
-Allergeenit:

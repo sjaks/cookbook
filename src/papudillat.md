@@ -19,5 +19,3 @@
 4. Taita toinen puoli seoksen päälle taskuksi.
 5. Paista pannulla öljyssä kunnes tortilla alkaa saada väriä.
 6. Tarjoite kypsennettyjen maissien sekä fraichen kera.
-
-Allergeenit:🥛

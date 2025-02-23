@@ -26,7 +26,5 @@
 7. Lisää pannulle inkivääri sekä valkosipuli ja sekoittele hetken aikaa. Lisää kiinankaali ja paista muutama minuutti.
 8. Lisää nuudelit, sipuli ja kastike. Sekoita.
 
-
-
-[Miten Maapähkinänuudelit voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/maapahkinanuudelit.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/maapahkinanuudelit.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

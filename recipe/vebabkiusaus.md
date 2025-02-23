@@ -4,7 +4,7 @@
 
 ## Ainekset
 - 1 kg peruna-sipulisekoitus
-- 1 ps Muu-vebablastu
+- 1 ps Muu-vebablastuja
 - 2,5 dl kaurakermaa
 - 1 paprika
 - oreganoa
@@ -18,7 +18,5 @@
 3. Kaada päälle kaurakerma.
 4. Paista 200-asteisessa uunissa noin 45 minuuttia.
 
-
-
-[Miten Vebabkiusaus 💲 voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/vebabkiusaus.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/vebabkiusaus.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

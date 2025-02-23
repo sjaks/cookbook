@@ -16,13 +16,11 @@
 ## Valmistus
 1. Laita uuni kuumenemaan 225 asteeseen.
 2. Pilko paprikat ja punasipulit pellille.
-3. Leikkaa maissintähkien pinnasta sektoreita.
+3. Leikkaa maissintähkien pinnasta ympyräsegmenttejä.
 4. Huuhtele kikherneet. Sekoita fajita-mausteseos joukkoon. Lisää vuokaan.
 5. Valuta pinnalle margariinia.
 6. Paista uunin ylätasolla n. 20 min.
 7. Lisää valmiiseen salaattiin juustodippiä ja lusikoi pinnalle avokadoa.
 
-🥛
-
-[Miten Uunisalaatti ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/uunisalaatti.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/uunisalaatti.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

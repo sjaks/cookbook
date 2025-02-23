@@ -31,7 +31,5 @@
 9. Käytä tarvittaessa cocktailtikkuja rakenteen turvaamiseen.
 10. Paista uunissa 175 asteessa 20 minuuttia. Anna jäähty hetki ennen tarjoilua.
 
-🥛
-
-[Miten Tortillavuoka ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/tortillavuoka.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/tortillavuoka.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

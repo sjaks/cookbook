@@ -17,5 +17,3 @@
 2. Keitä nuudelit ohjeen mukaan.
 3. Sekoita nesteet.
 4. Lisää nuudelit ja nesteseos pannulle. Pyörittele hetki ja lisää kevätsipulia.
-
-Allergeenit:🥚

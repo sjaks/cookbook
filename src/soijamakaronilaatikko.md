@@ -27,5 +27,3 @@
 6. Sekoita kerma ja munat keskenään ja kaada laatikon pinnalle.
 7. Ripottele vielä pinnalle korppujauhot.
 8. Paista 200 asteessa noin 40 minuuttia.
-
-Allergeenit:🥚

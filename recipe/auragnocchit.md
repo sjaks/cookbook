@@ -3,9 +3,8 @@
 
 
 ## Ainekset
-- 1 pkt vegaanista pekonia
 - 1 sipuli
-- valkosipulin kynsiä
+- valkosipulia
 - 70 g lehtikaalia
 - 500 g perunagnoccheja
 - 1 pala Aura-juustoa
@@ -15,12 +14,10 @@
 
 
 ## Valmistus
-1. Hienonna sipulit ja paista vegepekonin kanssa öljyssä pannulla.
+1. Hienonna sipulit ja kuullota pannulla.
 2. Revi lehtikaali ja lisää pannulle. Anna paistua kasaan.
 3. Lisää pannulle gnocchit, Aura ja kerma. Lisää tarvittaessa hieman vettä.
 4. Anna hautua hetki ja mausta mustapippurilla ja suolalla.
 
-🥛
-
-[Miten Aura-gnocchit voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/auragnocchit.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/auragnocchit.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

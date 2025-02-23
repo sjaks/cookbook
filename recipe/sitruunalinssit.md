@@ -22,7 +22,5 @@
 3. Kuori ja keitä perunat. Sekoita perunoiden joukkoon margariini. Soseuta seos ja lisää kerma.
 4. Lisää lautasella muusia ja päälle linssejä.
 
-
-
-[Miten Sitruunaiset linssit ja perunasose 💲 voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/sitruunalinssit.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/sitruunalinssit.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

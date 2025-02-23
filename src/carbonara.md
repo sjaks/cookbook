@@ -23,5 +23,3 @@
 5. Valuta pasta ja lisää kastikkeen joukkoon.
 6. Lisää suolaa tarvittaessa.
 7. Koristele annos parmesaanilla ja mustapippurilla.
-
-Allergeenit:

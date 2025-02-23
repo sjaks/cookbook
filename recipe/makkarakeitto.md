@@ -22,7 +22,5 @@
 4. Paloittele makkarat ja ruskista pannulla öljyssä.
 5. Lisää makkarat valmiiseen keittoon.
 
-
-
-[Miten Makkarakeitto voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/makkarakeitto.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/makkarakeitto.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

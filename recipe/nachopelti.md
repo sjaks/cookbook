@@ -22,7 +22,5 @@
 5. Levitä päälle Koskenlaskija ja avokadopalat.
 6. Tarjoile ranskankerman kanssa.
 
-🥛
-
-[Miten Nachopelti voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/nachopelti.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/nachopelti.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

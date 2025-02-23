@@ -22,7 +22,7 @@
 - 2 dl sipulikaurakermaa
 - 1 tl suolaa
 - mustapippuria
-- Oddlygood Mozzarellaraastetta
+- Oddlygood-mozzarellaraastetta
 
 
 ## Valmistus
@@ -35,7 +35,5 @@
 7. Ripottele päälle juustoraaste ja kaada päälle sipulikaurakerma.
 8. Paista uunin keskitasolla noin 30 minuuttia.
 
-
-
-[Miten Lehtikaalilasagne ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/lehtikaalilasagne.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/lehtikaalilasagne.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

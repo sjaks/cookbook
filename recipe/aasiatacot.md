@@ -19,7 +19,5 @@
 3. Lämmitä tortillaleivät.
 4. Levitä ranskankermaa tortillaleivälle ja kokoa muita täytteitä päälle.
 
-🥛🥚
-
-[Miten Aasialaistyyliset tacot ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/aasiatacot.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/aasiatacot.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

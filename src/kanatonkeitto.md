@@ -29,5 +29,3 @@
 8. Lisää maissit ja soijasuikale-kermaseos perunoiden sekaan.
 9. Anna porista noin 15 minuuttia.
 10. Lisää suolaa ja persiljaa.
-
-Allergeenit:

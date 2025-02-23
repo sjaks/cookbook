@@ -21,5 +21,3 @@
 2. Lisää linssit pannulle, mausta mausteilla. Purista joukkoon sitruunamehu.
 3. Kuori ja keitä perunat. Sekoita perunoiden joukkoon margariini. Soseuta seos ja lisää kerma.
 4. Lisää lautasella muusia ja päälle linssejä.
-
-Allergeenit:

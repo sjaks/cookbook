@@ -21,5 +21,3 @@
 3. Keitä kunnes kasvikset ovat kypsiä, noin 15 minuuttia.
 4. Paloittele makkarat ja ruskista pannulla öljyssä.
 5. Lisää makkarat valmiiseen keittoon.
-
-Allergeenit:

@@ -30,5 +30,3 @@
 8. Voitele pystyssä olevat tortillaleivät sulalla margariinilla kummaltakin puolelta ja taittele ne täytteiden päälle.
 9. Käytä tarvittaessa cocktailtikkuja rakenteen turvaamiseen.
 10. Paista uunissa 175 asteessa 20 minuuttia. Anna jäähty hetki ennen tarjoilua.
-
-Allergeenit:🥛

@@ -19,7 +19,5 @@
 4. Lisää pannulle vielä pippuri, kerma ja Aura. Kuumenna.
 5. Valuta pasta ja sekoita pannulle.
 
-🥛
-
-[Miten Sienipasta voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/sienipasta.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/sienipasta.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

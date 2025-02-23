@@ -18,7 +18,5 @@
 3. Sekoita nesteet.
 4. Lisää nuudelit ja nesteseos pannulle. Pyörittele hetki ja lisää kevätsipulia.
 
-🥚
-
-[Miten Nuudelit ⭐ voisi olla parempi? Muokkaa reseptiä.](https://github.com/sjaks/cookbook/edit/master/src/nuudelit.md)  
-Kirjoittanut [https://sjaks.iki.fi/](https://sjaks.iki.fi/).
+[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/nuudelit.md)  
+[https://sjaks.iki.fi/](https://sjaks.iki.fi/)
