@@ -1,22 +1,23 @@
 # Kanaton keitto
-6 annosta - 30 min
 
+## Ominaisuudet
+6 annosta (315 kcal per annos)  
+Työläämpi valmistaa  
+Edulliset ainesosat
 
 ## Ainekset
 - 100g soijasuikaleita
 - 2 kasvisliemikuutiota
-- 2 rkl rypsiöljyä
+- 1 rkl rypsiöljyä
 - 1 sipuli
-- 8 kiinteää perunaa
+- 500 g kiinteää perunaa
 - 1 l vettä
-- 2 porkkanaa
+- 150 g porkkanaa
 - 300g maissia
-- 1 tl paprikajauhetta
 - 2 dl kaurakermaa
-- persiljaa
-- currya
-- suolaa
-
+- 1 tl paprikajauhetta
+- 1 rkl currya
+- 1 tl suolaa
 
 ## Valmistus
 1. Keitä soijasuikaleita kasvisliemikuutiolla maustetussa vedessä nonin 5 minuuttia.
@@ -29,6 +30,3 @@
 8. Lisää maissit ja soijasuikale-kermaseos perunoiden sekaan.
 9. Anna porista noin 15 minuuttia.
 10. Lisää suolaa ja persiljaa.
-
-[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/kanatonkeitto.md)  
-[https://sjaks.iki.fi/](https://sjaks.iki.fi/)

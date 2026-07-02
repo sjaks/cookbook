@@ -1,26 +1,23 @@
-# Uunisalaatti ⭐
-3 annosta - 30 min
+# Uunisalaatti
 
+## Ominaisuudet
+4 annosta (460 kcal per annos)  
+Helppo valmistaa  
+Hintavat ainesosat
 
 ## Ainekset
-- kolmen paprikan mix
+- 4 punaista paprikaa
 - 2 punasipulia
-- 2 kpl esikeitettyä maissia
-- 1 tlk kikherneitä
-- 1 pussi fajitamaustetta
-- juoksevaa margariinia
-- Koskenlaskija Ruoka & Dippi japapeno-cheddar
-- 1 avokado
-
+- 200 g pakastemaissia
+- 2 tlk kikherneitä
+- 1 ps fajitamaustetta
+- 1 prk juustodippiä (Valia Koskenlaskija Cheddar 185 g)
+- 100 g avokadoa
 
 ## Valmistus
 1. Laita uuni kuumenemaan 225 asteeseen.
 2. Pilko paprikat ja punasipulit pellille.
-3. Leikkaa maissintähkien pinnasta ympyräsegmenttejä.
-4. Huuhtele kikherneet. Sekoita fajita-mausteseos joukkoon. Lisää vuokaan.
-5. Valuta pinnalle margariinia.
-6. Paista uunin ylätasolla n. 20 min.
-7. Lisää valmiiseen salaattiin juustodippiä ja lusikoi pinnalle avokadoa.
-
-[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/uunisalaatti.md)  
-[https://sjaks.iki.fi/](https://sjaks.iki.fi/)
+3. Kaada maissit joukkoon.
+4. Huuhtele kikherneet. Sekoita fajita-mausteseos joukkoon. Lisää päälle.
+5. Paista uunin ylätasolla n. 20 min.
+6. Lisää valmiiseen salaattiin juustodippiä ja avokadon paloja.

@@ -1,42 +1,57 @@
-from os import listdir
-from os.path import isfile, join
+#!/usr/bin/env python3
 
-HEADLINE = "Reseptejä, jotka ovat ihan ok 🥘 Iso osa vegaanisia, mutta kaikki ainakin lakto-ovo 🥦."
-FOOTER = "[https://sjaks.iki.fi/](https://sjaks.iki.fi/)"
+from __future__ import annotations
 
-FILE_SOURCE = "src/"
-FILE_TARGET = "recipe/"
-INDEX = "README.md"
+import re
+from pathlib import Path
 
-URL_PRE = "https://sjaks.iki.fi/cookbook/"
-CONTR_TEXT = "[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/"
 
-recipes = [f for f in listdir(FILE_SOURCE) if isfile(join(FILE_SOURCE, f))]
-print("Found", len(recipes), "recipes.")
+ROOT_DIR = Path(__file__).resolve().parent.parent
+RECIPE_DIR = ROOT_DIR / "recipe"
+README_PATH = ROOT_DIR / "README.md"
+BASE_URL = "https://sjaks.iki.fi/cookbook"
 
-index_contents = HEADLINE + "\n\n"
-recipe_table = []
+KCAL_PATTERN = re.compile(r"(\d+)\s*kcal per annos", re.IGNORECASE)
 
-for recipe in recipes:
-    source_path = join(FILE_SOURCE, recipe)
-    target_path = join(FILE_TARGET, recipe)
-    recipe_url = URL_PRE + target_path.replace(".md", "")
 
-    with open(source_path) as f:
-        body = f.read()
-        content = body.splitlines()
-        recipe_name = content[0].replace("#", "").strip()
-        recipe_name_title = recipe_name
+def read_recipe(recipe_path: Path) -> tuple[int, str, str]:
+	content = recipe_path.read_text(encoding="utf-8")
+	lines = content.splitlines()
 
-        md_link = "- [{}]({})".format(recipe_name_title, recipe_url)
-        recipe_table.append(md_link)
+	if not lines:
+		raise ValueError(f"Recipe file is empty: {recipe_path}")
 
-        write_content = body + '\n' + CONTR_TEXT + source_path + ')  \n' + FOOTER
-        with open(target_path, 'w') as fw:
-            fw.write(write_content)
+	first_line = lines[0].strip()
+	if not first_line.startswith("#"):
+		raise ValueError(
+			f"First line must be a markdown heading in file: {recipe_path}"
+		)
 
-index_contents += "\n".join(sorted(recipe_table))
-index_contents += "\n\n" + FOOTER
+	title = first_line.lstrip("#").strip()
+	kcal_match = KCAL_PATTERN.search(content)
+	if kcal_match is None:
+		raise ValueError(f"Could not find kcal per annos in file: {recipe_path}")
 
-with open(INDEX, 'w') as f:
-    f.write(index_contents)
+	kcal = int(kcal_match.group(1))
+	link = f"{BASE_URL}/recipe/{recipe_path.stem}"
+	return kcal, title, link
+
+
+def build_readme() -> str:
+	recipes: list[tuple[int, str, str]] = []
+
+	for recipe_path in sorted(RECIPE_DIR.glob("*.md")):
+		recipes.append(read_recipe(recipe_path))
+
+	recipes.sort(key=lambda item: (item[0], item[1].casefold()))
+
+	return "\n".join(f"- [{title}]({link})" for _, title, link in recipes) + "\n"
+
+
+def main() -> None:
+	readme = build_readme()
+	README_PATH.write_text(readme, encoding="utf-8")
+
+
+if __name__ == "__main__":
+	main()

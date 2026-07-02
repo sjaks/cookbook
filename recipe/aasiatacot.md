@@ -1,6 +1,9 @@
-# Aasialaistyyliset tacot ⭐
-4 annosta - 15 min
+# Aasiatacot
 
+## Ominaisuudet
+4 annosta (530 kcal per annos)  
+Nopea valmistaa  
+Hintavat ainesosat
 
 ## Ainekset
 - 8 kpl pieniä vehnä-maissitortillaleipiä
@@ -8,16 +11,14 @@
 - 0.5 dl hoisinkastiketta
 - 1 rkl seesamiöljyä
 - 1 rkl seesaminsiemeniä
-- sitruunamehua
-- 1 prk chilimaustettua kauraranskankermaa
-- 1 pkt inkiväärinyhtökauraa tai jauhista
-
+- 1 rkl sitruunamehua
+- 1 prk kauraranskankermaa
+- 0.5 tl chilijauhetta
+- 1 pkt maustettua nyhtökauraa (umami, inkivääri tai valkosipuli)
 
 ## Valmistus
 1. Sekoita hoisinkastikkeesta, seesamiöljystä, seesaminsiemenistä ja sitruunamehusta kastike.
-2. Lämmitä vegeproteiini ohjeen mukaan pannulla (tai mikrossa).
-3. Lämmitä tortillaleivät.
-4. Levitä ranskankermaa tortillaleivälle ja kokoa muita täytteitä päälle.
-
-[Haluatko parantaa reseptiä?](https://github.com/sjaks/cookbook/edit/master/src/aasiatacot.md)  
-[https://sjaks.iki.fi/](https://sjaks.iki.fi/)
+2. Sekoita ranskankermaan chilijauhe.
+3. Lämmitä vegeproteiini ohjeen mukaan mikrossa.
+4. Lämmitä tortillaleivät.
+5. Levitä ranskankermaa tortillaleivälle ja kokoa muita täytteitä päälle.
