@@ -1,7 +1,7 @@
 # Jauhisdillat
 
 ## Ominaisuudet
-4 annosta (580 kcal per annos)  
+4 annosta <!-- (500 kcal per annos) -->  
 Helppo valmistaa  
 Edulliset ainesosat
 

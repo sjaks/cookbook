@@ -1,7 +1,7 @@
 # Pinaattipannari
 
 ## Ominaisuudet
-4 annosta (550 kcal per annos)  
+4 annosta <!-- (555 kcal per annos) -->  
 Helppo valmistaa  
 Edulliset ainesosat
 

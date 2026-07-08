@@ -1,7 +1,7 @@
 # Sitruunaiset linssit
 
 ## Ominaisuudet
-4 annosta (350 kcal per annos)  
+4 annosta <!-- (350 kcal per annos) -->  
 Helppo valmistaa  
 Edulliset ainesosat
 

@@ -1,7 +1,7 @@
 # Tortillat
 
 ## Ominaisuudet
-4 annosta (400 kcal per annos)  
+4 annosta <!-- (465 kcal per annos) -->  
 Helppo valmistaa  
 Edulliset ainesosat
 

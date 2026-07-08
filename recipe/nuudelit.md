@@ -1,7 +1,7 @@
 # Nuudelit
 
 ## Ominaisuudet
-4 annosta (440 kcal per annos)  
+4 annosta <!-- (420 kcal per annos) -->  
 Helppo valmistaa  
 Hintavat ainesosat
 

@@ -1,7 +1,7 @@
 # Aasiatacot
 
 ## Ominaisuudet
-4 annosta (530 kcal per annos)  
+4 annosta <!-- (530 kcal per annos) -->  
 Nopea valmistaa  
 Hintavat ainesosat
 

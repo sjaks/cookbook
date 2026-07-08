@@ -1,7 +1,7 @@
 # Paras salaatti
 
 ## Ominaisuudet
-4 annosta (470 kcal per annos)  
+4 annosta <!-- (475 kcal per annos) -->  
 Helppo valmistaa  
 Edulliset ainesosat
 

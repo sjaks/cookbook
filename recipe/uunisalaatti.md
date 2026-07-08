@@ -1,7 +1,7 @@
 # Uunisalaatti
 
 ## Ominaisuudet
-4 annosta (460 kcal per annos)  
+4 annosta <!-- (310 kcal per annos) -->  
 Helppo valmistaa  
 Hintavat ainesosat
 
