@@ -1,13 +1,13 @@
 # Nuudelit
 
 ## Ominaisuudet
-4 annosta <!-- (420 kcal per annos) -->  
+4 annosta <!-- (400 kcal per annos) -->  
 Helppo valmistaa  
 Hintavat ainesosat
 
 ## Ainekset
-- 250g Beanit-härkäpapumurua
-- 3 kerää munanuudeleita
+- 250 g Beanit-härkäpapumurua
+- 250 g kerää munanuudeleita
 - 0.5 dl soijakastiketta
 - 1 rkl seesamiöljyä
 - 1 rkl etikkaa
