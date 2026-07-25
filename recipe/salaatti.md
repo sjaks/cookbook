@@ -8,7 +8,7 @@ Edulliset ainesosat
 ## Ainekset
 - 250 g proteiinipastaa
 - 2 persikkaa
-- 1 ps salaattisekoitusta
+- 300 g salaattisekoitusta
 - 1 ps Aura-juustomurua
 - 70 g pistaasipähkinöitä
 - 1 rkl sitruunamehua

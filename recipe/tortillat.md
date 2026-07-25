@@ -1,7 +1,7 @@
 # Tortillat
 
 ## Ominaisuudet
-4 annosta <!-- (465 kcal per annos) -->  
+4 annosta <!-- (440 kcal per annos) -->  
 Helppo valmistaa  
 Edulliset ainesosat
 
@@ -9,13 +9,13 @@ Edulliset ainesosat
 - 8 tortillaa
 - 1 pkt jauhista
 - 0.5 ps jääsalaattia
-- 150g kurkkua (n. puolikas)
+- 150 g kurkkua (n. puolikas)
 - 2 tomaattia
-- 1 prk kaurakermaviiliä
+- 200 g kevytkermaviiliä
 - Ranch-dippijauhe
 
 ## Valmistus
 1. Paista jauhis pannulla.
-2. Pilko vihannekset.
+2. Pese ja pilko vihannekset.
 3. Valmista Ranch-dippi.
 4. Lämmitä tortillat mikrossa ja täytä.
