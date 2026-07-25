@@ -1,14 +1,14 @@
 # Kikhernepasta
 
 ## Ominaisuudet
-4 annosta <!-- (480 kcal per annos) -->  
+4 annosta <!-- (385 kcal per annos) -->  
 Työläämpi valmistaa  
 Edulliset ainesosat
 
 ## Ainekset
 - 200 g spaghettia
 - 100 g miniherkkusieniä
-- 1 rkl öljyä
+- 0.5 rkl öljyä
 - 3 valkosipulinkynttä
 - 1 tlk kikherneitä
 - 2 rkl soijakastiketta
