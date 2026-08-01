@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Päivän Energialaskuri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="brand">Päivän Energialaskuri</p>
+          <h1 id="step-title">Aloitetaan aamiaisesta</h1>
+        </div>
+        <div class="counter-card" aria-live="polite">
+          <p class="counter-label">Tämän päivän summa</p>
+          <p class="counter-values"><span id="total-kcal">0</span> kcal · <span id="total-protein">0</span> g proteiinia</p>
+          <div class="progress-track"><div class="progress-fill" id="kcal-progress"></div></div>
+        </div>
+      </header>
+
+      <main id="app" class="content" aria-live="polite"></main>
+    </div>
+
+    <script src="data/meals.js"></script>
+    <script src="data/ingredients.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

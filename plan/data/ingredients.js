@@ -1,0 +1,22 @@
+const INGREDIENT_OPTIONS = [
+  { id: "kananmuna", nimi: "Kananmuna", kcal: 78, proteiini: 6.3, yksikko: "kpl" },
+  { id: "matcha_latte", nimi: "Matcha latte", kcal: 89, proteiini: 7, yksikko: "annos" },
+  { id: "proteiinishake", nimi: "Proteiinijuoma", kcal: 340, proteiini: 25, yksikko: "kpl" },
+  { id: "omena", nimi: "Omena", kcal: 80, proteiini: 0.4, yksikko: "kpl" },
+  { id: "banaani", nimi: "Banaani", kcal: 105, proteiini: 1.3, yksikko: "kpl" },
+  { id: "kurkku", nimi: "Kurkku", kcal: 10, proteiini: 0.5, yksikko: "100 g" },
+  { id: "porkkana", nimi: "Porkkana", kcal: 30, proteiini: 0.6, yksikko: "kpl" },
+  { id: "tomaatti", nimi: "Tomaatti", kcal: 20, proteiini: 1.0, yksikko: "kpl" },
+  { id: "ohut_herkku", nimi: "Ohut Herkku -viipale", kcal: 32, proteiini: 1.1, yksikko: "kpl" },
+  { id: "margariini", nimi: "Margariini", kcal: 90, proteiini: 0, yksikko: "rkl" },
+  { id: "maissikakku", nimi: "Maissikakku", kcal: 30, proteiini: 0.6, yksikko: "kpl" },
+  { id: "proteiinivanukas", nimi: "Proteiinivanukas", kcal: 160, proteiini: 20, yksikko: "kpl" },
+  { id: "proteiinipatukka", nimi: "Proteiinipatukka", kcal: 200, proteiini: 20, yksikko: "kpl" },
+  { id: "avokado", nimi: "Avokado", kcal: 240, proteiini: 3, yksikko: "kpl" },
+  { id: "pakastemaissi_50g", nimi: "Pakastemaissi", kcal: 48, proteiini: 1.8, yksikko: "50 g" },
+  { id: "pakasteherneet_50g", nimi: "Pakasteherneet", kcal: 38, proteiini: 2.6, yksikko: "50 g" },
+  { id: "parsakaali_50g", nimi: "Parsakaali", kcal: 17, proteiini: 1.5, yksikko: "50 g" },
+  { id: "karkki_20g", nimi: "Karkki", kcal: 80, proteiini: 0, yksikko: "20 g" },
+  { id: "sipsit_20g", nimi: "Sipsit", kcal: 107, proteiini: 1.3, yksikko: "20 g" },
+  { id: "jaatelo", nimi: "Jäätelö", kcal: 300, proteiini: 3.5, yksikko: "kpl" }
+];
