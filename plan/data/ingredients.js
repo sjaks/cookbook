@@ -7,7 +7,7 @@ const INGREDIENT_OPTIONS = [
   { id: "kurkku", nimi: "Kurkku", kcal: 10, proteiini: 0.5, yksikko: "100 g" },
   { id: "porkkana", nimi: "Porkkana", kcal: 30, proteiini: 0.6, yksikko: "kpl" },
   { id: "tomaatti", nimi: "Tomaatti", kcal: 20, proteiini: 1.0, yksikko: "kpl" },
-  { id: "ohut_herkku", nimi: "Ohut Herkku -viipale", kcal: 32, proteiini: 1.1, yksikko: "kpl" },
+  { id: "ohut_herkku", nimi: "Ohut Herkku -pala", kcal: 94, proteiini: 3.1, yksikko: "kpl" },
   { id: "margariini", nimi: "Margariini", kcal: 90, proteiini: 0, yksikko: "rkl" },
   { id: "maissikakku", nimi: "Maissikakku", kcal: 30, proteiini: 0.6, yksikko: "kpl" },
   { id: "proteiinivanukas", nimi: "Proteiinivanukas", kcal: 160, proteiini: 20, yksikko: "kpl" },

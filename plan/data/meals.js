@@ -1,7 +1,9 @@
 const MEAL_OPTIONS = {
   aamiainen: [
-    { nimi: "Perusaamupala", kcal: 432, proteiini: 28 },
-    { nimi: "LOHILO-proteiinipannukakut", kcal: 450, proteiini: 30 }
+    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 432, proteiini: 28 },
+    { nimi: "Proteiinipannukakut jogurtilla ja marjoilla", kcal: 450, proteiini: 30 },
+    { nimi: "Proteiinipannukakut jogurtilla, banaanilla ja marjoilla", kcal: 550, proteiini: 30 },
+    { nimi: "Avokado-munakokkelileivät kasviksilla", kcal: 360, proteiini: 19 }
   ],
 
   lounas: [
@@ -30,7 +32,7 @@ const MEAL_OPTIONS = {
     { nimi: "Proteiinivanukas", kcal: 160, proteiini: 20 },
     { nimi: "Proteiinivanukas + Matcha latte", kcal: 249, proteiini: 27 },
     { nimi: "Proteiinivanukas + 2 omenaa", kcal: 320, proteiini: 20 },
-    { nimi: "Proteiinipatukka", kcal: 191, proteiini: 20 }
+    { nimi: "Proteiinipatukka", kcal: 200, proteiini: 20 }
   ],
 
   paivallinen: [
@@ -56,7 +58,7 @@ const MEAL_OPTIONS = {
   ],
 
   iltapala: [
-    { nimi: "Perusiltapala", kcal: 367, proteiini: 27 },
-    { nimi: "Perusiltapala (rouhesämpylällä)", kcal: 479, proteiini: 31 }
+    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 367, proteiini: 27 },
+    { nimi: "Sämpylä kasviksilla ja jogurtti marjoilla", kcal: 479, proteiini: 31 }
   ]
 };
