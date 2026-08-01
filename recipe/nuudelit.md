@@ -1,7 +1,7 @@
 # Nuudelit
 
 ## Ominaisuudet
-4 annosta <!-- (400 kcal per annos) -->  
+4 annosta
 Helppo valmistaa  
 Hintavat ainesosat
 

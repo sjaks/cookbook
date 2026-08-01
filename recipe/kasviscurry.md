@@ -1,7 +1,7 @@
 # Kasviscurry
 
 ## Ominaisuudet
-4 annosta <!-- (450 kcal per annos) -->  
+4 annosta
 Nopea valmistaa  
 Edulliset ainesosat
 

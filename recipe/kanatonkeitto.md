@@ -1,12 +1,12 @@
 # Kanaton keitto
 
 ## Ominaisuudet
-6 annosta <!-- (320 kcal per annos) -->  
+4 annosta
 Työläämpi valmistaa  
 Edulliset ainesosat
 
 ## Ainekset
-- 100g soijasuikaleita
+- 100 g soijasuikaleita
 - 2 kasvisliemikuutiota
 - 1 rkl rypsiöljyä
 - 1 l vettä

@@ -1,7 +1,7 @@
 # Makkarakeitto
 
 ## Ominaisuudet
-4 annosta <!-- (300 kcal per annos) -->  
+4 annosta
 Työläämpi valmistaa  
 Edulliset ainesosat
 

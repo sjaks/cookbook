@@ -1,7 +1,7 @@
 # Täytetyt paprikat
 
 ## Ominaisuudet
-4 annosta <!-- (350 kcal per annos) -->  
+4 annosta
 Työläämpi valmistaa  
 Edulliset ainesosat
 

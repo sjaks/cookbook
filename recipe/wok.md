@@ -1,7 +1,7 @@
 # Wok
 
 ## Ominaisuudet
-4 annosta <!-- (360 kcal per annos) -->  
+4 annosta
 Helppo valmistaa  
 Edulliset ainesosat
 

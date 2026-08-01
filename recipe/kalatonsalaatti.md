@@ -1,7 +1,7 @@
 # Kalaton salaatti
 
 ## Ominaisuudet
-4 annosta <!-- (440 kcal per annos) -->  
+4 annosta
 Nopea valmistaa  
 Edulliset ainesosat
 

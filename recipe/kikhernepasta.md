@@ -1,7 +1,7 @@
 # Kikhernepasta
 
 ## Ominaisuudet
-4 annosta <!-- (385 kcal per annos) -->  
+4 annosta
 Työläämpi valmistaa  
 Edulliset ainesosat
 
