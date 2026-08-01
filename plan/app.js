@@ -3,7 +3,7 @@ const STORAGE_KEY = "paivanKalorilaskuri_v1";
 const STEP_CONFIG = [
   { id: "aamiainen", title: "Valitse aamiainen" },
   { id: "lounas", title: "Valitse lounas" },
-  { id: "valipala", title: "Valitse valipala" },
+  { id: "valipala", title: "Valitse välipala" },
   { id: "paivallinen", title: "Valitse päivällinen" },
   { id: "iltapala", title: "Valitse iltapala" },
   { id: "muut", title: "Lisää muut syödyt" }
@@ -329,7 +329,7 @@ function mealLabel(mealId) {
   const labels = {
     aamiainen: "Aamiainen",
     lounas: "Lounas",
-    valipala: "Valipala",
+    valipala: "Välipala",
     paivallinen: "Päivällinen",
     iltapala: "Iltapala",
     muut: "Muut"

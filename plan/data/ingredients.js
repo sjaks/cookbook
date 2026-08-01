@@ -18,5 +18,6 @@ const INGREDIENT_OPTIONS = [
   { id: "parsakaali_50g", nimi: "Parsakaali", kcal: 17, proteiini: 1.5, yksikko: "50 g" },
   { id: "karkki_20g", nimi: "Karkki", kcal: 80, proteiini: 0, yksikko: "20 g" },
   { id: "sipsit_20g", nimi: "Sipsit", kcal: 107, proteiini: 1.3, yksikko: "20 g" },
-  { id: "jaatelo", nimi: "Jäätelö", kcal: 300, proteiini: 3.5, yksikko: "kpl" }
+  { id: "jaatelo", nimi: "Jäätelö", kcal: 300, proteiini: 3.5, yksikko: "kpl" },
+  { id: "muu", nimi: "Muu", kcal: 10, proteiini: 0, yksikko: "10 kcal" }
 ];
