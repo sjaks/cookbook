@@ -17,10 +17,12 @@ const MEAL_OPTIONS = {
     { nimi: "Kalaton keitto", kcal: 400, proteiini: 15 },
     { nimi: "Makkarakeitto", kcal: 221, proteiini: 16 },
     { nimi: "Täytetyt paprikat", kcal: 371, proteiini: 26 },
-    { nimi: "Vihreät linssit ja muusi", kcal: 271, proteiini: 18 },
+    { nimi: "Sitruunaiset linssit ja muusi", kcal: 271, proteiini: 18 },
     { nimi: "Pinaattipannari", kcal: 534, proteiini: 23 },
     { nimi: "Paras salaatti", kcal: 476, proteiini: 26 },
+    { nimi: "Jauhisdillat", kcal: 580, proteiini: 20 },
     { nimi: "Kanttarellipiirakka", kcal: 478, proteiini: 18 },
+    { nimi: "Pinaattipiirakka", kcal: 500, proteiini: 15 },
     { nimi: "Aasiatacot", kcal: 530, proteiini: 15 }
   ],
 
@@ -44,10 +46,12 @@ const MEAL_OPTIONS = {
     { nimi: "Kalaton keitto", kcal: 400, proteiini: 15 },
     { nimi: "Makkarakeitto", kcal: 221, proteiini: 16 },
     { nimi: "Täytetyt paprikat", kcal: 371, proteiini: 26 },
-    { nimi: "Vihreät linssit ja muusi", kcal: 271, proteiini: 18 },
+    { nimi: "Sitruunaiset linssit ja muusi", kcal: 271, proteiini: 18 },
     { nimi: "Pinaattipannari", kcal: 534, proteiini: 23 },
     { nimi: "Paras salaatti", kcal: 476, proteiini: 26 },
+    { nimi: "Jauhisdillat", kcal: 580, proteiini: 20 },
     { nimi: "Kanttarellipiirakka", kcal: 478, proteiini: 18 },
+    { nimi: "Pinaattipiirakka", kcal: 500, proteiini: 15 },
     { nimi: "Aasiatacot", kcal: 530, proteiini: 15 }
   ],
 
