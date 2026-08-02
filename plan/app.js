@@ -1,4 +1,5 @@
 const STORAGE_KEY = "paivanKalorilaskuri_v1";
+const CALORIE_TARGET_KEY = "paivanKalorilaskuri_calorieTarget";
 
 const STEP_CONFIG = [
   { id: "aamiainen", title: "Valitse aamiainen" },
@@ -16,13 +17,22 @@ const totalProteinEl = document.getElementById("total-protein");
 
 let state = loadState() || createInitialState();
 
+function loadSavedCalorieTarget() {
+  try {
+    const raw = localStorage.getItem(CALORIE_TARGET_KEY);
+    return raw ? Number(raw) : 2000;
+  } catch {
+    return 2000;
+  }
+}
+
 function createInitialState() {
   return {
     date: getTodayISO(),
     currentStep: 0,
     completed: false,
     setupDone: false,
-    calorieTarget: 2000,
+    calorieTarget: loadSavedCalorieTarget(),
     selections: {}
   };
 }
@@ -133,6 +143,7 @@ function renderCaloriePicker() {
   document.getElementById("start-btn").addEventListener("click", () => {
     state.calorieTarget = Number(slider.value);
     state.setupDone = true;
+    localStorage.setItem(CALORIE_TARGET_KEY, String(state.calorieTarget));
     saveState();
     render();
   });
