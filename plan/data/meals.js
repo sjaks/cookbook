@@ -25,7 +25,8 @@ const MEAL_OPTIONS = {
     { nimi: "Jauhisdillat", kcal: 580, proteiini: 20 },
     { nimi: "Kanttarellipiirakka", kcal: 478, proteiini: 18 },
     { nimi: "Pinaattipiirakka", kcal: 500, proteiini: 15 },
-    { nimi: "Aasiatacot", kcal: 530, proteiini: 15 }
+    { nimi: "Aasiatacot", kcal: 530, proteiini: 15 },
+    { nimi: "Ruisburger ja porkkanat", kcal: 550, proteiini: 25 }
   ],
 
   valipala: [
@@ -54,7 +55,8 @@ const MEAL_OPTIONS = {
     { nimi: "Jauhisdillat", kcal: 580, proteiini: 20 },
     { nimi: "Kanttarellipiirakka", kcal: 478, proteiini: 18 },
     { nimi: "Pinaattipiirakka", kcal: 500, proteiini: 15 },
-    { nimi: "Aasiatacot", kcal: 530, proteiini: 15 }
+    { nimi: "Aasiatacot", kcal: 530, proteiini: 15 },
+    { nimi: "Ruisburger ja porkkanat", kcal: 550, proteiini: 25 }
   ],
 
   iltapala: [
