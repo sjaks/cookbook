@@ -14,14 +14,16 @@
   </head>
   <body>
     <div class="app-shell">
-      <header class="topbar">
+      <header class="topbar topbar--green" id="topbar">
         <div>
           <p class="brand">Päivän Energialaskuri</p>
           <h1 id="step-title">Aloitetaan aamiaisesta</h1>
         </div>
         <div class="counter-card" aria-live="polite">
-          <p class="counter-label">Tämän päivän summa</p>
-          <p class="counter-values"><span id="total-kcal">0</span> kcal · <span id="total-protein">0</span> g proteiinia</p>
+          <p class="counter-label">Tämän päivän saldo</p>
+          <p class="counter-values"><span id="total-kcal">0</span>/<span id="total-target">2000</span></p>
+          <p class="counter-balance" id="kcal-balance">Vaje: 2000 kcal</p>
+          <p class="counter-protein">Proteiini: <span id="total-protein">0</span> g</p>
           <div class="progress-track"><div class="progress-fill" id="kcal-progress"></div></div>
         </div>
       </header>

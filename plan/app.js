@@ -12,7 +12,10 @@ const STEP_CONFIG = [
 
 const appEl = document.getElementById("app");
 const stepTitleEl = document.getElementById("step-title");
+const topbarEl = document.getElementById("topbar");
 const totalKcalEl = document.getElementById("total-kcal");
+const totalTargetEl = document.getElementById("total-target");
+const kcalBalanceEl = document.getElementById("kcal-balance");
 const totalProteinEl = document.getElementById("total-protein");
 
 let state = loadState() || createInitialState();
@@ -72,27 +75,44 @@ function sumTotals() {
   );
 }
 
+function sortByName(items) {
+  return [...items].sort((a, b) =>
+    String(a.nimi || "").localeCompare(String(b.nimi || ""), "fi", {
+      sensitivity: "base"
+    })
+  );
+}
+
 function updateCounter(previewKcal = 0, previewProtein = 0) {
   const totals = sumTotals();
   const kcal = totals.kcal + previewKcal;
   const proteiini = totals.proteiini + previewProtein;
+  const target = state.calorieTarget || 2000;
+  const delta = Math.round(target - kcal);
+  const over = kcal - target;
+
   totalKcalEl.textContent = String(Math.round(kcal));
+  totalTargetEl.textContent = String(Math.round(target));
   totalProteinEl.textContent = String(Math.round(proteiini * 10) / 10);
+
+  if (delta > 0) {
+    kcalBalanceEl.textContent = `Vaje: ${delta} kcal`;
+  } else if (delta < 0) {
+    kcalBalanceEl.textContent = `Ylitys: ${Math.abs(delta)} kcal`;
+  } else {
+    kcalBalanceEl.textContent = "Tavoite täynnä";
+  }
 
   const progressEl = document.getElementById("kcal-progress");
   if (!progressEl) return;
-  const target = state.calorieTarget || 2000;
   const pct = Math.min((kcal / target) * 100, 100);
-  const over = kcal - target;
   const barColor    = over > 80 ? "#f87171" : over > 0 ? "#fbbf24" : "#4ade80";
-  const bgGradient  = over > 80
-    ? "linear-gradient(145deg, #7f1d1d, #6b1111)"
-    : over > 0
-    ? "linear-gradient(145deg, #78350f, #5c2a00)"
-    : "linear-gradient(145deg, #0d7f4f, #0b6a43)";
+
+  topbarEl.classList.remove("topbar--green", "topbar--orange", "topbar--red");
+  topbarEl.classList.add(over > 80 ? "topbar--red" : over > 0 ? "topbar--orange" : "topbar--green");
+
   progressEl.style.width = pct + "%";
   progressEl.style.background = barColor;
-  totalKcalEl.closest(".counter-card").style.background = bgGradient;
 }
 
 function nextStep() {
@@ -176,11 +196,14 @@ function render() {
 }
 
 function renderMealPicker(mealId) {
-  const options = MEAL_OPTIONS[mealId] || [];
+  const options = sortByName(MEAL_OPTIONS[mealId] || []);
   appEl.innerHTML = `
     <h2 class="section-title">Valitse valmiista vaihtoehdoista</h2>
     <div class="grid" id="meal-grid"></div>
-    <button class="custom-toggle" id="custom-btn">Tai rakenna oma ateria aineksista</button>
+    <div class="actions">
+      <button class="custom-toggle" id="custom-btn">Rakenna oma ateria aineksista</button>
+      <button class="custom-toggle" id="manual-btn">Lisää vain aterian tiedot</button>
+    </div>
   `;
 
   const grid = document.getElementById("meal-grid");
@@ -210,6 +233,62 @@ function renderMealPicker(mealId) {
   document.getElementById("custom-btn").addEventListener("click", () => {
     renderCustomIngredientPicker(mealId, false);
   });
+
+  document.getElementById("manual-btn").addEventListener("click", () => {
+    renderManualMealPicker(mealId);
+  });
+}
+
+function renderManualMealPicker(mealId) {
+  appEl.innerHTML = `
+    <h2 class="section-title">Lisää ateria manuaalisesti</h2>
+    <form class="manual-form" id="manual-form" novalidate>
+      <label class="field-label" for="manual-name">Nimi</label>
+      <input class="field-input" id="manual-name" name="name" type="text" value="Tuntematon" required />
+
+      <label class="field-label" for="manual-kcal">Energia (kcal)</label>
+      <input class="field-input" id="manual-kcal" name="kcal" type="number" min="0" step="1" required />
+
+      <label class="field-label" for="manual-protein">Proteiini (g)</label>
+      <input class="field-input" id="manual-protein" name="protein" type="number" min="0" step="0.1" value="0" required />
+
+      <div class="actions">
+        <button class="primary-btn" type="submit">Lisää valinta</button>
+        <button class="ghost-btn" type="button" id="manual-back-btn">Takaisin valintoihin</button>
+      </div>
+    </form>
+  `;
+
+  document.getElementById("manual-back-btn").addEventListener("click", () => {
+    renderMealPicker(mealId);
+  });
+
+  document.getElementById("manual-form").addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const nameInput = document.getElementById("manual-name");
+    const kcalInput = document.getElementById("manual-kcal");
+    const proteinInput = document.getElementById("manual-protein");
+
+    const nimi = String(nameInput.value || "").trim();
+    const kcal = Number(kcalInput.value);
+    const proteiini = Number(proteinInput.value);
+
+    if (!nimi || !Number.isFinite(kcal) || kcal < 0 || !Number.isFinite(proteiini) || proteiini < 0) {
+      window.alert("Täytä kaikki kentät oikein.");
+      return;
+    }
+
+    setSelection(mealId, {
+      tyyppi: "manual",
+      nimi,
+      kcal: Math.round(kcal),
+      proteiini: Math.round(proteiini * 10) / 10,
+      tuotteet: []
+    });
+
+    nextStep();
+  });
 }
 
 function calculateIngredientTotals(items) {
@@ -223,6 +302,14 @@ function calculateIngredientTotals(items) {
   );
 }
 
+function normalizeText(value) {
+  return String(value || "")
+    .toLocaleLowerCase("fi")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim();
+}
+
 function renderCustomIngredientPicker(mealId, isOthers) {
   const heading = isOthers
     ? "Valitse aterioiden ulkopuoliset syömiset"
@@ -230,6 +317,11 @@ function renderCustomIngredientPicker(mealId, isOthers) {
 
   appEl.innerHTML = `
     <h2 class="section-title">${heading}</h2>
+    ${
+      isOthers
+        ? '<input class="field-input ingredient-search" id="ingredient-search" type="search" placeholder="Hae ainesosaa..." aria-label="Hae ainesosaa" />'
+        : ""
+    }
     <div class="ingredients" id="ingredient-list"></div>
     <div class="actions">
       <button class="primary-btn" id="save-custom-btn">${isOthers ? "Laske summa" : "Lisää valinta"}</button>
@@ -246,9 +338,12 @@ function renderCustomIngredientPicker(mealId, isOthers) {
   const savedItems = state.selections[mealId]?.tuotteet || [];
   const savedQty = Object.fromEntries(savedItems.map((i) => [i.id, i.maara]));
 
-  INGREDIENT_OPTIONS.forEach((ingredient) => {
+  const sortedIngredients = sortByName(INGREDIENT_OPTIONS);
+
+  sortedIngredients.forEach((ingredient) => {
     const row = document.createElement("div");
     row.className = "ingredient-row";
+    row.dataset.name = normalizeText(ingredient.nimi);
 
     row.innerHTML = `
       <div>
@@ -290,6 +385,20 @@ function renderCustomIngredientPicker(mealId, isOthers) {
     });
     list.appendChild(row);
   });
+
+  if (isOthers) {
+    const searchEl = document.getElementById("ingredient-search");
+    const applyIngredientFilter = () => {
+      const query = normalizeText(searchEl.value);
+      list.querySelectorAll(".ingredient-row").forEach((row) => {
+        const matches = query.length === 0 || row.dataset.name.includes(query);
+        row.style.display = matches ? "grid" : "none";
+      });
+    };
+
+    searchEl.addEventListener("input", applyIngredientFilter);
+    searchEl.addEventListener("change", applyIngredientFilter);
+  }
 
   if (!isOthers) {
     document.getElementById("back-btn").addEventListener("click", () => {

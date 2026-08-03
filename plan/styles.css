@@ -39,12 +39,24 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.2rem;
-  background: var(--card);
-  border: 1px solid var(--border);
+  padding: 1.2rem 1.3rem;
+  min-height: 170px;
   border-radius: 20px;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(8px);
+  box-shadow: 0 18px 36px rgba(26, 34, 51, 0.28);
+  color: #fff;
+  transition: background 0.35s ease;
+}
+
+.topbar--green {
+  background: linear-gradient(140deg, #16a34a 0%, #0f8a40 58%, #0b6a43 100%);
+}
+
+.topbar--orange {
+  background: linear-gradient(140deg, #f59e0b 0%, #ea580c 60%, #b45309 100%);
+}
+
+.topbar--red {
+  background: linear-gradient(140deg, #ef4444 0%, #dc2626 58%, #991b1b 100%);
 }
 
 .brand {
@@ -52,41 +64,59 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.78rem;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.82);
 }
 
 h1 {
   margin: 0.3rem 0 0;
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(1.3rem, 3vw, 2rem);
+  color: #fff;
 }
 
 .counter-card {
-  padding: 0.9rem 1rem;
-  border-radius: 14px;
-  background: linear-gradient(145deg, #0d7f4f, #0b6a43);
+  padding: 1rem 1.15rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(6px);
   color: #fff;
-  min-width: 280px;
-  transition: background 0.4s ease;
+  min-width: 320px;
 }
 
 .counter-label {
   margin: 0;
-  opacity: 0.85;
-  font-size: 0.82rem;
+  opacity: 0.95;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .counter-values {
-  margin: 0.3rem 0 0;
+  margin: 0.35rem 0 0;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 800;
-  font-size: 1.08rem;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  line-height: 1;
+}
+
+.counter-balance {
+  margin: 0.2rem 0 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.counter-protein {
+  margin: 0.25rem 0 0;
+  font-size: 0.84rem;
+  opacity: 0.95;
 }
 
 .progress-track {
-  margin-top: 0.65rem;
+  margin-top: 0.7rem;
   height: 5px;
   border-radius: 99px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   overflow: hidden;
 }
 
@@ -169,6 +199,11 @@ h1 {
   display: grid;
   gap: 0.7rem;
   margin-bottom: 1rem;
+}
+
+.ingredient-search {
+  width: 100%;
+  margin: 0 0 0.8rem;
 }
 
 .ingredient-row {
@@ -285,6 +320,33 @@ h1 {
   margin: 0;
 }
 
+.manual-form {
+  display: grid;
+  gap: 0.55rem;
+  max-width: 520px;
+}
+
+.field-label {
+  font-weight: 700;
+  font-size: 0.92rem;
+  margin-top: 0.2rem;
+}
+
+.field-input {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.65rem 0.72rem;
+  font: inherit;
+  background: #fff;
+  color: var(--ink);
+}
+
+.field-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+}
+
 /* ── Calorie target picker ─────────────────────────── */
 
 .calorie-picker {
@@ -393,6 +455,8 @@ input[type="range"]::-moz-range-track {
   .topbar {
     top: 0.4rem;
     border-radius: 14px;
+    min-height: 0;
+    padding: 1rem;
   }
 
   .content {
