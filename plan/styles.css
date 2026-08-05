@@ -34,6 +34,7 @@ body {
   position: sticky;
   top: 1rem;
   z-index: 10;
+  isolation: isolate;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
@@ -77,8 +78,10 @@ h1 {
 .counter-card {
   padding: 1rem 1.15rem;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.16);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: linear-gradient(145deg, rgba(10, 24, 38, 0.42), rgba(18, 39, 63, 0.34));
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
   color: #fff;
   min-width: 320px;
