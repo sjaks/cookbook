@@ -202,7 +202,7 @@ function renderMealPicker(mealId) {
     <div class="grid" id="meal-grid"></div>
     <div class="actions">
       <button class="custom-toggle" id="custom-btn">Rakenna oma ateria aineksista</button>
-      <button class="custom-toggle" id="manual-btn">Lisää vain aterian tiedot</button>
+      <button class="custom-toggle" id="manual-btn">Anna vain aterian tiedot</button>
     </div>
   `;
 
@@ -247,10 +247,20 @@ function renderManualMealPicker(mealId) {
       <input class="field-input" id="manual-name" name="name" type="text" value="Tuntematon" required />
 
       <label class="field-label" for="manual-kcal">Energia (kcal)</label>
-      <input class="field-input" id="manual-kcal" name="kcal" type="number" min="0" step="1" required />
+      <div class="manual-slider-value" id="manual-kcal-value">500 kcal</div>
+      <div class="slider-wrap slider-wrap--manual">
+        <span class="slider-bound">0</span>
+        <input type="range" id="manual-kcal" name="kcal" min="0" max="1000" step="10" value="500" required />
+        <span class="slider-bound">1000</span>
+      </div>
 
       <label class="field-label" for="manual-protein">Proteiini (g)</label>
-      <input class="field-input" id="manual-protein" name="protein" type="number" min="0" step="0.1" value="0" required />
+      <div class="manual-slider-value" id="manual-protein-value">25 g</div>
+      <div class="slider-wrap slider-wrap--manual">
+        <span class="slider-bound">0</span>
+        <input type="range" id="manual-protein" name="protein" min="0" max="120" step="5" value="25" required />
+        <span class="slider-bound">120</span>
+      </div>
 
       <div class="actions">
         <button class="primary-btn" type="submit">Lisää valinta</button>
@@ -263,12 +273,55 @@ function renderManualMealPicker(mealId) {
     renderMealPicker(mealId);
   });
 
+  const kcalInput = document.getElementById("manual-kcal");
+  const proteinInput = document.getElementById("manual-protein");
+  const nameInput = document.getElementById("manual-name");
+  const kcalValueEl = document.getElementById("manual-kcal-value");
+  const proteinValueEl = document.getElementById("manual-protein-value");
+
+  let allowAutoName = true;
+
+  function getAutoNameByKcal(kcal) {
+    if (kcal <= 350) return "Kevyt tuntematon";
+    if (kcal <= 500) return "Tuntematon";
+    return "Tuhti tuntematon";
+  }
+
+  function maybeApplyAutoName() {
+    if (!allowAutoName) return;
+    nameInput.value = getAutoNameByKcal(Number(kcalInput.value));
+  }
+
+  function updateManualSliderValues() {
+    kcalValueEl.textContent = `${kcalInput.value} kcal`;
+    proteinValueEl.textContent = `${proteinInput.value} g`;
+  }
+
+  updateSliderFill(kcalInput);
+  updateSliderFill(proteinInput);
+  maybeApplyAutoName();
+  updateManualSliderValues();
+
+  kcalInput.addEventListener("input", () => {
+    updateSliderFill(kcalInput);
+    maybeApplyAutoName();
+    updateManualSliderValues();
+  });
+
+  proteinInput.addEventListener("input", () => {
+    updateSliderFill(proteinInput);
+    maybeApplyAutoName();
+    updateManualSliderValues();
+  });
+
+  nameInput.addEventListener("input", () => {
+    const value = String(nameInput.value || "").trim();
+    const autoNames = ["Tuntematon", "Kevyt tuntematon", "Tuhti tuntematon"];
+    allowAutoName = autoNames.includes(value);
+  });
+
   document.getElementById("manual-form").addEventListener("submit", (event) => {
     event.preventDefault();
-
-    const nameInput = document.getElementById("manual-name");
-    const kcalInput = document.getElementById("manual-kcal");
-    const proteinInput = document.getElementById("manual-protein");
 
     const nimi = String(nameInput.value || "").trim();
     const kcal = Number(kcalInput.value);
