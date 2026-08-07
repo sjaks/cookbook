@@ -1,5 +1,6 @@
 const STORAGE_KEY = "paivanKalorilaskuri_v1";
 const CALORIE_TARGET_KEY = "paivanKalorilaskuri_calorieTarget";
+const DEFICIT_TARGET_KEY = "paivanKalorilaskuri_deficitTarget";
 
 const STEP_CONFIG = [
   { id: "aamiainen", title: "Valitse aamiainen" },
@@ -19,13 +20,19 @@ const kcalBalanceEl = document.getElementById("kcal-balance");
 const totalProteinEl = document.getElementById("total-protein");
 
 let state = loadState() || createInitialState();
+state.deficitTarget = Number.isFinite(Number(state.deficitTarget)) ? Number(state.deficitTarget) : loadSavedDeficitTarget();
+state.calorieTarget = Number.isFinite(Number(state.calorieTarget)) ? Number(state.calorieTarget) : 2600;
 
 function loadSavedCalorieTarget() {
+  return 2600;
+}
+
+function loadSavedDeficitTarget() {
   try {
-    const raw = localStorage.getItem(CALORIE_TARGET_KEY);
-    return raw ? Number(raw) : 2000;
+    const raw = localStorage.getItem(DEFICIT_TARGET_KEY);
+    return raw ? Number(raw) : 500;
   } catch {
-    return 2000;
+    return 500;
   }
 }
 
@@ -35,7 +42,8 @@ function createInitialState() {
     currentStep: 0,
     completed: false,
     setupDone: false,
-    calorieTarget: loadSavedCalorieTarget(),
+    calorieTarget: 2600,
+    deficitTarget: loadSavedDeficitTarget(),
     selections: {}
   };
 }
@@ -87,29 +95,59 @@ function updateCounter(previewKcal = 0, previewProtein = 0) {
   const totals = sumTotals();
   const kcal = totals.kcal + previewKcal;
   const proteiini = totals.proteiini + previewProtein;
-  const target = state.calorieTarget || 2000;
-  const delta = Math.round(target - kcal);
-  const over = kcal - target;
+  const consumption = state.calorieTarget || 2600;
+  const deficitTarget = Math.max(0, Number(state.deficitTarget || 500));
+  const eatableTarget = Math.max(0, consumption - deficitTarget);
+  const overTargetThreshold = 100;
+  const remainingToEatableTarget = Math.round(eatableTarget - kcal);
+  const achievedDeficit = Math.round(consumption - kcal);
 
   totalKcalEl.textContent = String(Math.round(kcal));
-  totalTargetEl.textContent = String(Math.round(target));
+  totalTargetEl.textContent = String(Math.round(eatableTarget));
   totalProteinEl.textContent = String(Math.round(proteiini * 10) / 10);
 
-  if (delta > 0) {
-    kcalBalanceEl.textContent = `Vaje: ${delta} kcal`;
-  } else if (delta < 0) {
-    kcalBalanceEl.textContent = `Ylitys: ${Math.abs(delta)} kcal`;
+  if (remainingToEatableTarget >= 0) {
+    kcalBalanceEl.textContent = `Vaje: ${achievedDeficit} kcal`;
+  } else if (kcal > consumption) {
+    kcalBalanceEl.textContent = `Yli kulutuksen: ${Math.round(kcal - consumption)} kcal`;
   } else {
-    kcalBalanceEl.textContent = "Tavoite täynnä";
+    kcalBalanceEl.textContent = `Yli vajetavoitteen: ${Math.abs(remainingToEatableTarget)} kcal`;
   }
 
   const progressEl = document.getElementById("kcal-progress");
   if (!progressEl) return;
-  const pct = Math.min((kcal / target) * 100, 100);
-  const barColor    = over > 80 ? "#f87171" : over > 0 ? "#fbbf24" : "#4ade80";
+  const pct = eatableTarget === 0
+    ? kcal <= 0
+      ? 100
+      : 0
+    : Math.max(0, Math.min((kcal / eatableTarget) * 100, 100));
+
+  let colorState = "topbar--green";
+  let barColor = "#4ade80";
+
+  if (kcal >= eatableTarget + overTargetThreshold) {
+    colorState = "topbar--red";
+    barColor = "#f87171";
+  } else if (kcal > eatableTarget) {
+    colorState = "topbar--orange";
+    barColor = "#fbbf24";
+  } else {
+    colorState = "topbar--green";
+    barColor = "#4ade80";
+  }
+
+  if (eatableTarget === 0 && kcal > 0 && kcal < overTargetThreshold) {
+    colorState = "topbar--orange";
+    barColor = "#fbbf24";
+  }
+
+  if (eatableTarget === 0 && kcal >= overTargetThreshold) {
+    colorState = "topbar--red";
+    barColor = "#f87171";
+  }
 
   topbarEl.classList.remove("topbar--green", "topbar--orange", "topbar--red");
-  topbarEl.classList.add(over > 80 ? "topbar--red" : over > 0 ? "topbar--orange" : "topbar--green");
+  topbarEl.classList.add(colorState);
 
   progressEl.style.width = pct + "%";
   progressEl.style.background = barColor;
@@ -136,34 +174,54 @@ function updateSliderFill(slider) {
 }
 
 function renderCaloriePicker() {
-  const saved = state.calorieTarget || 2000;
+  const saved = state.calorieTarget || 2600;
+  const savedDeficit = Math.max(0, Number(state.deficitTarget || 500));
   appEl.innerHTML = `
     <div class="calorie-picker">
-      <p class="picker-label">Aseta päivän energiatavoite</p>
+      <p class="picker-label">Päivän kulutus</p>
       <div class="kcal-display" id="kcal-display">${saved} <span class="kcal-unit">kcal</span></div>
       <div class="slider-wrap">
         <span class="slider-bound">1600</span>
         <input type="range" id="calorie-slider" min="1600" max="3000" step="50" value="${saved}" />
         <span class="slider-bound">3000</span>
       </div>
+
+      <p class="picker-label">Tavoitevaje</p>
+      <div class="kcal-display" id="deficit-display">${savedDeficit} <span class="kcal-unit">kcal</span></div>
+      <div class="slider-wrap">
+        <span class="slider-bound">0</span>
+        <input type="range" id="deficit-slider" min="0" max="600" step="10" value="${savedDeficit}" />
+        <span class="slider-bound">600</span>
+      </div>
+
       <button class="primary-btn proceed-btn" id="start-btn">Aloita aamiaisesta &rarr;</button>
     </div>
   `;
 
   const slider = document.getElementById("calorie-slider");
+  const deficitSlider = document.getElementById("deficit-slider");
   const display = document.getElementById("kcal-display");
+  const deficitDisplay = document.getElementById("deficit-display");
 
   updateSliderFill(slider);
+  updateSliderFill(deficitSlider);
 
   slider.addEventListener("input", () => {
     display.innerHTML = `${slider.value} <span class="kcal-unit">kcal</span>`;
     updateSliderFill(slider);
   });
 
+  deficitSlider.addEventListener("input", () => {
+    deficitDisplay.innerHTML = `${deficitSlider.value} <span class="kcal-unit">kcal</span>`;
+    updateSliderFill(deficitSlider);
+  });
+
   document.getElementById("start-btn").addEventListener("click", () => {
     state.calorieTarget = Number(slider.value);
+    state.deficitTarget = Number(deficitSlider.value);
     state.setupDone = true;
     localStorage.setItem(CALORIE_TARGET_KEY, String(state.calorieTarget));
+    localStorage.setItem(DEFICIT_TARGET_KEY, String(state.deficitTarget));
     saveState();
     render();
   });
@@ -173,7 +231,7 @@ function render() {
   updateCounter();
 
   if (!state.setupDone) {
-    stepTitleEl.textContent = "Energiatavoite";
+    stepTitleEl.textContent = "Päivän kulutus ja tavoitevaje";
     renderCaloriePicker();
     return;
   }
