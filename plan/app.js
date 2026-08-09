@@ -83,8 +83,9 @@ function sumTotals() {
   );
 }
 
-function sortByName(items) {
+function sortByFavoriteThenName(items) {
   return [...items].sort((a, b) =>
+    Number(Boolean(b.favorite)) - Number(Boolean(a.favorite)) ||
     String(a.nimi || "").localeCompare(String(b.nimi || ""), "fi", {
       sensitivity: "base"
     })
@@ -266,7 +267,7 @@ function render() {
 }
 
 function renderMealPicker(mealId) {
-  const options = sortByName(MEAL_OPTIONS[mealId] || []);
+  const options = sortByFavoriteThenName(MEAL_OPTIONS[mealId] || []);
   appEl.innerHTML = `
     <h2 class="section-title">Valitse valmiista vaihtoehdoista</h2>
     <div class="grid" id="meal-grid"></div>
@@ -281,8 +282,12 @@ function renderMealPicker(mealId) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "option-btn";
+    if (option.favorite) {
+      button.classList.add("option-btn--favorite");
+    }
     button.innerHTML = `
       <span class="option-name">${option.nimi}</span>
+      ${option.favorite ? '<span class="favorite-badge">Yleinen valinta</span>' : ""}
       <span class="option-meta">${option.kcal} kcal · ${option.proteiini} g proteiinia</span>
     `;
 
@@ -456,8 +461,8 @@ function renderCustomIngredientPicker(mealId, config = {}) {
       <button class="primary-btn" id="save-custom-btn">${saveLabel}</button>
       ${
         showBack
-          ? ""
-          : '<button class="ghost-btn" id="back-btn">Takaisin valmiisiin vaihtoehtoihin</button>'
+          ? '<button class="ghost-btn" id="back-btn">Takaisin valmiisiin vaihtoehtoihin</button>'
+          : ""
       }
     </div>
   `;
@@ -467,16 +472,20 @@ function renderCustomIngredientPicker(mealId, config = {}) {
   const savedItems = state.selections[mealId]?.tuotteet || [];
   const savedQty = Object.fromEntries(savedItems.map((i) => [i.id, i.maara]));
 
-  const sortedIngredients = sortByName(INGREDIENT_OPTIONS);
+  const sortedIngredients = sortByFavoriteThenName(INGREDIENT_OPTIONS);
 
   sortedIngredients.forEach((ingredient) => {
     const row = document.createElement("div");
     row.className = "ingredient-row";
+    if (ingredient.favorite) {
+      row.classList.add("ingredient-row--favorite");
+    }
     row.dataset.name = normalizeText(ingredient.nimi);
 
     row.innerHTML = `
       <div>
         <label>${ingredient.nimi}</label>
+        ${ingredient.favorite ? '<span class="favorite-badge">Yleinen valinta</span>' : ""}
         <small>${ingredient.kcal} kcal · ${ingredient.proteiini} g / ${ingredient.yksikko}</small>
       </div>
       <div class="stepper" id="qty-${ingredient.id}" data-value="${savedQty[ingredient.id] || 0}">

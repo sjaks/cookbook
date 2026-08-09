@@ -167,6 +167,11 @@ h1 {
   border: 1px solid var(--border);
 }
 
+.option-btn--favorite {
+  background: linear-gradient(180deg, #f5f9ff 0%, #edf5ff 100%);
+  border-color: rgba(37, 99, 235, 0.35);
+}
+
 .option-btn:hover,
 .primary-btn:hover,
 .ghost-btn:hover {
@@ -177,6 +182,18 @@ h1 {
 .option-name {
   display: block;
   font-weight: 700;
+}
+
+.favorite-badge {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #1d4ed8;
+  background: #dbeafe;
+  border: 1px solid #bfdbfe;
 }
 
 .option-meta {
@@ -220,7 +237,13 @@ h1 {
   background: #fff;
 }
 
+.ingredient-row--favorite {
+  background: linear-gradient(180deg, #f8fbff 0%, #f1f7ff 100%);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
 .ingredient-row label {
+  display: block;
   font-weight: 600;
 }
 

@@ -1,6 +1,6 @@
 const MEAL_OPTIONS = {
   aamiainen: [
-    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 435, proteiini: 28 },
+    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 435, proteiini: 28, favorite: true },
     { nimi: "Proteiinipannukakut jogurtilla ja marjoilla", kcal: 450, proteiini: 30 },
     { nimi: "Proteiinipannukakut jogurtilla, banaanilla ja marjoilla", kcal: 550, proteiini: 30 },
     { nimi: "Avokado-munakokkelileivät kasviksilla", kcal: 360, proteiini: 19 }
@@ -8,14 +8,14 @@ const MEAL_OPTIONS = {
 
   lounas: [
     { nimi: "Kasviscurry", kcal: 400, proteiini: 25 },
-    { nimi: "Kalaton salaatti", kcal: 480, proteiini: 30 },
+    { nimi: "Kalaton salaatti", kcal: 480, proteiini: 30, favorite: true },
     { nimi: "Uunisalaatti", kcal: 345, proteiini: 14 },
-    { nimi: "Tortillat", kcal: 435, proteiini: 28 },
-    { nimi: "Wok", kcal: 335, proteiini: 24 },
+    { nimi: "Tortillat", kcal: 435, proteiini: 28, favorite: true },
+    { nimi: "Wok", kcal: 335, proteiini: 24, favorite: true },
     { nimi: "Kikhernepasta", kcal: 385, proteiini: 24 },
     { nimi: "Halloumibowl", kcal: 425, proteiini: 25 },
     { nimi: "Nuudelit", kcal: 400, proteiini: 25 },
-    { nimi: "Kanaton keitto", kcal: 265, proteiini: 18 },
+    { nimi: "Kanaton keitto", kcal: 265, proteiini: 18, favorite: true },
     { nimi: "Kalaton keitto", kcal: 400, proteiini: 15 },
     { nimi: "Makkarakeitto", kcal: 225, proteiini: 16 },
     { nimi: "Täytetyt paprikat", kcal: 375, proteiini: 26 },
@@ -31,14 +31,14 @@ const MEAL_OPTIONS = {
 
   paivallinen: [
     { nimi: "Kasviscurry", kcal: 400, proteiini: 25 },
-    { nimi: "Kalaton salaatti", kcal: 480, proteiini: 30 },
+    { nimi: "Kalaton salaatti", kcal: 480, proteiini: 30, favorite: true },
     { nimi: "Uunisalaatti", kcal: 345, proteiini: 14 },
-    { nimi: "Tortillat", kcal: 435, proteiini: 28 },
-    { nimi: "Wok", kcal: 335, proteiini: 24 },
+    { nimi: "Tortillat", kcal: 435, proteiini: 28, favorite: true },
+    { nimi: "Wok", kcal: 335, proteiini: 24, favorite: true },
     { nimi: "Kikhernepasta", kcal: 385, proteiini: 24 },
     { nimi: "Halloumibowl", kcal: 425, proteiini: 25 },
     { nimi: "Nuudelit", kcal: 400, proteiini: 25 },
-    { nimi: "Kanaton keitto", kcal: 265, proteiini: 18 },
+    { nimi: "Kanaton keitto", kcal: 265, proteiini: 18, favorite: true },
     { nimi: "Kalaton keitto", kcal: 400, proteiini: 15 },
     { nimi: "Makkarakeitto", kcal: 225, proteiini: 16 },
     { nimi: "Täytetyt paprikat", kcal: 375, proteiini: 26 },
@@ -53,7 +53,7 @@ const MEAL_OPTIONS = {
   ],
 
   iltapala: [
-    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 370, proteiini: 27 },
+    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 370, proteiini: 27, favorite: true },
     { nimi: "Sämpylä kasviksilla ja jogurtti marjoilla", kcal: 480, proteiini: 28 }
   ]
 };
