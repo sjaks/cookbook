@@ -29,13 +29,6 @@ const MEAL_OPTIONS = {
     { nimi: "Ruisburger ja porkkanat", kcal: 550, proteiini: 25 }
   ],
 
-  valipala: [
-    { nimi: "Proteiinivanukas", kcal: 160, proteiini: 20 },
-    { nimi: "Proteiinivanukas + Matcha latte", kcal: 250, proteiini: 27 },
-    { nimi: "Proteiinivanukas + 2 omenaa", kcal: 320, proteiini: 20 },
-    { nimi: "Proteiinipatukka", kcal: 200, proteiini: 20 }
-  ],
-
   paivallinen: [
     { nimi: "Kasviscurry", kcal: 400, proteiini: 25 },
     { nimi: "Kalaton salaatti", kcal: 480, proteiini: 30 },
