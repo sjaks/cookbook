@@ -1,6 +1,6 @@
 const INGREDIENT_OPTIONS = [
-  { id: "kananmuna", nimi: "Kananmuna", kcal: 78, proteiini: 6.3, yksikko: "kpl" },
-  { id: "matcha_latte", nimi: "Matcha latte", kcal: 89, proteiini: 7, yksikko: "annos" },
+  { id: "kananmuna", nimi: "Kananmuna", kcal: 80, proteiini: 6.3, yksikko: "kpl" },
+  { id: "matcha_latte", nimi: "Matcha latte", kcal: 90, proteiini: 7, yksikko: "annos" },
   { id: "proteiinishake", nimi: "Proteiinijuoma", kcal: 340, proteiini: 25, yksikko: "kpl" },
   { id: "omena", nimi: "Omena", kcal: 80, proteiini: 0.4, yksikko: "kpl" },
   { id: "banaani", nimi: "Banaani", kcal: 100, proteiini: 1.3, yksikko: "kpl" },
@@ -13,13 +13,14 @@ const INGREDIENT_OPTIONS = [
   { id: "proteiinivanukas", nimi: "Proteiinivanukas", kcal: 160, proteiini: 20, yksikko: "kpl" },
   { id: "proteiinipatukka", nimi: "Proteiinipatukka", kcal: 200, proteiini: 20, yksikko: "kpl" },
   { id: "avokado", nimi: "Avokado", kcal: 240, proteiini: 3, yksikko: "kpl" },
-  { id: "pakastemaissi_50g", nimi: "Pakastemaissi", kcal: 48, proteiini: 1.8, yksikko: "50 g" },
-  { id: "pakasteherneet_50g", nimi: "Pakasteherneet", kcal: 38, proteiini: 2.6, yksikko: "50 g" },
-  { id: "parsakaali_50g", nimi: "Parsakaali", kcal: 17, proteiini: 1.5, yksikko: "50 g" },
+  { id: "pakastemaissi_50g", nimi: "Pakastemaissi", kcal: 50, proteiini: 1.8, yksikko: "50 g" },
+  { id: "pakasteherneet_50g", nimi: "Pakasteherneet", kcal: 40, proteiini: 2.6, yksikko: "50 g" },
+  { id: "parsakaali_50g", nimi: "Parsakaali", kcal: 15, proteiini: 1.5, yksikko: "50 g" },
   { id: "kahvimaito", nimi: "Kauramaitoa kahviin", kcal: 35, proteiini: 1.0, yksikko: "50 g" },
+  { id: "cashew_pahkinat", nimi: "Cashew-pähkinöitä", kcal: 150, proteiini: 4.5, yksikko: "25 g" },
   { id: "karkki_20g", nimi: "Karkki", kcal: 80, proteiini: 0, yksikko: "20 g" },
-  { id: "sipsit_20g", nimi: "Sipsit", kcal: 107, proteiini: 1.3, yksikko: "20 g" },
+  { id: "sipsit_20g", nimi: "Sipsit", kcal: 115, proteiini: 1.3, yksikko: "20 g" },
   { id: "jaatelo_iso", nimi: "Iso jäätelö", kcal: 300, proteiini: 3.5, yksikko: "kpl" },
   { id: "jaatelo_pieni", nimi: "Pieni jäätelö", kcal: 115, proteiini: 1.8, yksikko: "kpl" },
-  { id: "muu", nimi: "Muu", kcal: 10, proteiini: 0, yksikko: "10 kcal" }
+  { id: "muu", nimi: "Muu", kcal: 25, proteiini: 0, yksikko: "25 kcal" }
 ];
