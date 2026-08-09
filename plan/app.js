@@ -245,8 +245,20 @@ function render() {
   const step = STEP_CONFIG[state.currentStep];
   stepTitleEl.textContent = step.title;
 
+  if (step.id === "valipala") {
+    renderCustomIngredientPicker(step.id, {
+      heading: "Rakenna välipala aineksista",
+      showSearch: true,
+      showBack: false,
+      allowEmpty: true,
+      saveLabel: "Lisää valinta",
+      selectionName: "Välipala"
+    });
+    return;
+  }
+
   if (step.id === "muut") {
-    renderCustomIngredientPicker(step.id, true);
+    renderCustomIngredientPicker(step.id);
     return;
   }
 
@@ -421,23 +433,29 @@ function normalizeText(value) {
     .trim();
 }
 
-function renderCustomIngredientPicker(mealId, isOthers) {
-  const heading = isOthers
+function renderCustomIngredientPicker(mealId, config = {}) {
+  const isOthers = mealId === "muut";
+  const heading = config.heading || (isOthers
     ? "Valitse aterioiden ulkopuoliset syömiset"
-    : "Rakenna oma ateria aineksista";
+    : "Rakenna oma ateria aineksista");
+  const showSearch = config.showSearch ?? isOthers;
+  const showBack = config.showBack ?? !isOthers;
+  const allowEmpty = config.allowEmpty ?? isOthers;
+  const saveLabel = config.saveLabel || (isOthers ? "Laske summa" : "Lisää valinta");
+  const selectionName = config.selectionName || (isOthers ? "Muut" : "Oma ateria");
 
   appEl.innerHTML = `
     <h2 class="section-title">${heading}</h2>
     ${
-      isOthers
+      showSearch
         ? '<input class="field-input ingredient-search" id="ingredient-search" type="search" placeholder="Hae ainesosaa..." aria-label="Hae ainesosaa" />'
         : ""
     }
     <div class="ingredients" id="ingredient-list"></div>
     <div class="actions">
-      <button class="primary-btn" id="save-custom-btn">${isOthers ? "Laske summa" : "Lisää valinta"}</button>
+      <button class="primary-btn" id="save-custom-btn">${saveLabel}</button>
       ${
-        isOthers
+        showBack
           ? ""
           : '<button class="ghost-btn" id="back-btn">Takaisin valmiisiin vaihtoehtoihin</button>'
       }
@@ -477,7 +495,7 @@ function renderCustomIngredientPicker(mealId, isOthers) {
         stepper.dataset.value = next;
         valEl.textContent = next;
         stepper.classList.toggle("has-value", next > 0);
-        if (isOthers) {
+        if (showSearch) {
           // subtract already-committed muut so it isn't counted twice
           const oldKcal = state.selections[mealId]?.kcal || 0;
           const oldProtein = state.selections[mealId]?.proteiini || 0;
@@ -497,7 +515,7 @@ function renderCustomIngredientPicker(mealId, isOthers) {
     list.appendChild(row);
   });
 
-  if (isOthers) {
+  if (showSearch) {
     const searchEl = document.getElementById("ingredient-search");
     const applyIngredientFilter = () => {
       const query = normalizeText(searchEl.value);
@@ -511,7 +529,7 @@ function renderCustomIngredientPicker(mealId, isOthers) {
     searchEl.addEventListener("change", applyIngredientFilter);
   }
 
-  if (!isOthers) {
+  if (showBack) {
     document.getElementById("back-btn").addEventListener("click", () => {
       renderMealPicker(mealId);
     });
@@ -519,7 +537,7 @@ function renderCustomIngredientPicker(mealId, isOthers) {
 
   document.getElementById("save-custom-btn").addEventListener("click", () => {
     const items = INGREDIENT_OPTIONS.map((ingredient) => {
-    const value = document.getElementById(`qty-${ingredient.id}`).dataset.value;
+      const value = document.getElementById(`qty-${ingredient.id}`).dataset.value;
       const quantity = Math.max(0, Number(value || 0));
 
       return {
@@ -532,12 +550,12 @@ function renderCustomIngredientPicker(mealId, isOthers) {
       };
     }).filter((item) => item.maara > 0);
 
-    if (items.length === 0 && !isOthers) {
+    if (items.length === 0 && !allowEmpty) {
       window.alert("Valitse ainakin yksi aines ja määrä.");
       return;
     }
 
-    if (items.length === 0 && isOthers) {
+    if (items.length === 0 && allowEmpty) {
       nextStep();
       return;
     }
@@ -546,7 +564,7 @@ function renderCustomIngredientPicker(mealId, isOthers) {
 
     setSelection(mealId, {
       tyyppi: "custom",
-      nimi: isOthers ? "Muut" : "Oma ateria",
+      nimi: selectionName,
       kcal: Math.round(totals.kcal),
       proteiini: Math.round(totals.proteiini * 10) / 10,
       tuotteet: items
