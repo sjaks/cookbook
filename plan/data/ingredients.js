@@ -1,8 +1,9 @@
 const INGREDIENT_OPTIONS = [
   { id: "kananmuna", nimi: "Kananmuna", kcal: 80, proteiini: 6.3, yksikko: "kpl" },
   { id: "matcha_latte", nimi: "Matcha latte", kcal: 90, proteiini: 7, yksikko: "annos", favorite: true },
-  { id: "proteiinishake", nimi: "Proteiinijuoma", kcal: 340, proteiini: 25, yksikko: "kpl" },
-  { id: "omena", nimi: "Omena", kcal: 80, proteiini: 0.4, yksikko: "kpl", favorite: true },
+  { id: "proteiinishake", nimi: "Proteiinijuoma", kcal: 340, proteiini: 25, yksikko: "kpl", favorite: true },
+  { id: "omena", nimi: "Omena iso", kcal: 80, proteiini: 0.4, yksikko: "kpl", favorite: true },
+  { id: "omena_pieni", nimi: "Omena pieni", kcal: 40, proteiini: 0.2, yksikko: "kpl", favorite: true },
   { id: "banaani", nimi: "Banaani", kcal: 100, proteiini: 1.3, yksikko: "kpl", favorite: true },
   { id: "kurkku", nimi: "Kurkku", kcal: 10, proteiini: 0.5, yksikko: "100 g" },
   { id: "porkkana", nimi: "Porkkana", kcal: 30, proteiini: 0.6, yksikko: "kpl" },
@@ -20,7 +21,7 @@ const INGREDIENT_OPTIONS = [
   { id: "cashew_pahkinat", nimi: "Cashew-pähkinöitä", kcal: 150, proteiini: 4.5, yksikko: "25 g" },
   { id: "karkki_20g", nimi: "Karkki", kcal: 80, proteiini: 0, yksikko: "20 g" },
   { id: "sipsit_20g", nimi: "Sipsit", kcal: 115, proteiini: 1.3, yksikko: "20 g" },
-  { id: "jaatelo_iso", nimi: "Iso jäätelö", kcal: 300, proteiini: 3.5, yksikko: "kpl" },
-  { id: "jaatelo_pieni", nimi: "Pieni jäätelö", kcal: 115, proteiini: 1.8, yksikko: "kpl" },
+  { id: "jaatelo_iso", nimi: "Jäätelö iso", kcal: 300, proteiini: 3.5, yksikko: "kpl" },
+  { id: "jaatelo_pieni", nimi: "Jäätelö pieni", kcal: 115, proteiini: 1.8, yksikko: "kpl" },
   { id: "muu", nimi: "Muu", kcal: 25, proteiini: 0, yksikko: "25 kcal" }
 ];

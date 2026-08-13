@@ -9,7 +9,7 @@ Hintavat ainesosat
 - 4 punaista paprikaa
 - 2 punasipulia
 - 200 g pakastemaissia
-- 2 tlk kikherneitä
+- 1 tlk kikherneitä
 - 1 ps fajitamaustetta
 - 1 prk juustodippiä (Valia Koskenlaskija Cheddar 185 g)
 - 100 g avokadoa
