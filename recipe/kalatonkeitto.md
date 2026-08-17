@@ -15,7 +15,7 @@ Edulliset ainesosat
 - 2 kasvisliemikuutiota
 - 5 maustepippuria
 - 1 tl kuivattua tilliä
-- 2,5 dl dl kaurakermaa
+- 2,5 dl kaurakermaa
 
 ## Valmistus
 1. Kuivaa tofu ja kuutioi se.

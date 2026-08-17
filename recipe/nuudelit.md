@@ -6,8 +6,8 @@ Helppo valmistaa
 Hintavat ainesosat
 
 ## Ainekset
-- 250 g Beanit-härkäpapumurua
-- 250 g kerää munanuudeleita
+- 250 g härkäpapumurua
+- 250 g munanuudeleita
 - 0.5 dl soijakastiketta
 - 1 rkl seesamiöljyä
 - 1 rkl etikkaa
