@@ -23,5 +23,6 @@ const INGREDIENT_OPTIONS = [
   { id: "sipsit_20g", nimi: "Sipsit", kcal: 115, proteiini: 1.3, yksikko: "20 g" },
   { id: "jaatelo_iso", nimi: "Jäätelö iso", kcal: 300, proteiini: 3.5, yksikko: "kpl" },
   { id: "jaatelo_pieni", nimi: "Jäätelö pieni", kcal: 115, proteiini: 1.8, yksikko: "kpl" },
+  { id: "konvehti", nimi: "Suklaakonvehti", kcal: 35, proteiini: 0.5, yksikko: "kpl" },  
   { id: "muu", nimi: "Muu", kcal: 25, proteiini: 0, yksikko: "25 kcal" }
 ];
