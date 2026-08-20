@@ -1,8 +1,7 @@
 const MEAL_OPTIONS = {
   aamiainen: [
     { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 435, proteiini: 28, favorite: true },
-    { nimi: "Proteiinipannukakut jogurtilla ja marjoilla", kcal: 450, proteiini: 30 },
-    { nimi: "Proteiinipannukakut jogurtilla, banaanilla ja marjoilla", kcal: 550, proteiini: 30 },
+    { nimi: "Proteiinipannukakut puolikkaalla vanukkaalla, puolikkaalla banaanilla ja marjoilla", kcal: 380, proteiini: 30 },
     { nimi: "Avokado-munakokkelileivät kasviksilla", kcal: 360, proteiini: 19 }
   ],
 
