@@ -163,6 +163,13 @@ function nextStep() {
   render();
 }
 
+function resetApp() {
+  localStorage.removeItem(STORAGE_KEY);
+  state = createInitialState();
+  saveState();
+  render();
+}
+
 function setSelection(mealId, selection) {
   state.selections[mealId] = selection;
   saveState();
@@ -274,6 +281,7 @@ function renderMealPicker(mealId) {
     <div class="actions">
       <button class="custom-toggle" id="custom-btn">Rakenna oma ateria aineksista</button>
       <button class="custom-toggle" id="manual-btn">Anna vain aterian tiedot</button>
+      <button class="ghost-btn danger-btn" id="cancel-btn">Peruuta</button>
     </div>
   `;
 
@@ -312,6 +320,8 @@ function renderMealPicker(mealId) {
   document.getElementById("manual-btn").addEventListener("click", () => {
     renderManualMealPicker(mealId);
   });
+
+  document.getElementById("cancel-btn").addEventListener("click", resetApp);
 }
 
 function renderManualMealPicker(mealId) {
@@ -340,6 +350,7 @@ function renderManualMealPicker(mealId) {
       <div class="actions">
         <button class="primary-btn" type="submit">Lisää valinta</button>
         <button class="ghost-btn" type="button" id="manual-back-btn">Takaisin valintoihin</button>
+        <button class="ghost-btn danger-btn" type="button" id="cancel-btn">Peruuta</button>
       </div>
     </form>
   `;
@@ -347,6 +358,8 @@ function renderManualMealPicker(mealId) {
   document.getElementById("manual-back-btn").addEventListener("click", () => {
     renderMealPicker(mealId);
   });
+
+  document.getElementById("cancel-btn").addEventListener("click", resetApp);
 
   const kcalInput = document.getElementById("manual-kcal");
   const proteinInput = document.getElementById("manual-protein");
@@ -464,6 +477,7 @@ function renderCustomIngredientPicker(mealId, config = {}) {
           ? '<button class="ghost-btn" id="back-btn">Takaisin valmiisiin vaihtoehtoihin</button>'
           : ""
       }
+      <button class="ghost-btn danger-btn" id="cancel-btn">Peruuta</button>
     </div>
   `;
 
@@ -543,6 +557,8 @@ function renderCustomIngredientPicker(mealId, config = {}) {
       renderMealPicker(mealId);
     });
   }
+
+  document.getElementById("cancel-btn").addEventListener("click", resetApp);
 
   document.getElementById("save-custom-btn").addEventListener("click", () => {
     const items = INGREDIENT_OPTIONS.map((ingredient) => {

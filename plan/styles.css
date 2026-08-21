@@ -203,15 +203,14 @@ h1 {
 }
 
 .custom-toggle {
-  margin-top: 1rem;
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
   color: #1e4f96;
   background: #dbeafe;
   border: 1px solid #93c5fd;
-  padding: 0.7rem 0.9rem;
-  border-radius: 12px;
+  padding: 0.72rem 1rem;
+  border-radius: 14px;
   cursor: pointer;
 }
 
@@ -304,6 +303,7 @@ h1 {
   display: flex;
   gap: 0.7rem;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
 
 .primary-btn {
@@ -316,6 +316,15 @@ h1 {
   background: #fff;
   border: 1px solid var(--border);
   padding: 0.72rem 1rem;
+}
+
+.danger-btn {
+  color: #b91c1c;
+  border-color: rgba(185, 28, 28, 0.35);
+}
+
+.danger-btn:hover {
+  background: #fee2e2;
 }
 
 .summary-list {
