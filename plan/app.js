@@ -125,11 +125,15 @@ function updateCounter(previewKcal = 0, previewProtein = 0) {
 
   let colorState = "topbar--green";
   let barColor = "#4ade80";
+  const underTargetThreshold = 400;
 
   if (kcal >= eatableTarget + overTargetThreshold) {
     colorState = "topbar--red";
     barColor = "#f87171";
   } else if (kcal > eatableTarget) {
+    colorState = "topbar--orange";
+    barColor = "#fbbf24";
+  } else if (remainingToEatableTarget >= underTargetThreshold) {
     colorState = "topbar--orange";
     barColor = "#fbbf24";
   } else {
