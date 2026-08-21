@@ -108,7 +108,7 @@ function updateCounter(previewKcal = 0, previewProtein = 0) {
   totalProteinEl.textContent = String(Math.round(proteiini * 10) / 10);
 
   if (remainingToEatableTarget >= 0) {
-    kcalBalanceEl.textContent = `Vaje: ${achievedDeficit} kcal`;
+    kcalBalanceEl.textContent = `Vaje: ${achievedDeficit} kcal · Vielä ${remainingToEatableTarget} kcal tavoitteeseen`;
   } else if (kcal > consumption) {
     kcalBalanceEl.textContent = `Yli kulutuksen: ${Math.round(kcal - consumption)} kcal`;
   } else {
