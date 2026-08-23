@@ -306,6 +306,10 @@ h1 {
   margin-top: 1rem;
 }
 
+.actions #cancel-btn {
+  margin-left: auto;
+}
+
 .primary-btn {
   background: var(--accent);
   color: #fff;
