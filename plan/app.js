@@ -180,6 +180,12 @@ function setSelection(mealId, selection) {
   updateCounter();
 }
 
+function clearSelection(mealId) {
+  delete state.selections[mealId];
+  saveState();
+  updateCounter();
+}
+
 function updateSliderFill(slider) {
   const pct = ((slider.value - slider.min) / (slider.max - slider.min)) * 100;
   slider.style.background = `linear-gradient(to right, var(--accent) ${pct}%, rgba(31,42,31,0.12) ${pct}%)`;
@@ -465,9 +471,14 @@ function renderCustomIngredientPicker(mealId, config = {}) {
   const allowEmpty = config.allowEmpty ?? isOthers;
   const saveLabel = config.saveLabel || (isOthers ? "Laske summa" : "Lisää valinta");
   const selectionName = config.selectionName || (isOthers ? "Muut" : "Oma ateria");
+  const showSkip = config.showSkip ?? allowEmpty;
 
   appEl.innerHTML = `
-    <h2 class="section-title">${heading}</h2>
+    ${
+      showSkip
+        ? `<div class="section-head"><h2 class="section-title section-title--inline">${heading}</h2><button class="ghost-btn" id="skip-btn" type="button">Ohita</button></div>`
+        : `<h2 class="section-title">${heading}</h2>`
+    }
     ${
       showSearch
         ? '<input class="field-input ingredient-search" id="ingredient-search" type="search" placeholder="Hae ainesosaa..." aria-label="Hae ainesosaa" />'
@@ -564,6 +575,13 @@ function renderCustomIngredientPicker(mealId, config = {}) {
 
   document.getElementById("cancel-btn").addEventListener("click", resetApp);
 
+  if (showSkip) {
+    document.getElementById("skip-btn").addEventListener("click", () => {
+      clearSelection(mealId);
+      nextStep();
+    });
+  }
+
   document.getElementById("save-custom-btn").addEventListener("click", () => {
     const items = INGREDIENT_OPTIONS.map((ingredient) => {
       const value = document.getElementById(`qty-${ingredient.id}`).dataset.value;
@@ -585,6 +603,7 @@ function renderCustomIngredientPicker(mealId, config = {}) {
     }
 
     if (items.length === 0 && allowEmpty) {
+      clearSelection(mealId);
       nextStep();
       return;
     }

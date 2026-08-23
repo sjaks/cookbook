@@ -144,6 +144,19 @@ h1 {
   font-size: 1.05rem;
 }
 
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.section-title--inline {
+  margin: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -308,6 +321,7 @@ h1 {
 
 .actions #cancel-btn {
   margin-left: auto;
+  min-width: 130px;
 }
 
 .primary-btn {
