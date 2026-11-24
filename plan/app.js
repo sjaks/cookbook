@@ -1,11 +1,11 @@
 const STORAGE_KEY = "paivanKalorilaskuri_v1";
 const CALORIE_TARGET_KEY = "paivanKalorilaskuri_calorieTarget";
 const DEFICIT_TARGET_KEY = "paivanKalorilaskuri_deficitTarget";
+const STATE_VERSION = 2;
 
 const STEP_CONFIG = [
   { id: "aamiainen", title: "Valitse aamiainen" },
   { id: "lounas", title: "Valitse lounas" },
-  { id: "valipala", title: "Valitse välipala" },
   { id: "paivallinen", title: "Valitse päivällinen" },
   { id: "iltapala", title: "Valitse iltapala" },
   { id: "muut", title: "Lisää muut syödyt" }
@@ -18,7 +18,7 @@ const totalKcalEl = document.getElementById("total-kcal");
 const totalTargetEl = document.getElementById("total-target");
 const kcalBalanceEl = document.getElementById("kcal-balance");
 
-let state = loadState() || createInitialState();
+let state = migrateState(loadState() || createInitialState());
 state.deficitTarget = Number.isFinite(Number(state.deficitTarget)) ? Number(state.deficitTarget) : loadSavedDeficitTarget();
 state.calorieTarget = Number.isFinite(Number(state.calorieTarget)) ? Number(state.calorieTarget) : 2600;
 
@@ -37,6 +37,7 @@ function loadSavedDeficitTarget() {
 
 function createInitialState() {
   return {
+    version: STATE_VERSION,
     date: getTodayISO(),
     currentStep: 0,
     completed: false,
@@ -65,6 +66,39 @@ function loadState() {
     console.warn("Tallennetun tilan lukeminen epaonnistui", error);
     return null;
   }
+}
+
+function migrateState(savedState) {
+  if (savedState.version >= STATE_VERSION) return savedState;
+
+  const snack = savedState.selections?.valipala;
+  if (snack) {
+    const otherFoods = savedState.selections.muut;
+    const productsById = new Map();
+
+    [...(otherFoods?.tuotteet || []), ...(snack.tuotteet || [])].forEach((item) => {
+      const existing = productsById.get(item.id);
+      productsById.set(item.id, existing
+        ? { ...existing, maara: existing.maara + item.maara }
+        : { ...item });
+    });
+
+    const tuotteet = [...productsById.values()];
+    savedState.selections.muut = {
+      tyyppi: "custom",
+      nimi: "Muut",
+      kcal: Math.round(tuotteet.reduce((total, item) => total + item.kcal * item.maara, 0)),
+      tuotteet
+    };
+    delete savedState.selections.valipala;
+  }
+
+  if (!savedState.completed && savedState.currentStep > 2) {
+    savedState.currentStep -= 1;
+  }
+
+  savedState.version = STATE_VERSION;
+  return savedState;
 }
 
 function saveState() {
@@ -258,18 +292,6 @@ function render() {
 
   const step = STEP_CONFIG[state.currentStep];
   stepTitleEl.textContent = step.title;
-
-  if (step.id === "valipala") {
-    renderCustomIngredientPicker(step.id, {
-      heading: "Rakenna välipala aineksista",
-      showSearch: true,
-      showBack: false,
-      allowEmpty: true,
-      saveLabel: "Lisää valinta",
-      selectionName: "Välipala"
-    });
-    return;
-  }
 
   if (step.id === "muut") {
     renderCustomIngredientPicker(step.id);
@@ -595,7 +617,6 @@ function mealLabel(mealId) {
   const labels = {
     aamiainen: "Aamiainen",
     lounas: "Lounas",
-    valipala: "Välipala",
     paivallinen: "Päivällinen",
     iltapala: "Iltapala",
     muut: "Muut"
