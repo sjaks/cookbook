@@ -19,7 +19,8 @@ const MEAL_OPTIONS = {
     { nimi: "Sitruunaiset linssit ja muusi", kcal: 275, proteiini: 18 },
     { nimi: "Paras salaatti", kcal: 475, proteiini: 26 },
     { nimi: "Pinaattipiirakka", kcal: 500, proteiini: 15 },
-    { nimi: "Ruisburger ja porkkanat", kcal: 550, proteiini: 25 }
+    { nimi: "Ruisburger ja porkkanat", kcal: 550, proteiini: 25 },
+    { nimi: "Rahkaohukaiset", kcal: 440, proteiini: 20 }
   ],
 
   paivallinen: null,
