@@ -17,7 +17,6 @@ const topbarEl = document.getElementById("topbar");
 const totalKcalEl = document.getElementById("total-kcal");
 const totalTargetEl = document.getElementById("total-target");
 const kcalBalanceEl = document.getElementById("kcal-balance");
-const totalProteinEl = document.getElementById("total-protein");
 
 let state = loadState() || createInitialState();
 state.deficitTarget = Number.isFinite(Number(state.deficitTarget)) ? Number(state.deficitTarget) : loadSavedDeficitTarget();
@@ -76,10 +75,9 @@ function sumTotals() {
   return Object.values(state.selections).reduce(
     (acc, entry) => {
       acc.kcal += Number(entry.kcal || 0);
-      acc.proteiini += Number(entry.proteiini || 0);
       return acc;
     },
-    { kcal: 0, proteiini: 0 }
+    { kcal: 0 }
   );
 }
 
@@ -92,10 +90,9 @@ function sortByFavoriteThenName(items) {
   );
 }
 
-function updateCounter(previewKcal = 0, previewProtein = 0) {
+function updateCounter(previewKcal = 0) {
   const totals = sumTotals();
   const kcal = totals.kcal + previewKcal;
-  const proteiini = totals.proteiini + previewProtein;
   const consumption = state.calorieTarget || 2600;
   const deficitTarget = Math.max(0, Number(state.deficitTarget || 500));
   const eatableTarget = Math.max(0, consumption - deficitTarget);
@@ -105,7 +102,6 @@ function updateCounter(previewKcal = 0, previewProtein = 0) {
 
   totalKcalEl.textContent = String(Math.round(kcal));
   totalTargetEl.textContent = String(Math.round(eatableTarget));
-  totalProteinEl.textContent = String(Math.round(proteiini * 10) / 10);
 
   if (remainingToEatableTarget >= 0) {
     kcalBalanceEl.textContent = `Vaje: ${achievedDeficit} kcal · Vielä ${remainingToEatableTarget} kcal tavoitteeseen`;
@@ -306,7 +302,7 @@ function renderMealPicker(mealId) {
     button.innerHTML = `
       <span class="option-name">${option.nimi}</span>
       ${option.favorite ? '<span class="favorite-badge">Yleinen valinta</span>' : ""}
-      <span class="option-meta">${option.kcal} kcal · ${option.proteiini} g proteiinia</span>
+      <span class="option-meta">${option.kcal} kcal</span>
     `;
 
     button.addEventListener("click", () => {
@@ -314,7 +310,6 @@ function renderMealPicker(mealId) {
         tyyppi: "valmis",
         nimi: option.nimi,
         kcal: option.kcal,
-        proteiini: option.proteiini,
         tuotteet: []
       });
       nextStep();
@@ -349,14 +344,6 @@ function renderManualMealPicker(mealId) {
         <span class="slider-bound">1000</span>
       </div>
 
-      <label class="field-label" for="manual-protein">Proteiini (g)</label>
-      <div class="manual-slider-value" id="manual-protein-value">25 g</div>
-      <div class="slider-wrap slider-wrap--manual">
-        <span class="slider-bound">0</span>
-        <input type="range" id="manual-protein" name="protein" min="0" max="120" step="5" value="25" required />
-        <span class="slider-bound">120</span>
-      </div>
-
       <div class="actions">
         <button class="primary-btn" type="submit">Lisää valinta</button>
         <button class="ghost-btn" type="button" id="manual-back-btn">Takaisin valintoihin</button>
@@ -372,10 +359,8 @@ function renderManualMealPicker(mealId) {
   document.getElementById("cancel-btn").addEventListener("click", resetApp);
 
   const kcalInput = document.getElementById("manual-kcal");
-  const proteinInput = document.getElementById("manual-protein");
   const nameInput = document.getElementById("manual-name");
   const kcalValueEl = document.getElementById("manual-kcal-value");
-  const proteinValueEl = document.getElementById("manual-protein-value");
 
   let allowAutoName = true;
 
@@ -392,22 +377,14 @@ function renderManualMealPicker(mealId) {
 
   function updateManualSliderValues() {
     kcalValueEl.textContent = `${kcalInput.value} kcal`;
-    proteinValueEl.textContent = `${proteinInput.value} g`;
   }
 
   updateSliderFill(kcalInput);
-  updateSliderFill(proteinInput);
   maybeApplyAutoName();
   updateManualSliderValues();
 
   kcalInput.addEventListener("input", () => {
     updateSliderFill(kcalInput);
-    maybeApplyAutoName();
-    updateManualSliderValues();
-  });
-
-  proteinInput.addEventListener("input", () => {
-    updateSliderFill(proteinInput);
     maybeApplyAutoName();
     updateManualSliderValues();
   });
@@ -423,9 +400,7 @@ function renderManualMealPicker(mealId) {
 
     const nimi = String(nameInput.value || "").trim();
     const kcal = Number(kcalInput.value);
-    const proteiini = Number(proteinInput.value);
-
-    if (!nimi || !Number.isFinite(kcal) || kcal < 0 || !Number.isFinite(proteiini) || proteiini < 0) {
+    if (!nimi || !Number.isFinite(kcal) || kcal < 0) {
       window.alert("Täytä kaikki kentät oikein.");
       return;
     }
@@ -434,7 +409,6 @@ function renderManualMealPicker(mealId) {
       tyyppi: "manual",
       nimi,
       kcal: Math.round(kcal),
-      proteiini: Math.round(proteiini * 10) / 10,
       tuotteet: []
     });
 
@@ -446,10 +420,9 @@ function calculateIngredientTotals(items) {
   return items.reduce(
     (acc, item) => {
       acc.kcal += item.kcal * item.maara;
-      acc.proteiini += item.proteiini * item.maara;
       return acc;
     },
-    { kcal: 0, proteiini: 0 }
+    { kcal: 0 }
   );
 }
 
@@ -515,7 +488,7 @@ function renderCustomIngredientPicker(mealId, config = {}) {
       <div>
         <label>${ingredient.nimi}</label>
         ${ingredient.favorite ? '<span class="favorite-badge">Yleinen valinta</span>' : ""}
-        <small>${ingredient.kcal} kcal · ${ingredient.proteiini} g / ${ingredient.yksikko}</small>
+        <small>${ingredient.kcal} kcal / ${ingredient.yksikko}</small>
       </div>
       <div class="stepper" id="qty-${ingredient.id}" data-value="${savedQty[ingredient.id] || 0}">
         <button type="button" class="stepper-btn" aria-label="Vähennä">−</button>
@@ -536,17 +509,15 @@ function renderCustomIngredientPicker(mealId, config = {}) {
         if (showSearch) {
           // subtract already-committed muut so it isn't counted twice
           const oldKcal = state.selections[mealId]?.kcal || 0;
-          const oldProtein = state.selections[mealId]?.proteiini || 0;
           const preview = INGREDIENT_OPTIONS.reduce(
             (acc, ing) => {
               const v = Number(document.getElementById(`qty-${ing.id}`)?.dataset.value || 0);
               acc.kcal += ing.kcal * v;
-              acc.proteiini += ing.proteiini * v;
               return acc;
             },
-            { kcal: 0, proteiini: 0 }
+            { kcal: 0 }
           );
-          updateCounter(preview.kcal - oldKcal, preview.proteiini - oldProtein);
+          updateCounter(preview.kcal - oldKcal);
         }
       });
     });
@@ -592,7 +563,6 @@ function renderCustomIngredientPicker(mealId, config = {}) {
         nimi: ingredient.nimi,
         maara: quantity,
         kcal: ingredient.kcal,
-        proteiini: ingredient.proteiini,
         yksikko: ingredient.yksikko
       };
     }).filter((item) => item.maara > 0);
@@ -614,7 +584,6 @@ function renderCustomIngredientPicker(mealId, config = {}) {
       tyyppi: "custom",
       nimi: selectionName,
       kcal: Math.round(totals.kcal),
-      proteiini: Math.round(totals.proteiini * 10) / 10,
       tuotteet: items
     });
 
@@ -661,7 +630,7 @@ function renderSummary() {
     return `
       <article class="summary-item">
         <p class="summary-heading">${mealLabel(step.id)}: ${data.nimi}</p>
-        <p class="summary-meta">${Math.round(data.kcal)} kcal · ${Math.round(data.proteiini * 10) / 10} g proteiinia</p>
+        <p class="summary-meta">${Math.round(data.kcal)} kcal</p>
         ${details}
       </article>
     `;

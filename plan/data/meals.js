@@ -1,33 +1,33 @@
 const MEAL_OPTIONS = {
   aamiainen: [
-    { nimi: "Ruisleivät kasviksilla, jogurtti marjoilla ja yksi kuppi kahvia", kcal: 405, proteiini: 28, favorite: true },
-    { nimi: "Proteiinipannukakut puolikkaalla vanukkaalla, puolikkaalla banaanilla ja marjoilla sekä yksi kuppi kahvia", kcal: 380, proteiini: 30 }
+    { nimi: "Ruisleivät kasviksilla, jogurtti marjoilla ja yksi kuppi kahvia", kcal: 405, favorite: true },
+    { nimi: "Proteiinipannukakut puolikkaalla vanukkaalla, puolikkaalla banaanilla ja marjoilla sekä yksi kuppi kahvia", kcal: 380 }
   ],
 
   lounas: [
-    { nimi: "Kasviscurry", kcal: 400, proteiini: 25 },
-    { nimi: "Kalaton salaatti", kcal: 480, proteiini: 30, favorite: true },
-    { nimi: "Uunisalaatti", kcal: 345, proteiini: 14 },
-    { nimi: "Tortillat", kcal: 435, proteiini: 28, favorite: true },
-    { nimi: "Wok", kcal: 335, proteiini: 24, favorite: true },
-    { nimi: "Kikhernepasta", kcal: 385, proteiini: 24 },
-    { nimi: "Nuudelit", kcal: 400, proteiini: 25 },
-    { nimi: "Kanaton keitto", kcal: 265, proteiini: 18, favorite: true },
-    { nimi: "Kalaton keitto", kcal: 380, proteiini: 15 },
-    { nimi: "Makkarakeitto", kcal: 225, proteiini: 16 },
-    { nimi: "Täytetyt paprikat", kcal: 375, proteiini: 26 },
-    { nimi: "Sitruunaiset linssit ja muusi", kcal: 275, proteiini: 18 },
-    { nimi: "Paras salaatti", kcal: 475, proteiini: 26 },
-    { nimi: "Pinaattipiirakka", kcal: 500, proteiini: 15 },
-    { nimi: "Ruisburger ja porkkanat", kcal: 550, proteiini: 25 },
-    { nimi: "Rahkaohukaiset", kcal: 440, proteiini: 20 }
+    { nimi: "Kasviscurry", kcal: 400 },
+    { nimi: "Kalaton salaatti", kcal: 480, favorite: true },
+    { nimi: "Uunisalaatti", kcal: 345 },
+    { nimi: "Tortillat", kcal: 435, favorite: true },
+    { nimi: "Wok", kcal: 335, favorite: true },
+    { nimi: "Kikhernepasta", kcal: 385 },
+    { nimi: "Nuudelit", kcal: 400 },
+    { nimi: "Kanaton keitto", kcal: 265, favorite: true },
+    { nimi: "Kalaton keitto", kcal: 380 },
+    { nimi: "Makkarakeitto", kcal: 225 },
+    { nimi: "Täytetyt paprikat", kcal: 375 },
+    { nimi: "Sitruunaiset linssit ja muusi", kcal: 275 },
+    { nimi: "Paras salaatti", kcal: 475 },
+    { nimi: "Pinaattipiirakka", kcal: 500 },
+    { nimi: "Ruisburger ja porkkanat", kcal: 550 },
+    { nimi: "Rahkaohukaiset", kcal: 440 }
   ],
 
   paivallinen: null,
 
   iltapala: [
-    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 370, proteiini: 27, favorite: true },
-    { nimi: "Sämpylä kasviksilla ja jogurtti marjoilla", kcal: 480, proteiini: 28 }
+    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 370, favorite: true },
+    { nimi: "Sämpylä kasviksilla ja jogurtti marjoilla", kcal: 480 }
   ]
 };
 
