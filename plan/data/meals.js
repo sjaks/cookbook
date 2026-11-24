@@ -6,7 +6,7 @@ const MEAL_OPTIONS = {
     { nimi: "Sämpylä kasviksilla ja jogurtti marjoilla", kcal: 480 }
   ],
 
-  lounas: [
+  lounas_illallinen: [
     { nimi: "Kasviscurry", kcal: 400 },
     { nimi: "Kalaton salaatti", kcal: 480, favorite: true },
     { nimi: "Uunisalaatti", kcal: 345 },
@@ -23,9 +23,5 @@ const MEAL_OPTIONS = {
     { nimi: "Pinaattipiirakka", kcal: 500 },
     { nimi: "Ruisburger ja porkkanat", kcal: 550 },
     { nimi: "Rahkaohukaiset", kcal: 440 }
-  ],
-
-  paivallinen: null
+  ]
 };
-
-MEAL_OPTIONS.paivallinen = MEAL_OPTIONS.lounas;
