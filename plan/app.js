@@ -302,7 +302,8 @@ function render() {
 }
 
 function renderMealPicker(mealId) {
-  const options = sortByFavoriteThenName(MEAL_OPTIONS[mealId] || []);
+  const optionsKey = ["aamiainen", "iltapala"].includes(mealId) ? "aamu_ilta" : mealId;
+  const options = sortByFavoriteThenName(MEAL_OPTIONS[optionsKey] || []);
   appEl.innerHTML = `
     <h2 class="section-title">Valitse valmiista vaihtoehdoista</h2>
     <div class="grid" id="meal-grid"></div>

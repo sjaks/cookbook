@@ -1,7 +1,9 @@
 const MEAL_OPTIONS = {
-  aamiainen: [
+  aamu_ilta: [
     { nimi: "Ruisleivät kasviksilla, jogurtti marjoilla ja yksi kuppi kahvia", kcal: 405, favorite: true },
-    { nimi: "Proteiinipannukakut puolikkaalla vanukkaalla, puolikkaalla banaanilla ja marjoilla sekä yksi kuppi kahvia", kcal: 380 }
+    { nimi: "Proteiinipannukakut puolikkaalla vanukkaalla, puolikkaalla banaanilla ja marjoilla sekä yksi kuppi kahvia", kcal: 380 },
+    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 370, favorite: true },
+    { nimi: "Sämpylä kasviksilla ja jogurtti marjoilla", kcal: 480 }
   ],
 
   lounas: [
@@ -23,12 +25,7 @@ const MEAL_OPTIONS = {
     { nimi: "Rahkaohukaiset", kcal: 440 }
   ],
 
-  paivallinen: null,
-
-  iltapala: [
-    { nimi: "Ruisleivät kasviksilla ja jogurtti marjoilla", kcal: 370, favorite: true },
-    { nimi: "Sämpylä kasviksilla ja jogurtti marjoilla", kcal: 480 }
-  ]
+  paivallinen: null
 };
 
 MEAL_OPTIONS.paivallinen = MEAL_OPTIONS.lounas;
