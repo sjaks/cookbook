@@ -294,7 +294,7 @@ function render() {
   stepTitleEl.textContent = step.title;
 
   if (step.id === "muut") {
-    renderCustomIngredientPicker(step.id);
+    renderOtherFoodsPicker();
     return;
   }
 
@@ -308,7 +308,6 @@ function renderMealPicker(mealId) {
     <h2 class="section-title">Valitse valmiista vaihtoehdoista</h2>
     <div class="grid" id="meal-grid"></div>
     <div class="actions">
-      <button class="custom-toggle" id="custom-btn">Rakenna oma ateria aineksista</button>
       <button class="custom-toggle" id="manual-btn">Anna vain aterian tiedot</button>
       <button class="ghost-btn danger-btn" id="cancel-btn">Peruuta</button>
     </div>
@@ -339,10 +338,6 @@ function renderMealPicker(mealId) {
     });
 
     grid.appendChild(button);
-  });
-
-  document.getElementById("custom-btn").addEventListener("click", () => {
-    renderCustomIngredientPicker(mealId, false);
   });
 
   document.getElementById("manual-btn").addEventListener("click", () => {
@@ -457,37 +452,14 @@ function normalizeText(value) {
     .trim();
 }
 
-function renderCustomIngredientPicker(mealId, config = {}) {
-  const isOthers = mealId === "muut";
-  const heading = config.heading || (isOthers
-    ? "Valitse aterioiden ulkopuoliset syömiset"
-    : "Rakenna oma ateria aineksista");
-  const showSearch = config.showSearch ?? isOthers;
-  const showBack = config.showBack ?? !isOthers;
-  const allowEmpty = config.allowEmpty ?? isOthers;
-  const saveLabel = config.saveLabel || (isOthers ? "Laske summa" : "Lisää valinta");
-  const selectionName = config.selectionName || (isOthers ? "Muut" : "Oma ateria");
-  const showSkip = config.showSkip ?? allowEmpty;
-
+function renderOtherFoodsPicker() {
+  const mealId = "muut";
   appEl.innerHTML = `
-    ${
-      showSkip
-        ? `<div class="section-head"><h2 class="section-title section-title--inline">${heading}</h2><button class="ghost-btn" id="skip-btn" type="button">Ohita</button></div>`
-        : `<h2 class="section-title">${heading}</h2>`
-    }
-    ${
-      showSearch
-        ? '<input class="field-input ingredient-search" id="ingredient-search" type="search" placeholder="Hae ainesosaa..." aria-label="Hae ainesosaa" />'
-        : ""
-    }
+    <div class="section-head"><h2 class="section-title section-title--inline">Valitse aterioiden ulkopuoliset syömiset</h2><button class="ghost-btn" id="skip-btn" type="button">Ohita</button></div>
+    <input class="field-input ingredient-search" id="ingredient-search" type="search" placeholder="Hae ainesosaa..." aria-label="Hae ainesosaa" />
     <div class="ingredients" id="ingredient-list"></div>
     <div class="actions">
-      <button class="primary-btn" id="save-custom-btn">${saveLabel}</button>
-      ${
-        showBack
-          ? '<button class="ghost-btn" id="back-btn">Takaisin valmiisiin vaihtoehtoihin</button>'
-          : ""
-      }
+      <button class="primary-btn" id="save-custom-btn">Laske summa</button>
       <button class="ghost-btn danger-btn" id="cancel-btn">Peruuta</button>
     </div>
   `;
@@ -529,52 +501,40 @@ function renderCustomIngredientPicker(mealId, config = {}) {
         stepper.dataset.value = next;
         valEl.textContent = next;
         stepper.classList.toggle("has-value", next > 0);
-        if (showSearch) {
-          // subtract already-committed muut so it isn't counted twice
-          const oldKcal = state.selections[mealId]?.kcal || 0;
-          const preview = INGREDIENT_OPTIONS.reduce(
-            (acc, ing) => {
-              const v = Number(document.getElementById(`qty-${ing.id}`)?.dataset.value || 0);
-              acc.kcal += ing.kcal * v;
-              return acc;
-            },
-            { kcal: 0 }
-          );
-          updateCounter(preview.kcal - oldKcal);
-        }
+        // Subtract already-committed items so they are not counted twice.
+        const oldKcal = state.selections[mealId]?.kcal || 0;
+        const preview = INGREDIENT_OPTIONS.reduce(
+          (acc, ing) => {
+            const v = Number(document.getElementById(`qty-${ing.id}`)?.dataset.value || 0);
+            acc.kcal += ing.kcal * v;
+            return acc;
+          },
+          { kcal: 0 }
+        );
+        updateCounter(preview.kcal - oldKcal);
       });
     });
     list.appendChild(row);
   });
 
-  if (showSearch) {
-    const searchEl = document.getElementById("ingredient-search");
-    const applyIngredientFilter = () => {
-      const query = normalizeText(searchEl.value);
-      list.querySelectorAll(".ingredient-row").forEach((row) => {
-        const matches = query.length === 0 || row.dataset.name.includes(query);
-        row.style.display = matches ? "grid" : "none";
-      });
-    };
-
-    searchEl.addEventListener("input", applyIngredientFilter);
-    searchEl.addEventListener("change", applyIngredientFilter);
-  }
-
-  if (showBack) {
-    document.getElementById("back-btn").addEventListener("click", () => {
-      renderMealPicker(mealId);
+  const searchEl = document.getElementById("ingredient-search");
+  const applyIngredientFilter = () => {
+    const query = normalizeText(searchEl.value);
+    list.querySelectorAll(".ingredient-row").forEach((row) => {
+      const matches = query.length === 0 || row.dataset.name.includes(query);
+      row.style.display = matches ? "grid" : "none";
     });
-  }
+  };
+
+  searchEl.addEventListener("input", applyIngredientFilter);
+  searchEl.addEventListener("change", applyIngredientFilter);
 
   document.getElementById("cancel-btn").addEventListener("click", resetApp);
 
-  if (showSkip) {
-    document.getElementById("skip-btn").addEventListener("click", () => {
-      clearSelection(mealId);
-      nextStep();
-    });
-  }
+  document.getElementById("skip-btn").addEventListener("click", () => {
+    clearSelection(mealId);
+    nextStep();
+  });
 
   document.getElementById("save-custom-btn").addEventListener("click", () => {
     const items = INGREDIENT_OPTIONS.map((ingredient) => {
@@ -590,12 +550,7 @@ function renderCustomIngredientPicker(mealId, config = {}) {
       };
     }).filter((item) => item.maara > 0);
 
-    if (items.length === 0 && !allowEmpty) {
-      window.alert("Valitse ainakin yksi aines ja määrä.");
-      return;
-    }
-
-    if (items.length === 0 && allowEmpty) {
+    if (items.length === 0) {
       clearSelection(mealId);
       nextStep();
       return;
@@ -605,7 +560,7 @@ function renderCustomIngredientPicker(mealId, config = {}) {
 
     setSelection(mealId, {
       tyyppi: "custom",
-      nimi: selectionName,
+      nimi: "Muut",
       kcal: Math.round(totals.kcal),
       tuotteet: items
     });
