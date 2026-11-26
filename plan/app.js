@@ -12,11 +12,12 @@ const STEP_CONFIG = [
 ];
 
 const appEl = document.getElementById("app");
+const appShellEl = document.querySelector(".app-shell");
 const stepTitleEl = document.getElementById("step-title");
 const topbarEl = document.getElementById("topbar");
 const totalKcalEl = document.getElementById("total-kcal");
 const totalTargetEl = document.getElementById("total-target");
-const kcalBalanceEl = document.getElementById("kcal-balance");
+const stepProgressEl = document.getElementById("step-progress");
 
 let state = migrateState(loadState() || createInitialState());
 state.deficitTarget = Number.isFinite(Number(state.deficitTarget)) ? Number(state.deficitTarget) : loadSavedDeficitTarget();
@@ -50,11 +51,6 @@ function createInitialState() {
 
 function getTodayISO() {
   return new Date().toISOString().slice(0, 10);
-}
-
-function formatDate(isoDate) {
-  const [year, month, day] = isoDate.split("-");
-  return `${day}.${month}.${year}`;
 }
 
 function loadState() {
@@ -128,22 +124,13 @@ function updateCounter(previewKcal = 0) {
   const totals = sumTotals();
   const kcal = totals.kcal + previewKcal;
   const consumption = state.calorieTarget || 2600;
-  const deficitTarget = Math.max(0, Number(state.deficitTarget || 500));
+  const deficitTarget = Math.max(0, Number(state.deficitTarget ?? 500));
   const eatableTarget = Math.max(0, consumption - deficitTarget);
   const overTargetThreshold = 100;
   const remainingToEatableTarget = Math.round(eatableTarget - kcal);
-  const achievedDeficit = Math.round(consumption - kcal);
 
   totalKcalEl.textContent = String(Math.round(kcal));
   totalTargetEl.textContent = String(Math.round(eatableTarget));
-
-  if (remainingToEatableTarget >= 0) {
-    kcalBalanceEl.textContent = `Vaje: ${achievedDeficit} kcal · Vielä ${remainingToEatableTarget} kcal tavoitteeseen`;
-  } else if (kcal > consumption) {
-    kcalBalanceEl.textContent = `Yli kulutuksen: ${Math.round(kcal - consumption)} kcal`;
-  } else {
-    kcalBalanceEl.textContent = `Yli vajetavoitteen: ${Math.abs(remainingToEatableTarget)} kcal`;
-  }
 
   const progressEl = document.getElementById("kcal-progress");
   if (!progressEl) return;
@@ -188,6 +175,24 @@ function updateCounter(previewKcal = 0) {
   progressEl.style.background = barColor;
 }
 
+function updateStepProgress(percent) {
+  const progress = Math.max(0, Math.min(percent, 100));
+  const markers = [...stepProgressEl.children];
+  const currentIndex = Math.round((progress / 100) * (markers.length - 1));
+
+  const markerProgress = (currentIndex / (markers.length - 1)) * 100;
+  stepProgressEl.style.setProperty("--step-progress", `${markerProgress}%`);
+  markers.forEach((marker, index) => {
+    marker.classList.toggle("is-complete", index < currentIndex);
+    marker.classList.toggle("is-current", index === currentIndex);
+    if (index === currentIndex) {
+      marker.setAttribute("aria-current", "step");
+    } else {
+      marker.removeAttribute("aria-current");
+    }
+  });
+}
+
 function nextStep() {
   state.currentStep += 1;
   if (state.currentStep >= STEP_CONFIG.length) {
@@ -223,7 +228,7 @@ function updateSliderFill(slider) {
 
 function renderCaloriePicker() {
   const saved = state.calorieTarget || 2600;
-  const savedDeficit = Math.max(0, Number(state.deficitTarget || 500));
+  const savedDeficit = Math.max(0, Number(state.deficitTarget ?? 500));
   appEl.innerHTML = `
     <div class="calorie-picker">
       <p class="picker-label">Päivän kulutus</p>
@@ -279,19 +284,24 @@ function render() {
   updateCounter();
 
   if (!state.setupDone) {
+    appShellEl.classList.remove("app-shell--wide");
     stepTitleEl.textContent = "Päivän kulutus ja tavoitevaje";
+    updateStepProgress(0);
     renderCaloriePicker();
     return;
   }
 
   if (state.completed) {
+    appShellEl.classList.remove("app-shell--wide");
     stepTitleEl.textContent = "Päivän yhteenveto";
+    updateStepProgress(100);
     renderSummary();
     return;
   }
 
   const step = STEP_CONFIG[state.currentStep];
   stepTitleEl.textContent = step.title;
+  updateStepProgress(((state.currentStep + 1) / (STEP_CONFIG.length + 1)) * 100);
 
   if (step.id === "muut") {
     renderOtherFoodsPicker();
@@ -302,6 +312,7 @@ function render() {
 }
 
 function renderMealPicker(mealId) {
+  appShellEl.classList.remove("app-shell--wide");
   const optionsKey = ["aamiainen", "iltapala"].includes(mealId)
     ? "aamu_ilta"
     : ["lounas", "paivallinen"].includes(mealId)
@@ -312,7 +323,7 @@ function renderMealPicker(mealId) {
     <h2 class="section-title">Valitse valmiista vaihtoehdoista</h2>
     <div class="grid" id="meal-grid"></div>
     <div class="actions">
-      <button class="custom-toggle" id="manual-btn">Anna vain aterian tiedot</button>
+      <button class="custom-toggle" id="manual-btn">Mukautettu ateria</button>
       <button class="ghost-btn danger-btn" id="cancel-btn">Peruuta</button>
     </div>
   `;
@@ -352,6 +363,7 @@ function renderMealPicker(mealId) {
 }
 
 function renderManualMealPicker(mealId) {
+  appShellEl.classList.add("app-shell--wide");
   appEl.innerHTML = `
     <h2 class="section-title">Lisää ateria manuaalisesti</h2>
     <form class="manual-form" id="manual-form" novalidate>
@@ -362,14 +374,13 @@ function renderManualMealPicker(mealId) {
       <div class="manual-slider-value" id="manual-kcal-value">500 kcal</div>
       <div class="slider-wrap slider-wrap--manual">
         <span class="slider-bound">0</span>
-        <input type="range" id="manual-kcal" name="kcal" min="0" max="1000" step="10" value="500" required />
-        <span class="slider-bound">1000</span>
+        <input type="range" id="manual-kcal" name="kcal" min="0" max="1500" step="10" value="500" required />
+        <span class="slider-bound">1500</span>
       </div>
 
       <div class="actions">
         <button class="primary-btn" type="submit">Lisää valinta</button>
         <button class="ghost-btn" type="button" id="manual-back-btn">Takaisin valintoihin</button>
-        <button class="ghost-btn danger-btn" type="button" id="cancel-btn">Peruuta</button>
       </div>
     </form>
   `;
@@ -377,8 +388,6 @@ function renderManualMealPicker(mealId) {
   document.getElementById("manual-back-btn").addEventListener("click", () => {
     renderMealPicker(mealId);
   });
-
-  document.getElementById("cancel-btn").addEventListener("click", resetApp);
 
   const kcalInput = document.getElementById("manual-kcal");
   const nameInput = document.getElementById("manual-name");
@@ -618,8 +627,6 @@ function renderSummary() {
   }).join("");
 
   appEl.innerHTML = `
-    <h2 class="section-title">${formatDate(state.date)}</h2>
-
     <div class="summary-list">
       ${sections}
     </div>

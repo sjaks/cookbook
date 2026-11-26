@@ -20,11 +20,16 @@
           <h1 id="step-title">Aloitetaan aamiaisesta</h1>
         </div>
         <div class="counter-card" aria-live="polite">
-          <p class="counter-label">Tämän päivän syöty / kulutus</p>
           <p class="counter-values"><span id="total-kcal">0</span>/<span id="total-target">2100</span></p>
-          <p class="counter-balance" id="kcal-balance">Vaje: 2600 kcal</p>
           <div class="progress-track"><div class="progress-fill" id="kcal-progress"></div></div>
         </div>
+        <ol class="step-progress" id="step-progress" aria-label="Aterian kirjaamisen eteneminen">
+          <li aria-label="Aloitus"><span></span></li>
+          <li aria-label="Vaihe 2"><span></span></li>
+          <li aria-label="Vaihe 3"><span></span></li>
+          <li aria-label="Vaihe 4"><span></span></li>
+          <li aria-label="Päivän yhteenveto"><span></span></li>
+        </ol>
       </header>
 
       <main id="app" class="content" aria-live="polite"></main>
