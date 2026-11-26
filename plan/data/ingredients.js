@@ -1,8 +1,8 @@
 const INGREDIENT_OPTIONS = [
   { id: "kananmuna", nimi: "Kananmuna", kcal: 80, yksikko: "kpl" },
   { id: "matcha_latte", nimi: "Matcha latte", kcal: 90, yksikko: "annos" },
-  { id: "proteiinishake_pieni", nimi: "Proteiinijuoma pieni", kcal: 170, yksikko: "kpl" },
-  { id: "proteiinishake_iso", nimi: "Proteiinijuoma iso", kcal: 340, yksikko: "kpl" },
+  { id: "proteiinishake_pieni", nimi: "Proteiinijuoma pieni", kcal: 155, yksikko: "kpl" },
+  { id: "proteiinishake_iso", nimi: "Proteiinijuoma iso", kcal: 350, yksikko: "kpl" },
   { id: "omena", nimi: "Omena", kcal: 40, yksikko: "kpl", favorite: true },
   { id: "banaani", nimi: "Banaani", kcal: 100, yksikko: "kpl" },
   { id: "kurkku", nimi: "Leipä: Kurkku", kcal: 5, yksikko: "leivänpäällinen" },
